@@ -101,6 +101,76 @@ main{
     height: 50px;
     border: solid 2px white;
 }
+.hagihama{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 525px;
+    left: 680px;
+    width: 50px;
+    height: 50px;
+    border: solid 2px white;
+}
+.oshika{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 640px;
+    left: 840px;
+    width: 70px;
+    height: 40px;
+    border: solid 2px white;
+}
+.ogatsu{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 310px;
+    left: 740px;
+    width: 70px;
+    height: 40px;
+    border: solid 2px white;
+}
+.kitakami{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    left: 610px;
+    width: 70px;
+    height: 40px;
+    border: solid 2px white;
+}
+.kahoku{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 70px;
+    height: 40px;
+    border: solid 2px white;
+}
+.kanan{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+    border: solid 2px white;
+}
+.monou{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 110px;
+    width: 70px;
+    height: 40px;
+    border: solid 2px white;
+}
 /* footer */
 footer{
     height: 50px;
