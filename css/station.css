@@ -8,12 +8,33 @@ main{
 .menu{
     width: 200px;
     height: 600px;
-    background: white;
-    border: 2px blue solid;
+    background-color: white;
+}
+.button{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 .map{
     width: 900px;
     height: 600px;
-    background: red;
     background-image: url(../img/station.png);
+}
+.button.is-info.is-outlined{
+    color: black;
+}
+.button.is-info{
+    color: black;
+}
+.station{
+    width: 90px;
+    position: absolute;
+    top: 180px;
+    left: 320px;
+}
+.cityhall{
+    width: 90px;
+    position: absolute;
+    top: 260px;
+    left: 285px;
 }
