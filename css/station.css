@@ -48,3 +48,18 @@
     background-color: white;
     opacity: 0.8;
 }
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    text-align: center;
+}
+
+#cityhall{
+    position: absolute;
+    top: 200px;
+    left: 270px;
+    width: 700px;
+    height: 450px;
+}
