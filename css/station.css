@@ -53,9 +53,17 @@ table{
     margin-right: auto;
     margin-left: auto;
     background: white;
+}
+
+th > P{
+    font-size: 30px;
     text-align: center;
 }
 
+.pic{
+    display: inline-block;
+    margin: 0px auto;
+}
 #cityhall{
     position: absolute;
     top: 200px;
