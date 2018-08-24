@@ -55,14 +55,37 @@ table{
     background: white;
 }
 
+
 th > P{
     font-size: 30px;
     text-align: center;
 }
 
 .pic{
-    display: inline-block;
-    margin: 0px auto;
+    position: relative;
+    background: white;
+}
+
+#prev, #next{
+    position: absolute;  
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px;
+}
+#prev{
+    left: 60px;
+}
+#next{
+    right: 60px;
+}
+  
+#prev:hover, #next:hover{
+    opacity: 1;
+}
+#mainpic{
+    position: absolute;
+    top: 30px;
+    left: 170px;
 }
 #cityhall{
     position: absolute;
