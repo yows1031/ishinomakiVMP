@@ -87,13 +87,23 @@ th > P {
     left: 170px;
 }
 
-tr > td > nav {
-    padding: auto;
-}
 .subnav {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin: 0 40px 0 40px
+}
+.subnav > li {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.subnav > li:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+#back {  
+    font-size: 60px;
+    opacity: 0.6;
 }
 
 #cityhall {
