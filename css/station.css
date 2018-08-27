@@ -1,45 +1,45 @@
 @charset 'utf-8';
 
 /* main */
-.main{
+.main {
     height: 600px;
     display: flex;
 }
-.menu{
+.menu {
     width: 200px;
     height: 600px;
     background-color: white;
 }
-.button{
+.button {
     width: 150px;
     margin-left: 15px;
     margin-top: 10px;
 }
-.map{
+.map {
     width: 900px;
     height: 600px;
     background-image: url(../img/station.png);
 }
-.button.is-info.is-outlined{
+.button.is-info.is-outlined {
     color: black;
 }
-.button.is-info{
+.button.is-info {
     color: black;
 }
-.station{
+.station {
     width: 90px;
     position: absolute;
     top: 180px;
     left: 320px;
 }
-.cityhall{
+.cityhall {
     width: 90px;
     position: absolute;
     top: 260px;
     left: 285px;
 }
 
-#mask{
+#mask {
     position: absolute;
     top: 170px;
     left: 200px;
@@ -49,45 +49,54 @@
     opacity: 0.8;
 }
 
-table{
+table {
     margin-right: auto;
     margin-left: auto;
     background: white;
 }
 
-
-th > P{
+th > P {
     font-size: 30px;
     text-align: center;
 }
 
-.pic{
+.pic {
     position: relative;
     background: white;
 }
 
-#prev, #next{
+#prev, #next {
     position: absolute;  
     font-size: 60px;
     opacity: 0.6;
     top: 110px;
 }
-#prev{
+#prev {
     left: 60px;
 }
-#next{
+#next {
     right: 60px;
 }
   
-#prev:hover, #next:hover{
+#prev:hover, #next:hover {
     opacity: 1;
 }
-#mainpic{
+#mainpic {
     position: absolute;
     top: 30px;
     left: 170px;
 }
-#cityhall{
+
+tr > td > nav {
+    padding: auto;
+}
+.subnav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cityhall {
     position: absolute;
     top: 200px;
     left: 270px;

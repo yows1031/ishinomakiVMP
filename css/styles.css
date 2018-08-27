@@ -1,126 +1,126 @@
 @charset 'utf-8';
 
-.container{
+.container {
     max-width: 1100px;
     width: 1100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: lightblue;
 }
 /* header */
-header{
+header {
     height: 170px;
     background: skyblue;
 }
-.head{
+.head {
     box-sizing: border-box;
     width: 400px;
     float: right;
     font-size: 36px
 }
-.nav{
+.nav {
     padding-top: 40px;
     width: 100%;
     font-size: 18px;
 }
-li{
+.nav li {
     width: 110px;
 }
 
 /* main */
-.main{
+.main {
     height: 600px;
     background-image: url(../img/main.png);
 }
-.ekimae{
+.ekimae {
     position: absolute;
     top: 648px;
     left: 180px;
 }
-.sumiyoshi{
+.sumiyoshi {
     position: absolute;
     top: 612px;
     left: 155px;
 }
-.hebita{
+.hebita {
     position: absolute;
     top: 617px;
     left: 75px;
 }
-.kama{
+.kama {
     position: absolute;
     top: 660px;
     left: 80px;
 }
-.inai{
+.inai {
     position: absolute;
     top: 610px;
     left: 300px;
     background-color:transparent;
 }
-.minato{
+.minato {
     position: absolute;
     top: 670px;
     left: 290px;
 }
-.watanoha{
+.watanoha {
     position: absolute;
     top: 670px;
     left: 440px;
 }
-.hagihama{
+.hagihama {
     position: absolute;
     top: 525px;
     left: 680px;
     border: solid 2px;
 }
-.oshika{
+.oshika {
     position: absolute;
     top: 640px;
     left: 840px;
     border: solid 2px;
 }
-.ogatsu{
+.ogatsu {
     position: absolute;
     top: 310px;
     left: 740px;
     border: solid 2px;
 }
-.kitakami{
+.kitakami {
     position: absolute;
     top: 260px;
     left: 610px;
     border: solid 2px;
 }
-.kahoku{
+.kahoku {
     position: absolute;
     top: 300px;
     left: 300px;
     border: solid 2px;
 }
-.kanan{
+.kanan {
     position: absolute;
     top: 340px;
     left: 100px;
     border: solid 2px;
 }
-.monou{
+.monou {
     position: absolute;
     top: 250px;
     left: 110px;
     border: solid 2px;
 }
-.button.is-danger.is-outlined{
+.button.is-danger.is-outlined {
     border-color: white;
 }
-.button.is-danger.is-outlined >p{
+.button.is-danger.is-outlined >p {
     color: white;
 }
 /* footer */
-footer{
+footer {
     height: 50px;
     background: white;
 }
-.foot{
+.foot {
     box-sizing: border-box;
     width: 300px;
     float: right;
