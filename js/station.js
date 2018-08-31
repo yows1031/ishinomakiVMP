@@ -13,6 +13,10 @@
     var cityhall_next = document.getElementById('cityhall_next');
     var cityhall_target = document.getElementById('cityhall_target');
     var cityhall_thumbnails = document.getElementById('cityhall_thumbnails');
+    var mask = document.getElementById('mask');
+    var cityhall = document.getElementById('cityhall');
+    var bt_cityhall = document.getElementById('bt_cityhall');
+    var back = document.getElementById('back');
 
     function create_cityhall_thumbnails(){
         var i;
@@ -31,6 +35,7 @@
     }
 
     create_cityhall_thumbnails();
+    // console.log(cityhall_thumbnails.children[currentNum]);
 
     cityhall_thumbnails.children[currentNum].className = 'current';
 
@@ -52,6 +57,11 @@
         }
         cityhall_target.src = cityhall[currentNum];
         cityhall_thumbnails.children[currentNum].className = 'current';        
+    });
+    return;
+    bt_cityhall.addEventListener('click', function(){
+        mask.className = "";
+        cityhall.className = "";
     });
 
 })();

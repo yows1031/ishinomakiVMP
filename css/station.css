@@ -26,13 +26,19 @@
 .button.is-info {
     color: black;
 }
-.station {
+.icon_station {
     width: 90px;
     position: absolute;
     top: 180px;
     left: 320px;
 }
-.cityhall {
+.icon_cityhall {
+    width: 90px;
+    position: absolute;
+    top: 270px;
+    left: 305px;
+}
+#cityhall {
     margin-right: auto;
     margin-left: auto;
     background: white;
@@ -41,8 +47,11 @@
     top: 190px;
     left: 265px;
 }
+#cityhall.hidden {
+    transform: translate(0, -800px);
+}
 
-.mask {
+#mask {
     position: absolute;
     top: 170px;
     left: 200px;
@@ -50,6 +59,9 @@
     height: 600px;
     background-color: white;
     opacity: 0.8;
+}
+#mask.hidden {
+    display: none;
 }
 
 th > P {
