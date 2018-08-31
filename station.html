@@ -86,10 +86,9 @@
             </div>
         </div>
         <!-- マスク -->
-        <div id="mask"></div>
+        <div class="mask" id="hidden"></div>
         <!-- 市役所 -->
-        <div id="cityhall">
-            <table>
+            <table class="cityhall" id="hidden">
             <tr height="80">
                 <th colspan="9"><p>石巻市役所</p></th>
             </tr>
@@ -101,27 +100,25 @@
             </tr>
             <tr height="300">
                 <td colspan="9" class="pic">
-                    <i class="fas fa-chevron-circle-left" id="prev"></i>
-                    <img src="img/pic/station/cityhall/cityhall1.jpg" width="350" height="350" id="mainpic">
-                    <i class="fas fa-chevron-circle-right" id="next"></i>
+                    <i class="fas fa-chevron-circle-left" id="cityhall_prev"></i>
+                    <img src="img/pic/station/cityhall/cityhall1.jpg" width="350" height="350" id="cityhall_target">
+                    <i class="fas fa-chevron-circle-right" id="cityhall_next"></i>
                 </td>
             </tr>
             <tr height="100">
                 <td colspan="9">
-                    <nav>
-                        <ul class="subnav">
-                            <li><img src="img/pic/station/cityhall/cityhall1.jpg" width="80" height="80"></li>
-                            <li><img src="img/pic/station/cityhall/cityhall2.jpg" width="80" height="80"></li>
-                            <li><img src="img/pic/station/cityhall/cityhall3.jpg" width="80" height="80"></li>
-                            <li><img src="img/pic/station/cityhall/cityhall4.jpg" width="80" height="80"></li>
-                            <li><img src="img/pic/station/cityhall/cityhall5.jpg" width="80" height="80"></li>
-                            <li><i class="fas fa-caret-square-left" id="back"></i></li>
-                        </ul>
-                    </nav>
+                    <div class="under">
+                            <nav>
+                                <ul class="subnav" id="cityhall_thumbnails">
+                                </ul>
+                            </nav>
+                        <div id="back">
+                            <i class="fas fa-caret-square-up"></i>
+                        </div>
+                    </div>
                 </td>
             </tr>
             </table>
-        </div>
         </main>
 
         <footer>
@@ -130,5 +127,6 @@
                 <h2>イトナブ石巻</h2>
             </div>
         </footer>
+    <script src="js/station.js"></script>
     </body>
 </html>
