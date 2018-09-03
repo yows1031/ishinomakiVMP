@@ -7,15 +7,18 @@
     // Menu's icons
 
     var btn_station = document.getElementById('btn_station');
-    var btn_cityHall = document.getElementById('btn_cityHall');
+    var btn_cityHalls = document.getElementsByClassName('btn_cityHalls');
 
-    // table
-    var cityHall = document.getElementById('cityHall');
-
-    btn_cityHall.addEventListener('click', function(){
-        mask.className = "";
-        cityHall.className = "";
-    });
+    function create_btn_cityHalls(){
+        var i;
+        for(i=0; i < btn_cityHalls.length; i++){
+            btn_cityHalls[i].addEventListener('click', function(){
+                mask.className = "";
+                cityHall.className = "";
+            });
+        }
+    }
+    create_btn_cityHalls();
 
     // 市役所
     var cityHallArray = [
