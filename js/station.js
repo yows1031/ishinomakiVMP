@@ -11,7 +11,7 @@
     ];
     var cityHallprev = document.getElementById('cityHallprev');
     var cityHallnext = document.getElementById('cityHallnext');
-    var cityhall_target = document.getElementById('cityhall_target');
+    var cityHall_target = document.getElementById('cityHall_target');
     var cityhall_thumbnails = document.getElementById('cityhall_thumbnails');
 
 //     var cityHallprev　= document.getElementById('cityHallprev');
@@ -31,7 +31,7 @@ function create_cityHall_thumbnails(){
     for(i = 0; i < cityHallArray.length; i++){
         li = document.createElement('li');
         li.addEventListener('click', function(){
-            cityhall_target.src = this.children[0].src;
+            cityHall_target.src = this.children[0].src;
         });
         img = document.createElement('img');
         img.src = cityHallArray[i];
@@ -44,24 +44,24 @@ create_cityHall_thumbnails();
 cityhall_thumbnails.children[currentNum].className = 'current';
 
 cityHallprev.addEventListener('click', function(){
-        cityhall_thumbnails.children[currentNum].className = '';
-        currentNum--;
-        if(currentNum < 0){
-            currentNum = 4;
-        }
-        cityhall_target.src = cityHallList[currentNum];
-        cityhall_thumbnails.children[currentNum].className = 'current';
-    });
+    cityhall_thumbnails.children[currentNum].className = '';
+    currentNum--;
+    if(currentNum < 0){
+        currentNum = 4;
+    }
+    cityHall_target.src = cityHallArray[currentNum];
+    cityhall_thumbnails.children[currentNum].className = 'current';
+});
 
-    cityHallnext.addEventListener('click', function(){
-        cityhall_thumbnails.children[currentNum].className = '';
-        currentNum++;
-        if(currentNum > 4){
-            currentNum = 0;
-        }
-        cityhall_target.src = cityHallList[currentNum];
-        cityhall_thumbnails.children[currentNum].className = 'current';        
-    });
+cityHallnext.addEventListener('click', function(){
+    cityhall_thumbnails.children[currentNum].className = '';
+    currentNum++;
+    if(currentNum > 4){
+        currentNum = 0;
+    }
+    cityHall_target.src = cityHallArray[currentNum];
+    cityhall_thumbnails.children[currentNum].className = 'current';        
+});
     
     // bt_cityhall.addEventListener('click', function(){
     //     mask.className = "";
