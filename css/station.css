@@ -38,7 +38,7 @@
     top: 270px;
     left: 305px;
 }
-#cityhall {
+#cityHall {
     margin-right: auto;
     margin-left: auto;
     background: white;
@@ -47,7 +47,7 @@
     top: 190px;
     left: 265px;
 }
-#cityhall.hidden {
+#cityHall.hidden {
     transform: translate(0, -800px);
 }
 
@@ -74,23 +74,23 @@ th > P {
     background: white;
 }
 
-#cityhall_prev, #cityhall_next {
+#cityHallprev, #cityHallnext {
     position: absolute;  
     font-size: 60px;
     opacity: 0.6;
     top: 110px;
 }
-#cityhall_prev {
+#cityHallprev {
     left: 60px;
 }
-#cityhall_next {
+#cityHallnext {
     right: 60px;
 }
   
-#cityhall_prev:hover, #cityhall_next:hover {
+#cityHallprev:hover, #cityHallnext:hover {
     opacity: 1;
 }
-#cityhall_target {
+#cityHall_target {
     position: absolute;
     top: 30px;
     left: 170px;
