@@ -120,12 +120,12 @@ th > P {
     cursor: pointer;
     opacity: 1;
 }
-#back {
+#cityHallBack {
     margin-left: 20px;
     font-size: 60px;
     cursor: pointer;
     opacity: 0.6;
 }
-#back:hover {
+#cityHallBack:hover {
     opacity: 1;
 }

@@ -3,12 +3,19 @@
     var currentNum = 0;
 
     var mask = document.getElementById('mask');
-    var back = document.getElementById('back');
 
     // Menu's icons
 
     var btn_station = document.getElementById('btn_station');
     var btn_cityHall = document.getElementById('btn_cityHall');
+
+    // table
+    var cityHall = document.getElementById('cityHall');
+
+    btn_cityHall.addEventListener('click', function(){
+        mask.className = "";
+        cityHall.className = "";
+    });
 
     // 市役所
     var cityHallArray = [
@@ -22,7 +29,7 @@
     var cityHallnext = document.getElementById('cityHallnext');
     var cityHall_target = document.getElementById('cityHall_target');
     var cityHall_thumbnails = document.getElementById('cityhall_thumbnails');
-
+    var cityHallBack = document.getElementById('cityHallBack');
 
     function create_cityHall_thumbnails(){
         var i;
@@ -61,6 +68,11 @@
         }
         cityHall_target.src = cityHallArray[currentNum];
         cityHall_thumbnails.children[currentNum].className = 'current';        
+    });
+
+    cityHallBack.addEventListener('click', function(){
+        mask.className = "hidden";
+        cityHall.className = "hidden";
     });
 
 })();
