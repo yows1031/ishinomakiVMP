@@ -1,92 +1,132 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>石巻バリアフリーマップ</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/station.css" />
-</head>
-<body class="container">
-    <header>
-        <div class="head">
-            <h1>石巻バリアフリーマップ</h1>
-        </div>
-        <div class="nav tabs is-centered is-boxed">
-                <ul>
-                  <li class="is-active">
-                    <a>
-                      <span>全体図</span>
-                    </a>                                         
-                  </li>
-                  <li>
-                    <a>
-                      <span>石巻駅前</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <span>住吉・山下</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <span>湊</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <span>蛇田</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <span>渡波・稲井</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <span>釜港<br>大街道</span>
-                    </a>
-                  </li>
-                  <li>
-                     <a>
-                      <span>河北・河南</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a>
-                      <span>桃生・北上</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a>
-                      <span>雄勝・萩浜<br>牡鹿</span>
-                     </a>
-                  </li>
-                </ul>
-              </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>石巻バリアフリーマップ</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/station.css" />
+    </head>
+    <body class="container">
+        <header>
+            <div class="head">
+                <h1>石巻バリアフリーマップ</h1>
+            </div>
+                <div class="nav tabs is-centered is-boxed">
+                    <ul>
+                        <li class="is-active">
+                            <a>
+                                <span>全体図</span>
+                            </a>                                         
+                        </li>
+                        <li>
+                            <a>
+                                <span>石巻駅前</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>住吉・山下</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>湊</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>蛇田</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>渡波・稲井</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>釜港<br>大街道</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>河北・河南</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>桃生・北上</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>雄勝・萩浜<br>牡鹿</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
 
-    </header>
-    <main>
-      <div class="menu">
-        <ul>
-          <li class="button is-info is-outlined"><p>石巻駅</p></li>
-          <li class="button is-info is-outlined"><p>石巻市役所</p></li>
-        </ul>
-      </div>
-      <div class="map">
-        <div class="button is-info station"><p>石巻駅</p></div>
-        <div class="button is-info cityhall"><p>石巻市役所</p></div>
-      </div>
-    </main>
-    <footer>
-        <div class="foot">
-            <p>Suppoted By OpenStreetMap</p>
-            <h2>イトナブ石巻</h2>
+        <main>
+        <div class="main">
+            <!-- サイドメニュー -->
+            <div class="menu">
+            <ul>
+                <li class="button is-info is-outlined"><p>石巻駅</p></li>
+                <li class="btn_cityHalls button is-info is-outlined"><p>石巻市役所</p></li>
+            </ul>
         </div>
-    </footer>
-   
-</body>
+            <!-- 地図メニュー -->
+            <div class="map">
+            <div class="button is-info icon_station"><p>石巻駅</p></div>
+            <div class="btn_cityHalls button is-info icon_cityhall"><p>石巻市役所</p></div>
+            </div>
+        </div>
+        <!-- マスク -->
+        <div id="mask" class="hidden"></div>
+        <!-- 市役所 -->
+            <table id="cityHall" class="hidden">
+            <tr height="80">
+                <th colspan="9"><p>石巻市役所</p></th>
+            </tr>
+            <tr height="50">
+                <td width="60"><img src="icon/parking.png" width="30" height="30"></td><td width="120">専用駐車場</td><td width="60">あり</td><td width="60"><img src="icon/babybed_ng.png" width="30" height="30"></td><td width="120">ベビーベッド</td><td width="60">なし</td><td width="60"><img src="icon/multisheet_ng.png" width="30" height="30"></td><td width="120">マルチシート</td><td width="60">なし</td>
+            </tr>
+            <tr>
+                <td><img src="icon/ostomate_ng.png" width="30" height="30"></td><td>オストメイト</td><td>なし</td><td><img src="icon/button.png" width="30" height="30"></td><td>呼び出しボタン</td><td>あり</td><td><img src="icon/showertoilet_ng.png" width="30" height="30"></td><td>シャワートイレ</td><td>なし</td>
+            </tr>
+            <tr height="300">
+                <td colspan="9" class="pic">
+                    <i class="fas fa-chevron-circle-left" id="cityHallprev"></i>
+                    <img src="img/pic/station/cityhall/cityhall1.jpg" width="350" height="350" id="cityHall_target">
+                    <i class="fas fa-chevron-circle-right" id="cityHallnext"></i>
+                </td>
+            </tr>
+            <tr height="100">
+                <td colspan="9">
+                    <div class="under">
+                            <nav>
+                                <ul class="subnav" id="cityhall_thumbnails">
+                                </ul>
+                            </nav>
+                        <div id="cityHallBack">
+                            <i class="fas fa-caret-square-up"></i>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </table>
+        </main>
+
+        <footer>
+            <div class="foot">
+                <p>Suppoted By OpenStreetMap</p>
+                <h2>イトナブ石巻</h2>
+            </div>
+        </footer>
+    <script src="js/station.js"></script>
+    </body>
 </html>

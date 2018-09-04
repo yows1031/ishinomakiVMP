@@ -5,16 +5,26 @@
     height: 600px;
     display: flex;
 }
+
+/* サイドメニュー */
 .menu {
     width: 200px;
     height: 600px;
     background-color: white;
+    overflow: auto;
 }
 .button {
     width: 150px;
     margin-left: 15px;
     margin-top: 10px;
 }
+
+.fontSmall {
+    font-size: 10pt;
+}
+
+/* マップメニュー */
+
 .map {
     width: 900px;
     height: 600px;
@@ -46,6 +56,7 @@
     position: absolute;
     top: 190px;
     left: 265px;
+    transition: .8s;
 }
 #cityHall.hidden {
     transform: translate(0, -800px);
