@@ -48,6 +48,19 @@
     top: 270px;
     left: 425px;
 }
+.icon_sevenElven {
+    width: 90px;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+}
+
+.icon_hiyoriPark {
+    width: 90px;
+    position: absolute;
+    top: 720px;
+    left: 730px;
+}
 #cityHall {
     margin-right: auto;
     margin-left: auto;
