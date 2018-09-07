@@ -39,14 +39,14 @@
 .icon_station {
     width: 90px;
     position: absolute;
-    top: 180px;
-    left: 320px;
+    top: 210px;
+    left: 480px;
 }
 .icon_cityhall {
     width: 90px;
     position: absolute;
     top: 270px;
-    left: 305px;
+    left: 425px;
 }
 #cityHall {
     margin-right: auto;
