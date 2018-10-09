@@ -1,0 +1,193 @@
+html, body {
+  width: 100%;
+}
+
+.container {
+  width: 77%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightblue;
+}
+@media (max-width: 480px) {
+  .container {
+    min-width: 100%;
+  }
+}
+
+header {
+  height: 170px;
+  background: skyblue;
+}
+@media (max-width: 480px) {
+  header {
+    height: 120px;
+  }
+}
+header .head {
+  box-sizing: border-box;
+  width: 400px;
+  float: right;
+  font-size: 36px;
+}
+@media (max-width: 480px) {
+  header .head {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+  }
+}
+header .nav {
+  padding-top: 40px;
+  width: 100%;
+  font-size: 18px;
+}
+@media (max-width: 480px) {
+  header .nav {
+    padding-top: 15px;
+    font-size: 24px;
+  }
+}
+header .nav li {
+  width: 100px;
+}
+@media (max-width: 480px) {
+  header .nav li {
+    width: 100px;
+  }
+}
+
+main {
+  height: 600px;
+  background-image: url("../img/main.png");
+}
+main p {
+  color: white;
+}
+
+.ekimae {
+  position: absolute;
+  top: 648px;
+  left: 180px;
+}
+
+.sumiyoshi {
+  position: absolute;
+  top: 612px;
+  left: 155px;
+}
+
+.hebita {
+  position: absolute;
+  top: 617px;
+  left: 75px;
+}
+
+.kama {
+  position: absolute;
+  top: 660px;
+  left: 80px;
+}
+
+.inai {
+  position: absolute;
+  top: 610px;
+  left: 300px;
+}
+
+.minato {
+  position: absolute;
+  top: 670px;
+  left: 290px;
+}
+
+.watanoha {
+  position: absolute;
+  top: 670px;
+  left: 440px;
+}
+
+.hagihama {
+  position: absolute;
+  top: 525px;
+  left: 680px;
+  border: solid 2px;
+}
+
+.oshika {
+  position: absolute;
+  top: 640px;
+  left: 840px;
+  border: solid 2px;
+}
+
+.ogatsu {
+  position: absolute;
+  top: 310px;
+  left: 740px;
+  border: solid 2px;
+}
+
+.kitakami {
+  position: absolute;
+  top: 260px;
+  left: 610px;
+  border: solid 2px;
+}
+
+.kahoku {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  border: solid 2px;
+}
+
+.kanan {
+  position: absolute;
+  top: 340px;
+  left: 100px;
+  border: solid 2px;
+}
+
+.monou {
+  position: absolute;
+  top: 250px;
+  left: 110px;
+  border: solid 2px;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  background: white;
+}
+
+.foot {
+  box-sizing: border-box;
+  width: 300px;
+  float: right;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  background: white;
+}
+
+.foot {
+  box-sizing: border-box;
+  width: 300px;
+  float: right;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  background: white;
+}
+
+.foot {
+  box-sizing: border-box;
+  width: 300px;
+  float: right;
+}
+
+/*# sourceMappingURL=main.css.map */
