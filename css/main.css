@@ -3,64 +3,110 @@ html, body {
 }
 
 .container {
-  width: 77%;
+  width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: lightblue;
 }
-@media (max-width: 480px) {
+@media (max-width: 470px) {
   .container {
-    min-width: 100%;
+    width: 97%;
   }
 }
 
 header {
-  height: 170px;
+  height: 200px;
   background: skyblue;
 }
-@media (max-width: 480px) {
+@media (max-width: 470px) {
   header {
-    height: 120px;
+    height: 350px;
   }
 }
 header .head {
-  box-sizing: border-box;
-  width: 400px;
-  float: right;
   font-size: 36px;
+  display: flex;
+  flex-direction: row-reverse;
 }
-@media (max-width: 480px) {
+@media (max-width: 470px) {
   header .head {
-    height: 50px;
-    width: 200px;
-    font-size: 18px;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 470px) {
+  header .spMode {
+    width: 90%;
+    padding-left: 60px;
   }
 }
 header .nav {
   padding-top: 40px;
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
+  justify-content: center;
 }
-@media (max-width: 480px) {
+header .nav div {
+  width: 110px;
+  height: 100px;
+}
+header .nav .is-active {
+  background: white;
+}
+header .nav a {
+  float: center;
+}
+@media (max-width: 470px) {
   header .nav {
-    padding-top: 15px;
-    font-size: 24px;
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
   }
-}
-header .nav li {
-  width: 100px;
-}
-@media (max-width: 480px) {
-  header .nav li {
+  header .nav .br {
+    display: none;
+  }
+  header .nav div {
     width: 100px;
+    height: 50px;
+  }
+  header .nav div span {
+    float: center;
   }
 }
 
 main {
   height: 600px;
   background-image: url("../img/main.png");
+  background-size: 1150px 600px;
+}
+@media (max-width: 470px) {
+  main {
+    height: 465px;
+    background-size: 400px 300px;
+  }
 }
 main p {
   color: white;
+}
+
+.pickMain {
+  width: 500px;
+  height: 200px;
+  background-image: url("../img/pickMain.png");
+  background-size: 100% 100%;
+  border: 2px solid red;
+  position: absolute;
+  top: 590px;
+  left: 70px;
+}
+@media (max-width: 470px) {
+  .pickMain {
+    height: 170px;
+    width: 365px;
+    top: 645px;
+    left: 0px;
+  }
 }
 
 .ekimae {
@@ -95,7 +141,7 @@ main p {
 
 .minato {
   position: absolute;
-  top: 670px;
+  top: 665px;
   left: 290px;
 }
 
@@ -142,52 +188,33 @@ main p {
 
 .kanan {
   position: absolute;
-  top: 340px;
+  top: 380px;
   left: 100px;
   border: solid 2px;
 }
 
 .monou {
   position: absolute;
-  top: 250px;
-  left: 110px;
+  top: 280px;
+  left: 140px;
   border: solid 2px;
 }
 
 /* footer */
 footer {
-  height: 50px;
+  height: 25px;
   background: white;
 }
 
-.foot {
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+.suport {
   box-sizing: border-box;
   width: 300px;
-  float: right;
-}
-
-/* footer */
-footer {
-  height: 50px;
-  background: white;
-}
-
-.foot {
-  box-sizing: border-box;
-  width: 300px;
-  float: right;
-}
-
-/* footer */
-footer {
-  height: 50px;
-  background: white;
-}
-
-.foot {
-  box-sizing: border-box;
-  width: 300px;
-  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */
