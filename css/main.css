@@ -89,6 +89,17 @@ main {
 main p {
   color: white;
 }
+@media (max-width: 470px) {
+  main p {
+    font-size: 10pt;
+  }
+}
+@media (max-width: 470px) {
+  main .button {
+    width: 70px;
+    height: 30px;
+  }
+}
 
 .pickMain {
   width: 500px;
@@ -114,11 +125,23 @@ main p {
   top: 648px;
   left: 180px;
 }
+@media (max-width: 470px) {
+  .ekimae {
+    top: 690px;
+    left: 70px;
+  }
+}
 
 .sumiyoshi {
   position: absolute;
   top: 612px;
   left: 155px;
+}
+@media (max-width: 470px) {
+  .sumiyoshi {
+    top: 665px;
+    left: 75px;
+  }
 }
 
 .hebita {
@@ -126,11 +149,23 @@ main p {
   top: 617px;
   left: 75px;
 }
+@media (max-width: 470px) {
+  .hebita {
+    top: 662px;
+    left: 10px;
+  }
+}
 
 .kama {
   position: absolute;
   top: 660px;
   left: 80px;
+}
+@media (max-width: 470px) {
+  .kama {
+    top: 732px;
+    left: 25px;
+  }
 }
 
 .inai {
@@ -138,17 +173,35 @@ main p {
   top: 610px;
   left: 300px;
 }
+@media (max-width: 470px) {
+  .inai {
+    top: 662px;
+    left: 165px;
+  }
+}
 
 .minato {
   position: absolute;
   top: 665px;
   left: 290px;
 }
+@media (max-width: 470px) {
+  .minato {
+    top: 730px;
+    left: 145px;
+  }
+}
 
 .watanoha {
   position: absolute;
   top: 670px;
   left: 440px;
+}
+@media (max-width: 470px) {
+  .watanoha {
+    top: 730px;
+    left: 235px;
+  }
 }
 
 .hagihama {
@@ -157,12 +210,24 @@ main p {
   left: 680px;
   border: solid 2px;
 }
+@media (max-width: 470px) {
+  .hagihama {
+    top: 662px;
+    left: 165px;
+  }
+}
 
 .oshika {
   position: absolute;
   top: 640px;
   left: 840px;
   border: solid 2px;
+}
+@media (max-width: 470px) {
+  .oshika {
+    top: 662px;
+    left: 165px;
+  }
 }
 
 .ogatsu {
@@ -171,12 +236,24 @@ main p {
   left: 740px;
   border: solid 2px;
 }
+@media (max-width: 470px) {
+  .ogatsu {
+    top: 662px;
+    left: 165px;
+  }
+}
 
 .kitakami {
   position: absolute;
   top: 260px;
   left: 610px;
   border: solid 2px;
+}
+@media (max-width: 470px) {
+  .kitakami {
+    top: 662px;
+    left: 165px;
+  }
 }
 
 .kahoku {
@@ -185,12 +262,24 @@ main p {
   left: 300px;
   border: solid 2px;
 }
+@media (max-width: 470px) {
+  .kahoku {
+    top: 662px;
+    left: 165px;
+  }
+}
 
 .kanan {
   position: absolute;
   top: 380px;
   left: 100px;
   border: solid 2px;
+}
+@media (max-width: 470px) {
+  .kanan {
+    top: 662px;
+    left: 165px;
+  }
 }
 
 .monou {
@@ -199,22 +288,31 @@ main p {
   left: 140px;
   border: solid 2px;
 }
+@media (max-width: 470px) {
+  .monou {
+    top: 662px;
+    left: 165px;
+  }
+}
 
 /* footer */
 footer {
   height: 25px;
   background: white;
 }
-
-.footer {
+footer .footer {
   display: flex;
   flex-direction: row-reverse;
   padding: 0;
 }
-
-.suport {
+footer .suport {
   box-sizing: border-box;
-  width: 300px;
+  width: 200px;
+  padding: 0;
+}
+footer .suport img {
+  width: 50%;
+  height: 40%;
 }
 
 /*# sourceMappingURL=main.css.map */
