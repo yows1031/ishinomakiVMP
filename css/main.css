@@ -72,6 +72,7 @@ header .nav a {
   }
   header .nav div span {
     float: center;
+    font-size: 12pt;
   }
 }
 
@@ -212,8 +213,8 @@ main p {
 }
 @media (max-width: 470px) {
   .hagihama {
-    top: 662px;
-    left: 165px;
+    top: 520px;
+    left: 220px;
   }
 }
 
@@ -225,8 +226,8 @@ main p {
 }
 @media (max-width: 470px) {
   .oshika {
-    top: 662px;
-    left: 165px;
+    top: 560px;
+    left: 280px;
   }
 }
 
@@ -238,8 +239,8 @@ main p {
 }
 @media (max-width: 470px) {
   .ogatsu {
-    top: 662px;
-    left: 165px;
+    top: 410px;
+    left: 250px;
   }
 }
 
@@ -251,8 +252,8 @@ main p {
 }
 @media (max-width: 470px) {
   .kitakami {
-    top: 662px;
-    left: 165px;
+    top: 380px;
+    left: 200px;
   }
 }
 
@@ -264,8 +265,8 @@ main p {
 }
 @media (max-width: 470px) {
   .kahoku {
-    top: 662px;
-    left: 165px;
+    top: 405px;
+    left: 95px;
   }
 }
 
@@ -277,8 +278,8 @@ main p {
 }
 @media (max-width: 470px) {
   .kanan {
-    top: 662px;
-    left: 165px;
+    top: 445px;
+    left: 45px;
   }
 }
 
@@ -290,8 +291,8 @@ main p {
 }
 @media (max-width: 470px) {
   .monou {
-    top: 662px;
-    left: 165px;
+    top: 385px;
+    left: 30px;
   }
 }
 
