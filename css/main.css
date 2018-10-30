@@ -87,11 +87,11 @@ main {
     background-size: 400px 300px;
   }
 }
-main p {
+main .index {
   color: white;
 }
 @media (max-width: 470px) {
-  main p {
+  main .index {
     font-size: 10pt;
   }
 }

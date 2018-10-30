@@ -1,0 +1,149 @@
+main .main {
+  height: 600px;
+  display: flex;
+}
+main .main .menu {
+  width: 180px;
+  height: 600px;
+  background-color: white;
+  overflow: auto;
+}
+main .main .menu p {
+  color: black;
+}
+main .main .menu .button {
+  width: 145px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+main .main .menu .fontSmall {
+  font-size: 10pt;
+}
+main .main .menu .fontSmall2 {
+  font-size: 7pt;
+}
+main .main .map {
+  width: 990px;
+  height: 600px;
+  background-image: url("../img/station.png");
+  background-size: 980px 600px;
+}
+main .main .map P {
+  color: black;
+}
+main .main .map .icon_station {
+  width: 90px;
+  position: absolute;
+  top: 210px;
+  left: 480px;
+}
+main .main .map .icon_cityhall {
+  width: 90px;
+  position: absolute;
+  top: 310px;
+  left: 445px;
+}
+main .main .map .icon_sevenEleven {
+  width: 90px;
+  position: absolute;
+  top: 235px;
+  left: 645px;
+}
+main .main .map .icon_familiyMart1 {
+  width: 90px;
+  position: absolute;
+  top: 210px;
+  left: 790px;
+}
+main .main .map .icon_grandHotel {
+  width: 90px;
+  position: absolute;
+  top: 290px;
+  left: 760px;
+}
+main .main .map .icon_iPlaza {
+  width: 90px;
+  position: absolute;
+  top: 360px;
+  left: 780px;
+}
+main .main .map .icon_raitu {
+  width: 90px;
+  position: absolute;
+  top: 350px;
+  left: 630px;
+}
+main .main .map .icon_lowSon {
+  width: 90px;
+  position: absolute;
+  top: 360px;
+  left: 870px;
+}
+main .main .map .icon_hukkou {
+  width: 90px;
+  position: absolute;
+  top: 470px;
+  left: 840px;
+}
+main .main .map .icon_eyetopia {
+  width: 90px;
+  position: absolute;
+  top: 510px;
+  left: 790px;
+}
+main .main .map .icon_market {
+  width: 90px;
+  position: absolute;
+  top: 510px;
+  left: 890px;
+}
+main .main .map .icon_manga {
+  width: 90px;
+  position: absolute;
+  top: 550px;
+  left: 975px;
+}
+main .main .map .icon_nakasePark {
+  width: 90px;
+  position: absolute;
+  top: 670px;
+  left: 970px;
+}
+main .main .map .icon_library {
+  width: 90px;
+  position: absolute;
+  top: 515px;
+  left: 400px;
+}
+main .main .map .icon_playLand {
+  width: 90px;
+  position: absolute;
+  top: 515px;
+  left: 185px;
+}
+main .main .map .icon_helloWark {
+  width: 90px;
+  position: absolute;
+  top: 670px;
+  left: 190px;
+}
+main .main .map .icon_familiyMart2 {
+  width: 90px;
+  position: absolute;
+  top: 710px;
+  left: 250px;
+}
+main .main .map .icon_central {
+  width: 90px;
+  position: absolute;
+  top: 700px;
+  left: 555px;
+}
+main .main .map .icon_hiyoriPark {
+  width: 90px;
+  position: absolute;
+  top: 720px;
+  left: 730px;
+}
+
+/*# sourceMappingURL=sta.css.map */

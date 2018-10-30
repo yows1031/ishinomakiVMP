@@ -1,0 +1,175 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+
+main {
+
+    .main {
+        height: 600px;
+        display: flex;
+
+        // P {
+        //     color: black;
+        // }
+
+// サイドメニュー
+        .menu {
+            width: 180px;
+            height: 600px;
+            background-color: white;
+            overflow: auto;
+
+            p {
+                color: black;
+            }
+
+            .button {
+                width: 145px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+
+            .fontSmall {
+                font-size: 10pt;
+            }
+            .fontSmall2 {
+                font-size: 7pt;
+            }
+        }
+
+// マップメニュー
+        .map {
+            width: 990px;
+            height: 600px;
+            background-image: url("#{$imgDir}station.png");
+            background-size: 980px 600px;
+
+            // .button.is-info.is-outlined {
+            //     color: black;
+            // }
+            // .button.is-info {
+            //     color: black;
+            // }
+
+            P {
+                color: black;
+            }
+
+            .icon_station {
+                width: 90px;
+                position: absolute;
+                top: 210px;
+                left: 480px;
+            }
+            .icon_cityhall {
+                width: 90px;
+                position: absolute;
+                top: 310px;
+                left: 445px;
+            }
+            .icon_sevenEleven {
+                width: 90px;
+                position: absolute;
+                top: 235px;
+                left: 645px;
+            }
+            .icon_familiyMart1 {
+                width: 90px;
+                position: absolute;
+                top: 210px;
+                left: 790px;
+            }
+            .icon_grandHotel {
+                width: 90px;
+                position: absolute;
+                top: 290px;
+                left: 760px;
+            }
+            .icon_iPlaza {
+                width: 90px;
+                position: absolute;
+                top: 360px;
+                left: 780px;
+            }
+            .icon_raitu {
+                width: 90px;
+                position: absolute;
+                top: 350px;
+                left: 630px;
+            }
+            .icon_lowSon {
+                width: 90px;
+                position: absolute;
+                top: 360px;
+                left: 870px;
+            }
+            .icon_hukkou {
+                width: 90px;
+                position: absolute;
+                top: 470px;
+                left: 840px;
+            }
+            .icon_eyetopia {
+                width: 90px;
+                position: absolute;
+                top: 510px;
+                left: 790px;
+            }
+            .icon_market {
+                width: 90px;
+                position: absolute;
+                top: 510px;
+                left: 890px;
+            }
+            .icon_manga {
+                width: 90px;
+                position: absolute;
+                top: 550px;
+                left: 975px;
+            }
+            .icon_nakasePark {
+                width: 90px;
+                position: absolute;
+                top: 670px;
+                left: 970px;
+            }
+            .icon_library {
+                width: 90px;
+                position: absolute;
+                top: 515px;
+                left: 400px;
+            }
+            .icon_playLand {
+                width: 90px;
+                position: absolute;
+                top: 515px;
+                left: 185px;
+            }
+            .icon_helloWark {
+                width: 90px;
+                position: absolute;
+                top: 670px;
+                left: 190px;
+            }
+            .icon_familiyMart2 {
+                width: 90px;
+                position: absolute;
+                top: 710px;
+                left: 250px;
+            }
+            .icon_central {
+                width: 90px;
+                position: absolute;
+                top: 700px;
+                left: 555px;
+            }
+            .icon_hiyoriPark {
+                width: 90px;
+                position: absolute;
+                top: 720px;
+                left: 730px;
+            }
+           
+        }
+    }
+
+}

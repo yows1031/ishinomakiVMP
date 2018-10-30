@@ -6,69 +6,73 @@
         <title>石巻バリアフリーマップ</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/station.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+        <!-- <link rel="stylesheet" href="css/station.css" /> -->
+        <link rel="stylesheet" href="css/sta.css" />
     </head>
     <body class="container">
         <header>
             <div class="head">
-                <h1>石巻バリアフリーマップ</h1>
-            </div>
-                <div class="nav tabs is-centered is-boxed">
-                    <ul>
-                        <li>
-                            <a href="index.html">
-                                <span>全体図</span>
-                            </a>                                         
-                        </li>
-                        <li class="is-active">
-                            <a href="station.html">
-                                <span>石巻駅前</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>住吉・山下</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>湊</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>蛇田</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>渡波・稲井</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>釜港<br>大街道</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>河北・河南</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>桃生・北上</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span>雄勝・萩浜<br>牡鹿</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div>
+                    <h1>石巻バリアフリーマップ</h1>
                 </div>
-            </header>
+            </div>
+            <div class="spMode">
+                <div class="nav tabs is-centered is-boxed">
+                    <div>
+                        <a href="index.html">
+                            <span>・全体図</span>
+                        </a>
+                    </div>
+                    <div class="is-active">
+                        <a href="station.html">
+                            <span>・石巻駅前</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・住吉<br class="br">・山下</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・湊</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・蛇田</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・渡波<br class="br">・稲井</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・釜港<br class="br">・大街道</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・河北<br class="br">・河南</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・桃生<br class="br">・北上</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・雄勝<br class="br">・萩浜<br class="br">・牡鹿</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <main>
         <div class="main">
@@ -122,7 +126,7 @@
         <!-- マスク -->
         <div id="mask" class="hidden"></div>
         <!-- 市役所 -->
-            <table id="cityHall" class="hidden">
+            <!-- <table id="cityHall" class="hidden">
             <tr height="80">
                 <th colspan="9"><p>石巻市役所</p></th>
             </tr>
@@ -152,13 +156,15 @@
                     </div>
                 </td>
             </tr>
-            </table>
+            </table> -->
         </main>
 
         <footer>
-            <div class="foot">
-                <p>Suppoted By OpenStreetMap</p>
-                <h2>イトナブ石巻</h2>
+            <div class="footer">
+                <div class="suport">
+                    <p>Suppoted By OpenStreetMap</p>
+                   <img src="img/itnav.png">
+                </div>
             </div>
         </footer>
     <script src="js/station.js"></script>
