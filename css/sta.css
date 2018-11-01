@@ -31,10 +31,13 @@ main .main .map {
 main .main .map P {
   color: black;
 }
+main .main .map p:hover {
+  color: white;
+}
 main .main .map .icon_station {
   width: 90px;
   position: absolute;
-  top: 210px;
+  top: 250px;
   left: 480px;
 }
 main .main .map .icon_cityhall {
@@ -46,68 +49,68 @@ main .main .map .icon_cityhall {
 main .main .map .icon_sevenEleven {
   width: 90px;
   position: absolute;
-  top: 235px;
-  left: 645px;
+  top: 275px;
+  left: 695px;
 }
 main .main .map .icon_familiyMart1 {
   width: 90px;
   position: absolute;
-  top: 210px;
-  left: 790px;
+  top: 255px;
+  left: 845px;
 }
 main .main .map .icon_grandHotel {
   width: 90px;
   position: absolute;
-  top: 290px;
-  left: 760px;
+  top: 330px;
+  left: 800px;
 }
 main .main .map .icon_iPlaza {
   width: 90px;
   position: absolute;
-  top: 360px;
-  left: 780px;
+  top: 390px;
+  left: 830px;
 }
 main .main .map .icon_raitu {
   width: 90px;
   position: absolute;
-  top: 350px;
-  left: 630px;
+  top: 390px;
+  left: 680px;
 }
 main .main .map .icon_lowSon {
   width: 90px;
   position: absolute;
-  top: 360px;
-  left: 870px;
+  top: 390px;
+  left: 930px;
 }
 main .main .map .icon_hukkou {
-  width: 90px;
-  position: absolute;
-  top: 470px;
-  left: 840px;
-}
-main .main .map .icon_eyetopia {
-  width: 90px;
-  position: absolute;
-  top: 510px;
-  left: 790px;
-}
-main .main .map .icon_market {
   width: 90px;
   position: absolute;
   top: 510px;
   left: 890px;
 }
-main .main .map .icon_manga {
+main .main .map .icon_eyetopia {
   width: 90px;
   position: absolute;
   top: 550px;
-  left: 975px;
+  left: 835px;
+}
+main .main .map .icon_market {
+  width: 90px;
+  position: absolute;
+  top: 560px;
+  left: 930px;
+}
+main .main .map .icon_manga {
+  width: 90px;
+  position: absolute;
+  top: 610px;
+  left: 1050px;
 }
 main .main .map .icon_nakasePark {
   width: 90px;
   position: absolute;
-  top: 670px;
-  left: 970px;
+  top: 710px;
+  left: 1050px;
 }
 main .main .map .icon_library {
   width: 90px;

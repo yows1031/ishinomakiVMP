@@ -43,21 +43,18 @@ main {
             background-image: url("#{$imgDir}station.png");
             background-size: 980px 600px;
 
-            // .button.is-info.is-outlined {
-            //     color: black;
-            // }
-            // .button.is-info {
-            //     color: black;
-            // }
-
             P {
                 color: black;
+            }
+
+            p:hover {
+                color: white;
             }
 
             .icon_station {
                 width: 90px;
                 position: absolute;
-                top: 210px;
+                top: 250px;
                 left: 480px;
             }
             .icon_cityhall {
@@ -69,68 +66,68 @@ main {
             .icon_sevenEleven {
                 width: 90px;
                 position: absolute;
-                top: 235px;
-                left: 645px;
+                top: 275px;
+                left: 695px;
             }
             .icon_familiyMart1 {
                 width: 90px;
                 position: absolute;
-                top: 210px;
-                left: 790px;
+                top: 255px;
+                left: 845px;
             }
             .icon_grandHotel {
                 width: 90px;
                 position: absolute;
-                top: 290px;
-                left: 760px;
+                top: 330px;
+                left: 800px;
             }
             .icon_iPlaza {
                 width: 90px;
                 position: absolute;
-                top: 360px;
-                left: 780px;
+                top: 390px;
+                left: 830px;
             }
             .icon_raitu {
                 width: 90px;
                 position: absolute;
-                top: 350px;
-                left: 630px;
+                top: 390px;
+                left: 680px;
             }
             .icon_lowSon {
                 width: 90px;
                 position: absolute;
-                top: 360px;
-                left: 870px;
+                top: 390px;
+                left: 930px;
             }
             .icon_hukkou {
-                width: 90px;
-                position: absolute;
-                top: 470px;
-                left: 840px;
-            }
-            .icon_eyetopia {
-                width: 90px;
-                position: absolute;
-                top: 510px;
-                left: 790px;
-            }
-            .icon_market {
                 width: 90px;
                 position: absolute;
                 top: 510px;
                 left: 890px;
             }
-            .icon_manga {
+            .icon_eyetopia {
                 width: 90px;
                 position: absolute;
                 top: 550px;
-                left: 975px;
+                left: 835px;
+            }
+            .icon_market {
+                width: 90px;
+                position: absolute;
+                top: 560px;
+                left: 930px;
+            }
+            .icon_manga {
+                width: 90px;
+                position: absolute;
+                top: 610px;
+                left: 1050px;
             }
             .icon_nakasePark {
                 width: 90px;
                 position: absolute;
-                top: 670px;
-                left: 970px;
+                top: 710px;
+                left: 1050px;
             }
             .icon_library {
                 width: 90px;
