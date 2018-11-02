@@ -1,15 +1,53 @@
 $sp: 470px;  // スマホ
 $imgDir: "../img/";
 
+@mixin sp {
+    @media (max-width: ($sp)) {
+      @content;
+    }
+  }
+
+.spMenu {
+    display: none;
+    background-color: white;
+    text-align: center;
+
+    @include sp {
+        display: block;
+    }
+
+    i {
+        float: center;
+    }
+
+    #spMenu {
+        font-size: 24pt;
+    }
+}
 main {
 
     .main {
         height: 600px;
         display: flex;
 
-        // P {
-        //     color: black;
-        // }
+        @include sp {
+            height: 1000px;
+        }
+
+        .fontSmall {
+            font-size: 10pt;
+
+            @include sp {
+                font-size: 6pt;
+            }
+        }
+        .fontSmall2 {
+            font-size: 7pt;
+
+            @include sp {
+                font-size: 5pt;
+            }
+        }
 
 // サイドメニュー
         .menu {
@@ -18,21 +56,31 @@ main {
             background-color: white;
             overflow: auto;
 
+            @include sp {
+                width: 100%;
+                height: 250px;
+                background-color: white;
+                position: absolute;
+                top: 400px;
+                left: 5px;
+            }
+
             p {
                 color: black;
+
+                @include sp {
+                    font-size: 12pt
+                }
             }
 
             .button {
                 width: 145px;
                 margin-left: 15px;
                 margin-top: 10px;
-            }
 
-            .fontSmall {
-                font-size: 10pt;
-            }
-            .fontSmall2 {
-                font-size: 7pt;
+                @include sp {
+                    height: 50px;
+                }
             }
         }
 
@@ -50,6 +98,8 @@ main {
             p:hover {
                 color: white;
             }
+
+            
 
             .icon_station {
                 width: 90px;
@@ -132,37 +182,37 @@ main {
             .icon_library {
                 width: 90px;
                 position: absolute;
-                top: 515px;
+                top: 555px;
                 left: 400px;
             }
             .icon_playLand {
                 width: 90px;
                 position: absolute;
-                top: 515px;
+                top: 555px;
                 left: 185px;
             }
             .icon_helloWark {
                 width: 90px;
                 position: absolute;
-                top: 670px;
+                top: 700px;
                 left: 190px;
             }
             .icon_familiyMart2 {
                 width: 90px;
                 position: absolute;
-                top: 710px;
+                top: 750px;
                 left: 250px;
             }
             .icon_central {
                 width: 90px;
                 position: absolute;
-                top: 700px;
-                left: 555px;
+                top: 740px;
+                left: 575px;
             }
             .icon_hiyoriPark {
                 width: 90px;
                 position: absolute;
-                top: 720px;
+                top: 760px;
                 left: 730px;
             }
            

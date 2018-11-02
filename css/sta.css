@@ -1,6 +1,44 @@
+.spMenu {
+  display: none;
+  background-color: white;
+  text-align: center;
+}
+@media (max-width: 470px) {
+  .spMenu {
+    display: block;
+  }
+}
+.spMenu i {
+  float: center;
+}
+.spMenu #spMenu {
+  font-size: 24pt;
+}
+
 main .main {
   height: 600px;
   display: flex;
+}
+@media (max-width: 470px) {
+  main .main {
+    height: 1000px;
+  }
+}
+main .main .fontSmall {
+  font-size: 10pt;
+}
+@media (max-width: 470px) {
+  main .main .fontSmall {
+    font-size: 6pt;
+  }
+}
+main .main .fontSmall2 {
+  font-size: 7pt;
+}
+@media (max-width: 470px) {
+  main .main .fontSmall2 {
+    font-size: 5pt;
+  }
 }
 main .main .menu {
   width: 180px;
@@ -8,19 +46,33 @@ main .main .menu {
   background-color: white;
   overflow: auto;
 }
+@media (max-width: 470px) {
+  main .main .menu {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 5px;
+  }
+}
 main .main .menu p {
   color: black;
+}
+@media (max-width: 470px) {
+  main .main .menu p {
+    font-size: 12pt;
+  }
 }
 main .main .menu .button {
   width: 145px;
   margin-left: 15px;
   margin-top: 10px;
 }
-main .main .menu .fontSmall {
-  font-size: 10pt;
-}
-main .main .menu .fontSmall2 {
-  font-size: 7pt;
+@media (max-width: 470px) {
+  main .main .menu .button {
+    height: 50px;
+  }
 }
 main .main .map {
   width: 990px;
@@ -115,37 +167,37 @@ main .main .map .icon_nakasePark {
 main .main .map .icon_library {
   width: 90px;
   position: absolute;
-  top: 515px;
+  top: 555px;
   left: 400px;
 }
 main .main .map .icon_playLand {
   width: 90px;
   position: absolute;
-  top: 515px;
+  top: 555px;
   left: 185px;
 }
 main .main .map .icon_helloWark {
   width: 90px;
   position: absolute;
-  top: 670px;
+  top: 700px;
   left: 190px;
 }
 main .main .map .icon_familiyMart2 {
   width: 90px;
   position: absolute;
-  top: 710px;
+  top: 750px;
   left: 250px;
 }
 main .main .map .icon_central {
   width: 90px;
   position: absolute;
-  top: 700px;
-  left: 555px;
+  top: 740px;
+  left: 575px;
 }
 main .main .map .icon_hiyoriPark {
   width: 90px;
   position: absolute;
-  top: 720px;
+  top: 760px;
   left: 730px;
 }
 
