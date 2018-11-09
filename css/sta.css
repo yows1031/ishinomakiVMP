@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .spMenu {
   display: none;
   background-color: white;
@@ -40,37 +41,45 @@ main .main .fontSmall2 {
     font-size: 5pt;
   }
 }
-main .main .menu {
+@media (max-width: 470px) {
+  main .main .hidden {
+    display: none;
+  }
+}
+main .main #menu {
   width: 180px;
   height: 600px;
   background-color: white;
   overflow: auto;
 }
 @media (max-width: 470px) {
-  main .main .menu {
+  main .main #menu {
     width: 100%;
     height: 250px;
     background-color: white;
     position: absolute;
-    top: 400px;
-    left: 5px;
+    top: 380px;
+    left: 0px；;
   }
 }
-main .main .menu p {
+main .main #menu p {
   color: black;
 }
 @media (max-width: 470px) {
-  main .main .menu p {
+  main .main #menu p {
     font-size: 12pt;
   }
 }
-main .main .menu .button {
+main .main #menu p .fontSmall {
+  font-size: 4pt;
+}
+main .main #menu .button {
   width: 145px;
   margin-left: 15px;
   margin-top: 10px;
 }
 @media (max-width: 470px) {
-  main .main .menu .button {
+  main .main #menu .button {
     height: 50px;
   }
 }
@@ -80,11 +89,33 @@ main .main .map {
   background-image: url("../img/station.png");
   background-size: 980px 600px;
 }
+@media (max-width: 470px) {
+  main .main .map {
+    width: 390px;
+    height: 430px;
+    background-size: 380px 430px;
+  }
+}
 main .main .map P {
   color: black;
 }
+@media (max-width: 470px) {
+  main .main .map P {
+    font-size: 6pt;
+  }
+}
 main .main .map p:hover {
   color: white;
+}
+@media (max-width: 470px) {
+  main .main .map .fontSmall {
+    font-size: 3pt;
+  }
+}
+@media (max-width: 470px) {
+  main .main .map .fontSmall2 {
+    font-size: 2pt;
+  }
 }
 main .main .map .icon_station {
   width: 90px;
@@ -92,11 +123,25 @@ main .main .map .icon_station {
   top: 250px;
   left: 480px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_station {
+    width: 60px;
+    top: 410px;
+    left: 110px;
+  }
+}
 main .main .map .icon_cityhall {
   width: 90px;
   position: absolute;
   top: 310px;
   left: 445px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_cityhall {
+    width: 60px;
+    top: 465px;
+    left: 80px;
+  }
 }
 main .main .map .icon_sevenEleven {
   width: 90px;
@@ -104,11 +149,25 @@ main .main .map .icon_sevenEleven {
   top: 275px;
   left: 695px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_sevenEleven {
+    width: 60px;
+    top: 430px;
+    left: 170px;
+  }
+}
 main .main .map .icon_familiyMart1 {
   width: 90px;
   position: absolute;
   top: 255px;
   left: 845px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_familiyMart1 {
+    width: 60px;
+    top: 420px;
+    left: 240px;
+  }
 }
 main .main .map .icon_grandHotel {
   width: 90px;
@@ -116,11 +175,25 @@ main .main .map .icon_grandHotel {
   top: 330px;
   left: 800px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_grandHotel {
+    width: 70px;
+    top: 470px;
+    left: 230px;
+  }
+}
 main .main .map .icon_iPlaza {
   width: 90px;
   position: absolute;
   top: 390px;
   left: 830px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_iPlaza {
+    width: 60px;
+    top: 505px;
+    left: 230px;
+  }
 }
 main .main .map .icon_raitu {
   width: 90px;
@@ -128,11 +201,25 @@ main .main .map .icon_raitu {
   top: 390px;
   left: 680px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_raitu {
+    width: 85px;
+    top: 520px;
+    left: 148px;
+  }
+}
 main .main .map .icon_lowSon {
   width: 90px;
   position: absolute;
   top: 390px;
   left: 930px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_lowSon {
+    width: 70px;
+    top: 530px;
+    left: 290px;
+  }
 }
 main .main .map .icon_hukkou {
   width: 90px;
@@ -140,11 +227,25 @@ main .main .map .icon_hukkou {
   top: 510px;
   left: 890px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_hukkou {
+    width: 70px;
+    top: 605px;
+    left: 230px;
+  }
+}
 main .main .map .icon_eyetopia {
   width: 90px;
   position: absolute;
   top: 550px;
   left: 835px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_eyetopia {
+    width: 60px;
+    top: 640px;
+    left: 220px;
+  }
 }
 main .main .map .icon_market {
   width: 90px;
@@ -152,11 +253,25 @@ main .main .map .icon_market {
   top: 560px;
   left: 930px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_market {
+    width: 70px;
+    top: 628px;
+    left: 290px;
+  }
+}
 main .main .map .icon_manga {
   width: 90px;
   position: absolute;
   top: 610px;
   left: 1050px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_manga {
+    width: 60px;
+    top: 660px;
+    left: 300px;
+  }
 }
 main .main .map .icon_nakasePark {
   width: 90px;
@@ -164,11 +279,25 @@ main .main .map .icon_nakasePark {
   top: 710px;
   left: 1050px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_nakasePark {
+    width: 60px;
+    top: 700px;
+    left: 310px;
+  }
+}
 main .main .map .icon_library {
   width: 90px;
   position: absolute;
   top: 555px;
   left: 400px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_library {
+    width: 60px;
+    top: 630px;
+    left: 100px;
+  }
 }
 main .main .map .icon_playLand {
   width: 90px;
@@ -176,11 +305,25 @@ main .main .map .icon_playLand {
   top: 555px;
   left: 185px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_playLand {
+    width: 60px;
+    top: 630px;
+    left: 0px;
+  }
+}
 main .main .map .icon_helloWark {
   width: 90px;
   position: absolute;
   top: 700px;
   left: 190px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_helloWark {
+    width: 60px;
+    top: 700px;
+    left: 2px;
+  }
 }
 main .main .map .icon_familiyMart2 {
   width: 90px;
@@ -188,17 +331,38 @@ main .main .map .icon_familiyMart2 {
   top: 750px;
   left: 250px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_familiyMart2 {
+    width: 60px;
+    top: 778px;
+    left: 28px;
+  }
+}
 main .main .map .icon_central {
   width: 90px;
   position: absolute;
   top: 740px;
   left: 575px;
 }
+@media (max-width: 470px) {
+  main .main .map .icon_central {
+    width: 60px;
+    top: 780px;
+    left: 90px;
+  }
+}
 main .main .map .icon_hiyoriPark {
   width: 90px;
   position: absolute;
   top: 760px;
   left: 730px;
+}
+@media (max-width: 470px) {
+  main .main .map .icon_hiyoriPark {
+    width: 60px;
+    top: 780px;
+    left: 210px;
+  }
 }
 
 /*# sourceMappingURL=sta.css.map */
