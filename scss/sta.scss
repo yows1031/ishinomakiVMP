@@ -368,4 +368,159 @@ main {
         }
     }
 
+    #mask {
+        position: absolute;
+        top: 200px;
+        left: 175px;
+        width: 975px;
+        height: 600px;
+        background-color: white;
+        opacity: 0.8;
+
+        @include sp {
+            top: 380px;
+            left: 0px;
+            width: 400px;
+            height: 435px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    }
+
+    // テーブル基本
+    .pointTittle {
+        height: 80px;
+
+        P {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .infomation {
+        height: 50px;
+
+        .icon {
+            width: 60px;
+
+            @include sp {
+                width: 20px;
+            }
+        }
+
+        .text {
+            width: 120px;
+
+            @include sp {
+                width: 40px;
+            }
+        }
+
+        .sign {
+            width: 60px;
+
+            @include sp {
+                width: 20px;
+            }
+        }
+    }
+
+    .slide {
+        height: 300px;
+
+        @include sp {
+            display: none;
+        }
+
+        .pic {
+            position: relative;
+            background: white;
+        }
+    }
+
+    .pointData {
+        height: 100px;
+    }
+
+    #cityHall {
+        background: white;
+        width: 150px;
+        position: absolute;
+        top: 210px;
+        left: 320px;
+        transition: .8s;
+
+        @include sp {
+            top: 390px;
+            left: 5px;
+            width: 390px;
+            height: 425px;
+        }
+        
+        .hidden {
+            transform: translate(0, -800px);
+        }
+    }
+
+    #cityHallprev, #cityHallnext {
+        position: absolute;  
+        font-size: 60px;
+        opacity: 0.6;
+        top: 110px;
+    }
+    #cityHallprev {
+        left: 60px;
+    }
+    #cityHallnext {
+        right: 60px;
+    }
+      
+    #cityHallprev:hover, #cityHallnext:hover {
+        opacity: 1;
+    }
+    #cityHall_target {
+        position: absolute;
+        top: 30px;
+        left: 170px;
+    }
+    .under {
+        display: flex;
+        
+        nav {
+            margin-top: 10px;
+            width: 600px;
+        }
+    }
+    .subnav {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+            li {
+                width: 80px;
+                height: 80px;
+                cursor: pointer;
+                opacity: 0.6;
+            }
+            .current {
+                opacity: 1;
+            }
+        }
+
+    .subnav > li:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+    #cityHallBack {
+        margin-left: 20px;
+        font-size: 60px;
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    #cityHallBack:hover {
+        opacity: 1;
+    }
+    
+
 }
