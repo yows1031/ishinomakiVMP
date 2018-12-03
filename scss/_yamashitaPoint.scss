@@ -1,0 +1,24 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}yamashita.png");
+}
+
+.icon_station {
+    width: 90px;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+
+    @include sp {
+        width: 60px;
+        top: 410px;
+        left: 110px;
+    }
+}
