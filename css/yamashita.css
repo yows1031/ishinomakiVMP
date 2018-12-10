@@ -357,8 +357,8 @@ main .under .subnav .current {
 .icon_coop {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
   .icon_coop {
@@ -371,8 +371,8 @@ main .under .subnav .current {
 .icon_ministop {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 285px;
+  left: 1010px;
 }
 @media (max-width: 470px) {
   .icon_ministop {
@@ -383,10 +383,10 @@ main .under .subnav .current {
 }
 
 .icon_turuha {
-  width: 90px;
+  width: 50px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 380px;
+  left: 760px;
 }
 @media (max-width: 470px) {
   .icon_turuha {
@@ -397,10 +397,10 @@ main .under .subnav .current {
 }
 
 .icon_york {
-  width: 90px;
+  width: 50px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 415px;
+  left: 705px;
 }
 @media (max-width: 470px) {
   .icon_york {
@@ -411,10 +411,10 @@ main .under .subnav .current {
 }
 
 .icon_sun {
-  width: 90px;
+  width: 50px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 375px;
+  left: 705px;
 }
 @media (max-width: 470px) {
   .icon_sun {
@@ -425,10 +425,10 @@ main .under .subnav .current {
 }
 
 .icon_homac {
-  width: 90px;
+  width: 50px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 405px;
+  left: 652px;
 }
 @media (max-width: 470px) {
   .icon_homac {
@@ -439,10 +439,10 @@ main .under .subnav .current {
 }
 
 .icon_au {
-  width: 90px;
+  width: 60px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 350px;
+  left: 650px;
 }
 @media (max-width: 470px) {
   .icon_au {
@@ -453,10 +453,10 @@ main .under .subnav .current {
 }
 
 .icon_daruma {
-  width: 90px;
+  width: 70px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 390px;
+  left: 580px;
 }
 @media (max-width: 470px) {
   .icon_daruma {
@@ -467,24 +467,25 @@ main .under .subnav .current {
 }
 
 .icon_syakyo {
-  width: 90px;
+  width: 70px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 430px;
+  left: 580px;
 }
 @media (max-width: 470px) {
   .icon_syakyo {
     width: 60px;
-    top: 410px;
+    height: 60px;
+    top: 420px;
     left: 110px;
   }
 }
 
 .icon_softbank {
-  width: 90px;
+  width: 60px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 364px;
+  left: 525px;
 }
 @media (max-width: 470px) {
   .icon_softbank {
@@ -495,10 +496,10 @@ main .under .subnav .current {
 }
 
 .icon_lowSon {
-  width: 90px;
+  width: 60px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 370px;
+  left: 465px;
 }
 @media (max-width: 470px) {
   .icon_lowSon {
@@ -509,24 +510,24 @@ main .under .subnav .current {
 }
 
 .icon_docomo {
-  width: 90px;
+  width: 60px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 420px;
+  left: 465px;
 }
 @media (max-width: 470px) {
   .icon_docomo {
     width: 60px;
     top: 410px;
-    left: 110px;
+    left: 105px;
   }
 }
 
 .icon_seigetsuki {
-  width: 90px;
+  width: 60px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 425px;
+  left: 400px;
 }
 @media (max-width: 470px) {
   .icon_seigetsuki {
@@ -537,10 +538,10 @@ main .under .subnav .current {
 }
 
 .icon_21 {
-  width: 90px;
+  width: 70px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 380px;
+  left: 380px;
 }
 @media (max-width: 470px) {
   .icon_21 {
@@ -553,8 +554,8 @@ main .under .subnav .current {
 .icon_hisyoukaku {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 580px;
+  left: 460px;
 }
 @media (max-width: 470px) {
   .icon_hisyoukaku {
@@ -567,8 +568,8 @@ main .under .subnav .current {
 .icon_police {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 630px;
+  left: 400px;
 }
 @media (max-width: 470px) {
   .icon_police {
@@ -581,8 +582,8 @@ main .under .subnav .current {
 .icon_ujie {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 610px;
+  left: 305px;
 }
 @media (max-width: 470px) {
   .icon_ujie {
@@ -595,8 +596,8 @@ main .under .subnav .current {
 .icon_yakuodou {
   width: 90px;
   position: absolute;
-  top: 250px;
-  left: 480px;
+  top: 680px;
+  left: 200px;
 }
 @media (max-width: 470px) {
   .icon_yakuodou {
