@@ -17,9 +17,9 @@ $imgDir: "../img/";
     left: 970px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 400px;
+        left: 305px;
     }
 }
 
@@ -30,9 +30,17 @@ $imgDir: "../img/";
     left: 1010px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width:40px;
+        top: 440px;
+        left: 315px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
     }
 }
 
@@ -43,9 +51,9 @@ $imgDir: "../img/";
     left: 760px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 495px;
+        left: 225px;
     }
 }
 .icon_york  {
@@ -55,9 +63,9 @@ $imgDir: "../img/";
     left: 705px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 550px;
+        left: 220px;
     }
 }
 
@@ -68,9 +76,9 @@ $imgDir: "../img/";
     left: 705px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 515px;
+        left: 180px;
     }
 }
 
@@ -81,9 +89,17 @@ $imgDir: "../img/";
     left: 652px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 551px;
+        left: 180px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
     }
 }
 
@@ -94,9 +110,9 @@ $imgDir: "../img/";
     left: 650px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 475px;
+        left: 180px;
     }
 }
 
@@ -107,9 +123,9 @@ $imgDir: "../img/";
     left: 580px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 535px;
+        left: 140px;
     }
 }
 
@@ -120,10 +136,18 @@ $imgDir: "../img/";
     left: 580px;
 
     @include sp {
-        width: 60px;
-        height: 60px;
-        top: 420px;
-        left: 110px;
+        width: 40px;
+        height: 40px;
+        top: 573px;
+        left: 140px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
     }
 }
 
@@ -135,9 +159,9 @@ $imgDir: "../img/";
     left: 525px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 495px;
+        left: 130px;
     }
 }
 
@@ -148,9 +172,9 @@ $imgDir: "../img/";
     left: 465px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 495px;
+        left: 90px;
     }
 }
 
@@ -161,9 +185,9 @@ $imgDir: "../img/";
     left: 465px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 105px;
+        width: 40px;
+        top: 535px;
+        left: 99px;
     }
 }
 
@@ -174,9 +198,9 @@ $imgDir: "../img/";
     left: 400px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 571px;
+        left: 85px;
     }
 }
 
@@ -187,9 +211,17 @@ $imgDir: "../img/";
     left: 380px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 50px;
+        top: 505px;
+        left: 40px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
     }
 }
 
@@ -200,9 +232,9 @@ $imgDir: "../img/";
     left: 460px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 645px;
+        left: 100px;
     }
 }
 
@@ -213,9 +245,9 @@ $imgDir: "../img/";
     left: 400px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 50px;
+        top: 690px;
+        left: 85px;
     }
 }
 
@@ -226,9 +258,16 @@ $imgDir: "../img/";
     left: 305px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 680px;
+        left: 45px;
+    }
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
     }
 }
 
@@ -239,8 +278,8 @@ $imgDir: "../img/";
     left: 200px;
 
     @include sp {
-        width: 60px;
-        top: 410px;
-        left: 110px;
+        width: 40px;
+        top: 735px;
+        left: 1px;
     }
 }

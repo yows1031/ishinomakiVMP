@@ -96,12 +96,6 @@ main .index {
     font-size: 10pt;
   }
 }
-@media (max-width: 470px) {
-  main .button {
-    width: 70px;
-    height: 30px;
-  }
-}
 
 /* footer */
 footer {

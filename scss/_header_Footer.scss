@@ -111,16 +111,6 @@ main {
             font-size: 10pt;
         }
     }
-
-    .button {
-
-        @include sp {
-            width: 70px;
-            height: 30px;
-        }
-    }
-
-  
 }
 
 

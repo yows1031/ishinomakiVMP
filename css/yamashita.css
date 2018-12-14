@@ -1,128 +1,4 @@
 @charset "UTF-8";
-html, body {
-  width: 100%;
-}
-
-.container {
-  width: 90%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: lightblue;
-}
-@media (max-width: 470px) {
-  .container {
-    width: 97%;
-  }
-}
-
-header {
-  height: 200px;
-  background: skyblue;
-}
-@media (max-width: 470px) {
-  header {
-    height: 350px;
-  }
-}
-header .head {
-  font-size: 36px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-@media (max-width: 470px) {
-  header .head {
-    width: 100%;
-    font-size: 20px;
-    justify-content: center;
-  }
-}
-@media (max-width: 470px) {
-  header .spMode {
-    width: 90%;
-    padding-left: 60px;
-  }
-}
-header .nav {
-  padding-top: 40px;
-  width: 100%;
-  font-size: 20px;
-  justify-content: center;
-}
-header .nav div {
-  width: 110px;
-  height: 100px;
-}
-header .nav .is-active {
-  background: white;
-}
-header .nav a {
-  float: center;
-}
-@media (max-width: 470px) {
-  header .nav {
-    padding-top: 30px;
-    display: grid;
-    grid-gap: 2px;
-    grid-template-columns: 1fr 1fr;
-  }
-  header .nav .br {
-    display: none;
-  }
-  header .nav div {
-    width: 100px;
-    height: 50px;
-  }
-  header .nav div span {
-    float: center;
-    font-size: 12pt;
-  }
-}
-
-main {
-  height: 600px;
-  background-image: url("../img/main.png");
-  background-size: 1150px 600px;
-}
-@media (max-width: 470px) {
-  main {
-    height: 465px;
-    background-size: 400px 300px;
-  }
-}
-main .index {
-  color: white;
-}
-@media (max-width: 470px) {
-  main .index {
-    font-size: 10pt;
-  }
-}
-@media (max-width: 470px) {
-  main .button {
-    width: 70px;
-    height: 30px;
-  }
-}
-
-/* footer */
-footer {
-  height: 25px;
-  background: white;
-}
-footer .footer {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 0;
-}
-footer .suport {
-  box-sizing: border-box;
-  width: 200px;
-  padding: 0;
-}
-footer .suport img {
-  width: 50%;
-  height: 40%;
-}
-
 .spMenu {
   display: none;
   background-color: white;
@@ -362,9 +238,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_coop {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 400px;
+    left: 305px;
   }
 }
 
@@ -376,9 +252,17 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_ministop {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 440px;
+    left: 315px;
+  }
+}
+.icon_ministop .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_ministop .spMode {
+    display: block;
   }
 }
 
@@ -390,9 +274,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_turuha {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 495px;
+    left: 225px;
   }
 }
 
@@ -404,9 +288,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_york {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 550px;
+    left: 220px;
   }
 }
 
@@ -418,9 +302,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_sun {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 515px;
+    left: 180px;
   }
 }
 
@@ -432,9 +316,17 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_homac {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 551px;
+    left: 180px;
+  }
+  .icon_homac .spMode {
+    display: none;
+  }
+}
+@media (max-width: 470px) and (max-width: 470px) {
+  .icon_homac .spMode {
+    display: block;
   }
 }
 
@@ -446,9 +338,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_au {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 475px;
+    left: 180px;
   }
 }
 
@@ -460,9 +352,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_daruma {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 535px;
+    left: 140px;
   }
 }
 
@@ -474,10 +366,18 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_syakyo {
-    width: 60px;
-    height: 60px;
-    top: 420px;
-    left: 110px;
+    width: 40px;
+    height: 40px;
+    top: 573px;
+    left: 140px;
+  }
+  .icon_syakyo .spMode {
+    display: none;
+  }
+}
+@media (max-width: 470px) and (max-width: 470px) {
+  .icon_syakyo .spMode {
+    display: block;
   }
 }
 
@@ -489,9 +389,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_softbank {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 495px;
+    left: 130px;
   }
 }
 
@@ -503,9 +403,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_lowSon {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 495px;
+    left: 90px;
   }
 }
 
@@ -517,9 +417,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_docomo {
-    width: 60px;
-    top: 410px;
-    left: 105px;
+    width: 40px;
+    top: 535px;
+    left: 99px;
   }
 }
 
@@ -531,9 +431,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_seigetsuki {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 571px;
+    left: 85px;
   }
 }
 
@@ -545,9 +445,17 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_21 {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 50px;
+    top: 505px;
+    left: 40px;
+  }
+  .icon_21 .spMode {
+    display: none;
+  }
+}
+@media (max-width: 470px) and (max-width: 470px) {
+  .icon_21 .spMode {
+    display: block;
   }
 }
 
@@ -559,9 +467,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_hisyoukaku {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 645px;
+    left: 100px;
   }
 }
 
@@ -573,9 +481,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_police {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 50px;
+    top: 690px;
+    left: 85px;
   }
 }
 
@@ -587,9 +495,17 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_ujie {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 680px;
+    left: 45px;
+  }
+}
+.icon_ujie .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_ujie .spMode {
+    display: block;
   }
 }
 
@@ -601,10 +517,128 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_yakuodou {
-    width: 60px;
-    top: 410px;
-    left: 110px;
+    width: 40px;
+    top: 735px;
+    left: 1px;
   }
+}
+
+html, body {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightblue;
+}
+@media (max-width: 470px) {
+  .container {
+    width: 97%;
+  }
+}
+
+header {
+  height: 200px;
+  background: skyblue;
+}
+@media (max-width: 470px) {
+  header {
+    height: 350px;
+  }
+}
+header .head {
+  font-size: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (max-width: 470px) {
+  header .head {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 470px) {
+  header .spMode {
+    width: 90%;
+    padding-left: 60px;
+  }
+}
+header .nav {
+  padding-top: 40px;
+  width: 100%;
+  font-size: 20px;
+  justify-content: center;
+}
+header .nav div {
+  width: 110px;
+  height: 100px;
+}
+header .nav .is-active {
+  background: white;
+}
+header .nav a {
+  float: center;
+}
+@media (max-width: 470px) {
+  header .nav {
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
+  }
+  header .nav .br {
+    display: none;
+  }
+  header .nav div {
+    width: 100px;
+    height: 50px;
+  }
+  header .nav div span {
+    float: center;
+    font-size: 12pt;
+  }
+}
+
+main {
+  height: 600px;
+  background-image: url("../img/main.png");
+  background-size: 1150px 600px;
+}
+@media (max-width: 470px) {
+  main {
+    height: 465px;
+    background-size: 400px 300px;
+  }
+}
+main .index {
+  color: white;
+}
+@media (max-width: 470px) {
+  main .index {
+    font-size: 10pt;
+  }
+}
+
+/* footer */
+footer {
+  height: 25px;
+  background: white;
+}
+footer .footer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+footer .suport {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0;
+}
+footer .suport img {
+  width: 50%;
+  height: 40%;
 }
 
 /*# sourceMappingURL=yamashita.css.map */
