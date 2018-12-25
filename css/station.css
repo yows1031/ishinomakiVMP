@@ -1,16 +1,12 @@
 @charset "UTF-8";
-html, body {
-  width: 100%;
-}
-
 .container {
-  width: 90%;
+  width: 1140px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: lightblue;
 }
 @media (max-width: 470px) {
   .container {
-    width: 97%;
+    width: 364px;
   }
 }
 

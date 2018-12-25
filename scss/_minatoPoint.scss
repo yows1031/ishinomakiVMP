@@ -1,0 +1,141 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}minato.png");
+}
+
+.icon_shikatsuma {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_york {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_lowSon {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_yakuodo {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_matsunami {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_shinkoCenter {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_amsGarden {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_dainam{
+    width: 90px;
+    position: absolute;
+    top: 615px;
+    left: 520px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_minatoSo {
+    width: 90px;
+    position: absolute;
+    top: 355px;
+    left: 255px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_cafeSakura {
+    width: 90px;
+    position: absolute;
+    top: 210px;
+    left: 320px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}

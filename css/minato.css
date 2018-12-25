@@ -227,299 +227,146 @@ main .under .subnav .current {
 }
 
 .map {
-  background-image: url("../img/yamashita2.png");
+  background-image: url("../img/minato.png");
 }
 
-.icon_coop {
+.icon_shikatsuma {
   width: 90px;
   position: absolute;
   top: 240px;
   left: 970px;
 }
 @media (max-width: 470px) {
-  .icon_coop {
+  .icon_shikatsuma {
     width: 40px;
     top: 400px;
     left: 305px;
   }
 }
 
-.icon_ministop {
+.icon_york {
   width: 90px;
   position: absolute;
-  top: 285px;
-  left: 1010px;
-}
-@media (max-width: 470px) {
-  .icon_ministop {
-    width: 40px;
-    top: 440px;
-    left: 315px;
-  }
-}
-.icon_ministop .spMode {
-  display: none;
-}
-@media (max-width: 470px) {
-  .icon_ministop .spMode {
-    display: block;
-  }
-}
-
-.icon_turuha {
-  width: 50px;
-  position: absolute;
-  top: 380px;
-  left: 760px;
-}
-@media (max-width: 470px) {
-  .icon_turuha {
-    width: 40px;
-    top: 495px;
-    left: 225px;
-  }
-}
-
-.icon_york {
-  width: 50px;
-  position: absolute;
-  top: 415px;
-  left: 705px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
   .icon_york {
     width: 40px;
-    top: 550px;
-    left: 220px;
-  }
-}
-
-.icon_sun {
-  width: 50px;
-  position: absolute;
-  top: 375px;
-  left: 705px;
-}
-@media (max-width: 470px) {
-  .icon_sun {
-    width: 40px;
-    top: 515px;
-    left: 180px;
-  }
-}
-
-.icon_homac {
-  width: 50px;
-  position: absolute;
-  top: 405px;
-  left: 652px;
-}
-@media (max-width: 470px) {
-  .icon_homac {
-    width: 40px;
-    top: 551px;
-    left: 180px;
-  }
-  .icon_homac .spMode {
-    display: none;
-  }
-}
-@media (max-width: 470px) and (max-width: 470px) {
-  .icon_homac .spMode {
-    display: block;
-  }
-}
-
-.icon_au {
-  width: 60px;
-  position: absolute;
-  top: 350px;
-  left: 650px;
-}
-@media (max-width: 470px) {
-  .icon_au {
-    width: 40px;
-    top: 475px;
-    left: 180px;
-  }
-}
-
-.icon_daruma {
-  width: 70px;
-  position: absolute;
-  top: 390px;
-  left: 580px;
-}
-@media (max-width: 470px) {
-  .icon_daruma {
-    width: 40px;
-    top: 535px;
-    left: 140px;
-  }
-}
-
-.icon_syakyo {
-  width: 70px;
-  position: absolute;
-  top: 430px;
-  left: 580px;
-}
-@media (max-width: 470px) {
-  .icon_syakyo {
-    width: 40px;
-    height: 40px;
-    top: 573px;
-    left: 140px;
-  }
-  .icon_syakyo .spMode {
-    display: none;
-  }
-}
-@media (max-width: 470px) and (max-width: 470px) {
-  .icon_syakyo .spMode {
-    display: block;
-  }
-}
-
-.icon_softbank {
-  width: 60px;
-  position: absolute;
-  top: 364px;
-  left: 525px;
-}
-@media (max-width: 470px) {
-  .icon_softbank {
-    width: 40px;
-    top: 495px;
-    left: 130px;
+    top: 400px;
+    left: 305px;
   }
 }
 
 .icon_lowSon {
-  width: 60px;
+  width: 90px;
   position: absolute;
-  top: 370px;
-  left: 465px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
   .icon_lowSon {
     width: 40px;
-    top: 495px;
-    left: 90px;
+    top: 400px;
+    left: 305px;
   }
 }
 
-.icon_docomo {
-  width: 60px;
-  position: absolute;
-  top: 420px;
-  left: 465px;
-}
-@media (max-width: 470px) {
-  .icon_docomo {
-    width: 40px;
-    top: 535px;
-    left: 99px;
-  }
-}
-
-.icon_seigetsuki {
-  width: 60px;
-  position: absolute;
-  top: 425px;
-  left: 400px;
-}
-@media (max-width: 470px) {
-  .icon_seigetsuki {
-    width: 40px;
-    top: 571px;
-    left: 85px;
-  }
-}
-
-.icon_21 {
-  width: 70px;
-  position: absolute;
-  top: 380px;
-  left: 380px;
-}
-@media (max-width: 470px) {
-  .icon_21 {
-    width: 50px;
-    top: 505px;
-    left: 40px;
-  }
-  .icon_21 .spMode {
-    display: none;
-  }
-}
-@media (max-width: 470px) and (max-width: 470px) {
-  .icon_21 .spMode {
-    display: block;
-  }
-}
-
-.icon_hisyoukaku {
+.icon_yakuodo {
   width: 90px;
   position: absolute;
-  top: 580px;
-  left: 460px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
-  .icon_hisyoukaku {
+  .icon_yakuodo {
     width: 40px;
-    top: 645px;
-    left: 100px;
+    top: 400px;
+    left: 305px;
   }
 }
 
-.icon_police {
+.icon_matsunami {
   width: 90px;
   position: absolute;
-  top: 630px;
-  left: 400px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
-  .icon_police {
-    width: 50px;
-    top: 690px;
-    left: 85px;
+  .icon_matsunami {
+    width: 40px;
+    top: 400px;
+    left: 305px;
   }
 }
 
-.icon_ujie {
+.icon_shinkoCenter {
   width: 90px;
   position: absolute;
-  top: 610px;
-  left: 305px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
-  .icon_ujie {
+  .icon_shinkoCenter {
     width: 40px;
-    top: 680px;
-    left: 45px;
-  }
-}
-.icon_ujie .spMode {
-  display: none;
-}
-@media (max-width: 470px) {
-  .icon_ujie .spMode {
-    display: block;
+    top: 400px;
+    left: 305px;
   }
 }
 
-.icon_yakuodou {
+.icon_amsGarden {
   width: 90px;
   position: absolute;
-  top: 680px;
-  left: 200px;
+  top: 240px;
+  left: 970px;
 }
 @media (max-width: 470px) {
-  .icon_yakuodou {
+  .icon_amsGarden {
     width: 40px;
-    top: 735px;
-    left: 1px;
+    top: 400px;
+    left: 305px;
+  }
+}
+
+.icon_dainam {
+  width: 90px;
+  position: absolute;
+  top: 615px;
+  left: 520px;
+}
+@media (max-width: 470px) {
+  .icon_dainam {
+    width: 40px;
+    top: 400px;
+    left: 305px;
+  }
+}
+
+.icon_minatoSo {
+  width: 90px;
+  position: absolute;
+  top: 355px;
+  left: 255px;
+}
+@media (max-width: 470px) {
+  .icon_minatoSo {
+    width: 40px;
+    top: 400px;
+    left: 305px;
+  }
+}
+
+.icon_cafeSakura {
+  width: 90px;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+}
+@media (max-width: 470px) {
+  .icon_cafeSakura {
+    width: 40px;
+    top: 400px;
+    left: 305px;
   }
 }
 
@@ -637,4 +484,4 @@ footer .suport img {
   height: 40%;
 }
 
-/*# sourceMappingURL=yamashita.css.map */
+/*# sourceMappingURL=minato.css.map */
