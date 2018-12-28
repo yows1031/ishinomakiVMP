@@ -233,98 +233,126 @@ main .under .subnav .current {
 .icon_shikatsuma {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 560px;
+  left: 1030px;
 }
 @media (max-width: 470px) {
   .icon_shikatsuma {
     width: 40px;
-    top: 400px;
-    left: 305px;
+    height: 25px;
+    top: 630px;
+    left: 325px;
+  }
+}
+.icon_shikatsuma .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_shikatsuma .spMode {
+    display: block;
   }
 }
 
 .icon_york {
   width: 90px;
   position: absolute;
-  top: 240px;
+  top: 605px;
   left: 970px;
 }
 @media (max-width: 470px) {
   .icon_york {
     width: 40px;
-    top: 400px;
+    top: 655px;
     left: 305px;
+  }
+}
+.icon_york .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_york .spMode {
+    display: block;
   }
 }
 
 .icon_lowSon {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 525px;
+  left: 875px;
 }
 @media (max-width: 470px) {
   .icon_lowSon {
     width: 40px;
-    top: 400px;
-    left: 305px;
+    height: 25px;
+    top: 640px;
+    left: 270px;
   }
 }
 
 .icon_yakuodo {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 610px;
+  left: 730px;
 }
 @media (max-width: 470px) {
   .icon_yakuodo {
     width: 40px;
-    top: 400px;
-    left: 305px;
+    height: 25px;
+    top: 690px;
+    left: 200px;
   }
 }
 
 .icon_matsunami {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 650px;
+  left: 755px;
 }
 @media (max-width: 470px) {
   .icon_matsunami {
     width: 40px;
-    top: 400px;
-    left: 305px;
+    height: 25px;
+    top: 710px;
+    left: 225px;
   }
 }
 
 .icon_shinkoCenter {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 720px;
+  left: 660px;
 }
 @media (max-width: 470px) {
   .icon_shinkoCenter {
-    width: 40px;
-    top: 400px;
-    left: 305px;
+    width: 80px;
+    top: 750px;
+    left: 145px;
   }
 }
 
 .icon_amsGarden {
   width: 90px;
   position: absolute;
-  top: 240px;
-  left: 970px;
+  top: 555px;
+  left: 610px;
 }
 @media (max-width: 470px) {
   .icon_amsGarden {
-    width: 40px;
-    top: 400px;
-    left: 305px;
+    width: 60px;
+    top: 635px;
+    left: 195px;
+  }
+}
+.icon_amsGarden .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_amsGarden .spMode {
+    display: block;
   }
 }
 
@@ -336,9 +364,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_dainam {
-    width: 40px;
-    top: 400px;
-    left: 305px;
+    width: 60px;
+    top: 695px;
+    left: 110px;
   }
 }
 
@@ -350,9 +378,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_minatoSo {
-    width: 40px;
-    top: 400px;
-    left: 305px;
+    width: 80px;
+    top: 500px;
+    left: 20px;
   }
 }
 
@@ -364,9 +392,9 @@ main .under .subnav .current {
 }
 @media (max-width: 470px) {
   .icon_cafeSakura {
-    width: 40px;
-    top: 400px;
-    left: 305px;
+    width: 60px;
+    top: 405px;
+    left: 70px;
   }
 }
 
