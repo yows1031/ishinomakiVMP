@@ -1,0 +1,27 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}kama.png");
+}
+
+.icon_shikatsuma {
+    width: 90px;
+    position: absolute;
+    top: 560px;
+    left: 1030px;
+
+    @include sp {
+        width: 40px;
+        height: 25px;
+        top: 630px;
+        left: 325px;
+    }
+
+}
+
