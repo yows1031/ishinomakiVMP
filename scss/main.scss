@@ -1,0 +1,315 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+html,body {
+    width: 100%;
+}
+.container{
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightblue;
+
+    @include sp {
+        width: 97%;
+        
+    }
+}
+
+// header
+header {
+    height: 200px;
+    background: skyblue;
+
+    @include sp {
+        height: 350px;
+      }
+    .head {
+        font-size: 36px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        @include sp {
+            width: 100%;
+            font-size: 20px;
+            justify-content: center;
+        }
+    }
+
+    .spMode {
+
+        @include sp {
+            width: 90%;
+            padding-left: 60px;
+        }
+    }
+
+    .nav {
+        padding-top: 40px;
+        width: 100%;
+        font-size: 20px;
+        justify-content: center;
+
+        div {
+            width: 110px;
+            height: 100px;
+           
+        }
+
+        .is-active {
+            background: white;
+        }
+
+        a {
+            float: center;
+        }
+
+        @include sp {
+            padding-top: 30px;
+            display: grid;
+            grid-gap: 2px;
+            grid-template-columns: 1fr 1fr;
+
+            .br {
+                display: none;
+            }
+
+            div {
+                width: 100px;
+                height: 50px;
+                
+                span {
+                    float: center;
+                    font-size: 12pt;
+                }
+            }
+        }
+    }
+
+    
+}
+
+// main
+main {
+    height: 600px;
+    background-image: url("#{$imgDir}main.png");
+    background-size: 1150px 600px;
+
+    @include sp {
+        height: 465px;
+        background-size: 400px 300px;
+    }
+
+    .index {
+        color: white;
+
+        @include sp {
+            font-size: 10pt;
+        }
+    }
+
+    .button {
+
+        @include sp {
+            width: 70px;
+            height: 30px;
+        }
+    }
+
+  
+}
+
+.pickMain {
+    width: 500px;
+    height: 200px;
+    background-image: url("#{$imgDir}pickMain.png");
+    background-size: 100% 100%;
+    border: 2px solid red;
+    position: absolute;
+    top: 590px;
+    left: 70px;
+
+    @include sp {
+        height: 170px;
+        width: 365px;
+        top: 645px;
+        left: 0px;
+    }
+}
+
+.ekimae {
+    position: absolute;
+    top: 648px;
+    left: 180px;
+
+    @include sp {
+        top: 690px;
+        left: 70px;
+    }
+}
+.sumiyoshi {
+    position: absolute;
+    top: 612px;
+    left: 155px;
+
+    @include sp {
+        top: 665px;
+        left: 75px;
+    }
+}
+.hebita {
+    position: absolute;
+    top: 617px;
+    left: 75px;
+
+    @include sp {
+        top: 662px;
+        left: 10px;
+    }
+}
+.kama {
+    position: absolute;
+    top: 660px;
+    left: 80px;
+
+    @include sp {
+        top: 732px;
+        left: 25px;
+    }
+}
+.inai {
+    position: absolute;
+    top: 610px;
+    left: 300px;
+
+    @include sp {
+        top: 662px;
+        left: 165px;
+    }
+}
+.minato {
+    position: absolute;
+    top: 665px;
+    left: 290px;
+
+    @include sp {
+        top: 730px;
+        left: 145px;
+    }
+}
+.watanoha {
+    position: absolute;
+    top: 670px;
+    left: 440px;
+    
+    @include sp {
+        top: 730px;
+        left: 235px;
+    }
+}
+.hagihama {
+    position: absolute;
+    top: 525px;
+    left: 680px;
+    border: solid 2px;
+
+    @include sp {
+        top: 520px;
+        left: 220px;
+    }
+}
+.oshika {
+    position: absolute;
+    top: 640px;
+    left: 840px;
+    border: solid 2px;
+
+    @include sp {
+        top: 560px;
+        left: 280px;
+    }
+}
+.ogatsu {
+    position: absolute;
+    top: 310px;
+    left: 740px;
+    border: solid 2px;
+
+    @include sp {
+        top: 410px;
+        left: 250px;
+    }
+}
+.kitakami {
+    position: absolute;
+    top: 260px;
+    left: 610px;
+    border: solid 2px;
+
+    @include sp {
+        top: 380px;
+        left: 200px;
+    }
+}
+.kahoku {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: solid 2px;
+
+    @include sp {
+        top: 405px;
+        left: 95px;
+    }
+}
+
+.kanan {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    border: solid 2px;
+
+    @include sp {
+        top: 445px;
+        left: 45px;
+    }
+}
+
+.monou {
+    position: absolute;
+    top: 280px;
+    left: 140px;
+    border: solid 2px;
+
+    @include sp {
+        top: 385px;
+        left: 30px;
+    }
+}
+
+
+/* footer */
+footer {
+    height: 25px;
+    background: white;
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+    .suport {
+        box-sizing: border-box;
+        width: 200px;
+        padding: 0;
+
+        img {
+            width: 50%;
+            height: 40%;
+        }
+    }
+}

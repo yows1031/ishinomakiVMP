@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>石巻バリアフリーマップ</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/yamashita.css" />
+    </head>
+    <body class="container">
+        <header>
+            <div class="head">
+                <div>
+                    <h1>石巻バリアフリーマップ</h1>
+                </div>
+            </div>
+            <div class="spMode">
+                <div class="nav tabs is-centered is-boxed">
+                    <div>
+                        <a href="index.html">
+                            <span>・全体図</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="station.html">
+                            <span>・石巻駅前</span>
+                        </a>
+                    </div>
+                    <div class="is-active">
+                        <a href="yamashita.html">
+                            <span>・住吉<br class="br">・山下</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・湊</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・蛇田</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・渡波<br class="br">・稲井</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・釜港<br class="br">・大街道</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・河北<br class="br">・河南</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・桃生<br class="br">・北上</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a>
+                            <span>・雄勝<br class="br">・萩浜<br class="br">・牡鹿</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="spMenu">
+                    <i class="fas fa-bars" id="spMenu"></i>
+            </div>
+        <div class="main">
+            <!-- サイドメニュー -->
+            <div id="menu" class="hidden">
+            <ul>
+                <li class="button is-info is-outlined"><p>ＣＯＯＰ</p></li>
+                <li class="button is-info is-outlined"><p>ミニストップ</p></li>
+                <li class="button is-info is-outlined"><p>ツルハドラッグ</p></li>
+                <li class="button is-info is-outlined"><p>ヨークベニマル</p></li>
+                <li class="button is-info is-outlined"><p>サンドラック</p></li>
+                <li class="button is-info is-outlined"><p>ホーマック</p></li>
+                <li class="button is-info is-outlined"><p>ａｕショップ</p></li>
+                <li class="button is-info is-outlined"><p>ダルマ薬局</p></li>
+                <li class="button is-info is-outlined"><p>石巻社会福祉協議会</p></li>
+                <li class="button is-info is-outlined"><p>ソフトバンク</p></li>
+                <li class="button is-info is-outlined"><p>ローソン</p></li>
+                <li class="button is-info is-outlined"><p>ドコモショップ</p></li>
+                <li class="button is-info is-outlined"><p>清月記</p></li>
+                <li class="button is-info is-outlined"><p>２１ＳＥＩＫＩ</p></li>
+                <li class="button is-info is-outlined"><p>飛翔閣</p></li>
+                <li class="button is-info is-outlined"><p>石巻警察署</p></li>
+                <li class="button is-info is-outlined"><p>ウジエスーパー</p></li>
+                <li class="button is-info is-outlined"><p>薬王堂</p></li>
+            </ul>
+        </div>
+            <!-- 地図メニュー -->
+            <div class="map">
+            <div class="button is-info icon_coop"><p>ＣＯＯＰ</p></div>
+            <div class="button is-info icon_ministop"><p>ミニ<br class="spMode">ストップ</p></div>
+            <div class="button is-info icon_turuha"><p class="fontSmall">ツルハ<br>ドラッグ</p></div>
+            <div class="button is-info icon_york"><p class="fontSmall2">ヨーク<br>ベニマル</p></div>
+            <div class="button is-info icon_sun"><p class="fontSmall2">サン<br>ドラッグ</p></div>
+            <div class="button is-info icon_homac"><p class="fontSmall2">ホー<br class="spMode">マック</p></div>
+            <div class="button is-info icon_au"><p class="fontSmall">ａｕ<br>ショップ</p></div>
+            <div class="button is-info icon_daruma"><p class="fontSmall">ダルマ<br>薬局</p></div>
+            <div class="button is-info icon_syakyo"><p class="fontSmall2">石巻市<br>社会福祉<br class="spMode">協議会</p></div>
+            <div class="button is-info icon_softbank"><p class="fontSmall">ソフト<br>バンク</p></div>
+            <div class="button is-info icon_lowSon"><p class="fontSmall">ローソン</p></div>
+            <div class="button is-info icon_docomo"><p class="fontSmall2">ドコモ<br>ショップ</p></div>
+            <div class="button is-info icon_seigetsuki"><p>清月記</p></div>
+            <div class="button is-info icon_21"><p class="fontSmall2">２１<br class="spMode">ＳＥＩＫＩ</p></div>
+            <div class="button is-info icon_hisyoukaku"><p>飛翔閣</p></div>
+            <div class="button is-info icon_police"><p>石巻警察署</p></div>
+            <div class="button is-info icon_ujie"><p class="fontSmall">ウジエ<br class="spMode">スーパー</p></div>
+            <div class="button is-info icon_yakuodou"><p>薬王堂</p></div>
+            </div>
+        </div>
+        <!-- マスク -->
+        <div id="mask" class="hidden"></div>
+
+        <!-- 市役所
+            <table id="cityHall" class="hidden">
+            <tr class="pointTittle">
+                <th colspan="9"><p>石巻市役所</p></th>
+            </tr>
+            <tr class="infomation">
+                <td class="icon"><img src="icon/parking.png" width="30" height="30"></td><td class="text">専用駐車場</td><td class="sign">あり</td><td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td><td class="text">ベビーベッド</td><td class="sign">なし</td><td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td><td class="text">マルチシート</td><td class="sign">なし</td>
+            </tr>
+            <tr class="infomation">
+                <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td><td class="text">オストメイト</td><td class="sign">なし</td><td class="icon"><img src="icon/button.png" width="30" height="30"></td><td class="text">呼び出しボタン</td><td class="sign">あり</td><td class="icon"><img src="icon/showertoilet_ng.png" width="30" height="30"></td><td class="text">シャワートイレ</td><td class="sing">なし</td>
+            </tr>
+            <tr class="slide">
+                <td colspan="9" class="pic">
+                    <i class="fas fa-chevron-circle-left" id="cityHallprev"></i>
+                    <img src="img/pic/station/cityhall/cityhall1.jpg" id="cityHall_target">
+                    <i class="fas fa-chevron-circle-right" id="cityHallnext"></i>
+                </td>
+            </tr>
+            <tr class="pointData">
+                <td colspan="9">
+                    <div class="under">
+                            <nav>
+                                <ul class="subnav" id="cityhall_thumbnails">
+                                </ul>
+                            </nav>
+                        <div id="cityHallBack">
+                            <i class="fas fa-caret-square-up"></i>
+                            <i class="fas fa-caret-square-left"></i>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </table> -->
+
+
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="suport">
+                    <p>Suppoted By OpenStreetMap</p>
+                   <img src="img/itnav.png">
+                </div>
+            </div>
+        </footer>
+    <!-- <script src="js/station.js"></script> -->
+    </body>
+</html>

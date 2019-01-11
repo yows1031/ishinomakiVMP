@@ -1,0 +1,139 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+// html,body {
+//     width: 100%;
+// }
+.container{
+    // width: 90%;
+    width: 1140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightblue;
+
+    @include sp {
+        // width: 97%;
+        width: 364px;
+        
+    }
+}
+
+// header
+header {
+    height: 200px;
+    background: skyblue;
+
+    @include sp {
+        height: 350px;
+      }
+    .head {
+        font-size: 36px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        @include sp {
+            width: 100%;
+            font-size: 20px;
+            justify-content: center;
+        }
+    }
+
+    .spMode {
+
+        @include sp {
+            width: 90%;
+            padding-left: 60px;
+        }
+    }
+
+    .nav {
+        padding-top: 40px;
+        width: 100%;
+        font-size: 20px;
+        justify-content: center;
+
+        div {
+            width: 110px;
+            height: 100px;
+           
+        }
+
+        .is-active {
+            background: white;
+        }
+
+        a {
+            float: center;
+        }
+
+        @include sp {
+            padding-top: 30px;
+            display: grid;
+            grid-gap: 2px;
+            grid-template-columns: 1fr 1fr;
+
+            .br {
+                display: none;
+            }
+
+            div {
+                width: 100px;
+                height: 50px;
+                
+                span {
+                    float: center;
+                    font-size: 12pt;
+                }
+            }
+        }
+    }
+
+    
+}
+
+// main
+main {
+    height: 600px;
+    background-image: url("#{$imgDir}main.png");
+    background-size: 1150px 600px;
+
+    @include sp {
+        height: 465px;
+        background-size: 400px 300px;
+    }
+
+    .index {
+        color: white;
+
+        @include sp {
+            font-size: 10pt;
+        }
+    }
+}
+
+
+/* footer */
+footer {
+    height: 25px;
+    background: white;
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+    .suport {
+        box-sizing: border-box;
+        width: 200px;
+        padding: 0;
+
+        img {
+            width: 50%;
+            height: 40%;
+        }
+    }
+}

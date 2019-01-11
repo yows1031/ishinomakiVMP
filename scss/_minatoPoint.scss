@@ -1,0 +1,169 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}minato.png");
+}
+
+.icon_shikatsuma {
+    width: 90px;
+    position: absolute;
+    top: 560px;
+    left: 1030px;
+
+    @include sp {
+        width: 40px;
+        height: 25px;
+        top: 630px;
+        left: 325px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.icon_york {
+    width: 90px;
+    position: absolute;
+    top: 605px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 655px;
+        left: 305px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.icon_lowSon {
+    width: 90px;
+    position: absolute;
+    top: 525px;
+    left: 875px;
+
+    @include sp {
+        width: 40px;
+        height: 25px;
+        top: 640px;
+        left: 270px;
+    }
+}
+
+.icon_yakuodo {
+    width: 90px;
+    position: absolute;
+    top: 610px;
+    left: 730px;
+
+    @include sp {
+        width: 40px;
+        height: 25px;
+        top: 690px;
+        left: 200px;
+    }
+}
+
+.icon_matsunami {
+    width: 90px;
+    position: absolute;
+    top: 650px;
+    left: 755px;
+
+    @include sp {
+        width: 40px;
+        height: 25px;
+        top: 710px;
+        left: 225px;
+    }
+}
+
+.icon_shinkoCenter {
+    width: 90px;
+    position: absolute;
+    top: 720px;
+    left: 660px;
+
+    @include sp {
+        width: 80px;
+        top: 750px;
+        left: 145px;
+    }
+}
+
+.icon_amsGarden {
+    width: 90px;
+    position: absolute;
+    top: 555px;
+    left: 610px;
+
+    @include sp {
+        width: 60px;
+        top: 635px;
+        left: 195px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.icon_dainam{
+    width: 90px;
+    position: absolute;
+    top: 615px;
+    left: 520px;
+
+    @include sp {
+        width: 60px;
+        top: 695px;
+        left: 110px;
+    }
+}
+
+.icon_minatoSo {
+    width: 90px;
+    position: absolute;
+    top: 355px;
+    left: 255px;
+
+    @include sp {
+        width: 80px;
+        top: 500px;
+        left: 20px;
+    }
+}
+
+.icon_cafeSakura {
+    width: 90px;
+    position: absolute;
+    top: 210px;
+    left: 320px;
+
+    @include sp {
+        width: 60px;
+        top: 405px;
+        left: 70px;
+    }
+}

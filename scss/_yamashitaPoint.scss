@@ -1,0 +1,285 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}yamashita2.png");
+}
+
+.icon_coop {
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 970px;
+
+    @include sp {
+        width: 40px;
+        top: 400px;
+        left: 305px;
+    }
+}
+
+.icon_ministop {
+    width: 90px;
+    position: absolute;
+    top: 285px;
+    left: 1010px;
+
+    @include sp {
+        width:40px;
+        top: 440px;
+        left: 315px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.icon_turuha  {
+    width: 50px;
+    position: absolute;
+    top: 380px;
+    left: 760px;
+
+    @include sp {
+        width: 40px;
+        top: 495px;
+        left: 225px;
+    }
+}
+.icon_york  {
+    width: 50px;
+    position: absolute;
+    top: 415px;
+    left: 705px;
+
+    @include sp {
+        width: 40px;
+        top: 550px;
+        left: 220px;
+    }
+}
+
+.icon_sun  {
+    width: 50px;
+    position: absolute;
+    top: 375px;
+    left: 705px;
+
+    @include sp {
+        width: 40px;
+        top: 515px;
+        left: 180px;
+    }
+}
+
+.icon_homac  {
+    width: 50px;
+    position: absolute;
+    top: 405px;
+    left: 652px;
+
+    @include sp {
+        width: 40px;
+        top: 551px;
+        left: 180px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
+    }
+}
+
+.icon_au  {
+    width: 60px;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+
+    @include sp {
+        width: 40px;
+        top: 475px;
+        left: 180px;
+    }
+}
+
+.icon_daruma  {
+    width: 70px;
+    position: absolute;
+    top: 390px;
+    left: 580px;
+
+    @include sp {
+        width: 40px;
+        top: 535px;
+        left: 140px;
+    }
+}
+
+.icon_syakyo  {
+    width: 70px;
+    position: absolute;
+    top: 430px;
+    left: 580px;
+
+    @include sp {
+        width: 40px;
+        height: 40px;
+        top: 573px;
+        left: 140px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
+    }
+}
+
+
+.icon_softbank  {
+    width: 60px;
+    position: absolute;
+    top: 364px;
+    left: 525px;
+
+    @include sp {
+        width: 40px;
+        top: 495px;
+        left: 130px;
+    }
+}
+
+.icon_lowSon  {
+    width: 60px;
+    position: absolute;
+    top: 370px;
+    left: 465px;
+
+    @include sp {
+        width: 40px;
+        top: 495px;
+        left: 90px;
+    }
+}
+
+.icon_docomo  {
+    width: 60px;
+    position: absolute;
+    top: 420px;
+    left: 465px;
+
+    @include sp {
+        width: 40px;
+        top: 535px;
+        left: 99px;
+    }
+}
+
+.icon_seigetsuki  {
+    width: 60px;
+    position: absolute;
+    top: 425px;
+    left: 400px;
+
+    @include sp {
+        width: 40px;
+        top: 571px;
+        left: 85px;
+    }
+}
+
+.icon_21  {
+    width: 70px;
+    position: absolute;
+    top: 380px;
+    left: 380px;
+
+    @include sp {
+        width: 50px;
+        top: 505px;
+        left: 40px;
+
+        .spMode {
+            display: none;
+    
+            @include sp {
+                display: block;
+            }
+        }
+    }
+}
+
+.icon_hisyoukaku  {
+    width: 90px;
+    position: absolute;
+    top: 580px;
+    left: 460px;
+
+    @include sp {
+        width: 40px;
+        top: 645px;
+        left: 100px;
+    }
+}
+
+.icon_police  {
+    width: 90px;
+    position: absolute;
+    top: 630px;
+    left: 400px;
+
+    @include sp {
+        width: 50px;
+        top: 690px;
+        left: 85px;
+    }
+}
+
+.icon_ujie  {
+    width: 90px;
+    position: absolute;
+    top: 610px;
+    left: 305px;
+
+    @include sp {
+        width: 40px;
+        top: 680px;
+        left: 45px;
+    }
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.icon_yakuodou  {
+    width: 90px;
+    position: absolute;
+    top: 680px;
+    left: 200px;
+
+    @include sp {
+        width: 40px;
+        top: 735px;
+        left: 1px;
+    }
+}

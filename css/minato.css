@@ -1,0 +1,515 @@
+@charset "UTF-8";
+.spMenu {
+  display: none;
+  background-color: white;
+  text-align: center;
+}
+@media (max-width: 470px) {
+  .spMenu {
+    display: block;
+  }
+}
+.spMenu i {
+  float: center;
+}
+.spMenu #spMenu {
+  font-size: 24pt;
+}
+
+main .main {
+  height: 600px;
+  display: flex;
+}
+@media (max-width: 470px) {
+  main .main {
+    height: 1000px;
+  }
+}
+main .main .fontSmall {
+  font-size: 10pt;
+}
+@media (max-width: 470px) {
+  main .main .fontSmall {
+    font-size: 6pt;
+  }
+}
+main .main .fontSmall2 {
+  font-size: 7pt;
+}
+@media (max-width: 470px) {
+  main .main .fontSmall2 {
+    font-size: 5pt;
+  }
+}
+main .main #menu {
+  width: 180px;
+  height: 600px;
+  background-color: white;
+  overflow: auto;
+}
+@media (max-width: 470px) {
+  main .main #menu {
+    z-index: 20;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 380px;
+    left: 0px；;
+  }
+}
+main .main #menu p {
+  color: black;
+}
+@media (max-width: 470px) {
+  main .main #menu p {
+    font-size: 12pt;
+  }
+}
+main .main #menu p .fontSmall {
+  font-size: 4pt;
+}
+main .main #menu .button {
+  width: 145px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+@media (max-width: 470px) {
+  main .main #menu .button {
+    height: 50px;
+  }
+}
+@media (max-width: 470px) {
+  main .main #menu.hidden {
+    display: none;
+  }
+}
+main .main .map {
+  width: 990px;
+  height: 600px;
+  background-size: 980px 600px;
+}
+@media (max-width: 470px) {
+  main .main .map {
+    z-index: 10;
+    width: 390px;
+    height: 430px;
+    background-size: 380px 430px;
+  }
+}
+main .main .map P {
+  color: black;
+}
+@media (max-width: 470px) {
+  main .main .map P {
+    font-size: 6pt;
+  }
+}
+main .main .map p:hover {
+  color: white;
+}
+@media (max-width: 470px) {
+  main .main .map .fontSmall {
+    font-size: 3pt;
+  }
+}
+@media (max-width: 470px) {
+  main .main .map .fontSmall2 {
+    font-size: 2pt;
+  }
+}
+main #mask {
+  position: absolute;
+  top: 200px;
+  left: 175px;
+  width: 975px;
+  height: 600px;
+  background-color: white;
+  opacity: 0.8;
+}
+@media (max-width: 470px) {
+  main #mask {
+    z-index: 30;
+    top: 380px;
+    left: 0px;
+    width: 370px;
+    height: 435px;
+  }
+}
+main #mask.hidden {
+  display: none;
+}
+main .pointTittle {
+  height: 80px;
+}
+main .pointTittle P {
+  font-size: 30px;
+  text-align: center;
+}
+main .infomation {
+  height: 50px;
+}
+main .infomation .icon {
+  width: 60px;
+}
+@media (max-width: 470px) {
+  main .infomation .icon {
+    width: 60px;
+  }
+}
+main .infomation .text {
+  width: 120px;
+}
+@media (max-width: 470px) {
+  main .infomation .text {
+    display: none;
+  }
+}
+main .infomation .sign {
+  width: 60px;
+}
+@media (max-width: 470px) {
+  main .infomation .sign {
+    width: 60px;
+  }
+}
+main .slide {
+  height: 300px;
+}
+@media (max-width: 470px) {
+  main .slide {
+    height: 200px;
+  }
+}
+main .slide .pic {
+  position: relative;
+  background: white;
+}
+main .pointData {
+  height: 100px;
+}
+main .under {
+  display: flex;
+}
+main .under nav {
+  margin-top: 10px;
+  width: 600px;
+}
+@media (max-width: 470px) {
+  main .under nav {
+    margin-top: 2px;
+    width: 360px;
+  }
+}
+main .under .subnav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+main .under .subnav li {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+@media (max-width: 470px) {
+  main .under .subnav li {
+    width: 65px;
+    height: 65px;
+  }
+}
+main .under .subnav li:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+main .under .subnav .current {
+  opacity: 1;
+}
+
+.map {
+  background-image: url("../img/minato.png");
+}
+
+.icon_shikatsuma {
+  width: 90px;
+  position: absolute;
+  top: 560px;
+  left: 1030px;
+}
+@media (max-width: 470px) {
+  .icon_shikatsuma {
+    width: 40px;
+    height: 25px;
+    top: 630px;
+    left: 325px;
+  }
+}
+.icon_shikatsuma .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_shikatsuma .spMode {
+    display: block;
+  }
+}
+
+.icon_york {
+  width: 90px;
+  position: absolute;
+  top: 605px;
+  left: 970px;
+}
+@media (max-width: 470px) {
+  .icon_york {
+    width: 40px;
+    top: 655px;
+    left: 305px;
+  }
+}
+.icon_york .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_york .spMode {
+    display: block;
+  }
+}
+
+.icon_lowSon {
+  width: 90px;
+  position: absolute;
+  top: 525px;
+  left: 875px;
+}
+@media (max-width: 470px) {
+  .icon_lowSon {
+    width: 40px;
+    height: 25px;
+    top: 640px;
+    left: 270px;
+  }
+}
+
+.icon_yakuodo {
+  width: 90px;
+  position: absolute;
+  top: 610px;
+  left: 730px;
+}
+@media (max-width: 470px) {
+  .icon_yakuodo {
+    width: 40px;
+    height: 25px;
+    top: 690px;
+    left: 200px;
+  }
+}
+
+.icon_matsunami {
+  width: 90px;
+  position: absolute;
+  top: 650px;
+  left: 755px;
+}
+@media (max-width: 470px) {
+  .icon_matsunami {
+    width: 40px;
+    height: 25px;
+    top: 710px;
+    left: 225px;
+  }
+}
+
+.icon_shinkoCenter {
+  width: 90px;
+  position: absolute;
+  top: 720px;
+  left: 660px;
+}
+@media (max-width: 470px) {
+  .icon_shinkoCenter {
+    width: 80px;
+    top: 750px;
+    left: 145px;
+  }
+}
+
+.icon_amsGarden {
+  width: 90px;
+  position: absolute;
+  top: 555px;
+  left: 610px;
+}
+@media (max-width: 470px) {
+  .icon_amsGarden {
+    width: 60px;
+    top: 635px;
+    left: 195px;
+  }
+}
+.icon_amsGarden .spMode {
+  display: none;
+}
+@media (max-width: 470px) {
+  .icon_amsGarden .spMode {
+    display: block;
+  }
+}
+
+.icon_dainam {
+  width: 90px;
+  position: absolute;
+  top: 615px;
+  left: 520px;
+}
+@media (max-width: 470px) {
+  .icon_dainam {
+    width: 60px;
+    top: 695px;
+    left: 110px;
+  }
+}
+
+.icon_minatoSo {
+  width: 90px;
+  position: absolute;
+  top: 355px;
+  left: 255px;
+}
+@media (max-width: 470px) {
+  .icon_minatoSo {
+    width: 80px;
+    top: 500px;
+    left: 20px;
+  }
+}
+
+.icon_cafeSakura {
+  width: 90px;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+}
+@media (max-width: 470px) {
+  .icon_cafeSakura {
+    width: 60px;
+    top: 405px;
+    left: 70px;
+  }
+}
+
+.container {
+  width: 1140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightblue;
+}
+@media (max-width: 470px) {
+  .container {
+    width: 364px;
+  }
+}
+
+header {
+  height: 200px;
+  background: skyblue;
+}
+@media (max-width: 470px) {
+  header {
+    height: 350px;
+  }
+}
+header .head {
+  font-size: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (max-width: 470px) {
+  header .head {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 470px) {
+  header .spMode {
+    width: 90%;
+    padding-left: 60px;
+  }
+}
+header .nav {
+  padding-top: 40px;
+  width: 100%;
+  font-size: 20px;
+  justify-content: center;
+}
+header .nav div {
+  width: 110px;
+  height: 100px;
+}
+header .nav .is-active {
+  background: white;
+}
+header .nav a {
+  float: center;
+}
+@media (max-width: 470px) {
+  header .nav {
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
+  }
+  header .nav .br {
+    display: none;
+  }
+  header .nav div {
+    width: 100px;
+    height: 50px;
+  }
+  header .nav div span {
+    float: center;
+    font-size: 12pt;
+  }
+}
+
+main {
+  height: 600px;
+  background-image: url("../img/main.png");
+  background-size: 1150px 600px;
+}
+@media (max-width: 470px) {
+  main {
+    height: 465px;
+    background-size: 400px 300px;
+  }
+}
+main .index {
+  color: white;
+}
+@media (max-width: 470px) {
+  main .index {
+    font-size: 10pt;
+  }
+}
+
+/* footer */
+footer {
+  height: 25px;
+  background: white;
+}
+footer .footer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+footer .suport {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0;
+}
+footer .suport img {
+  width: 50%;
+  height: 40%;
+}
+
+/*# sourceMappingURL=minato.css.map */

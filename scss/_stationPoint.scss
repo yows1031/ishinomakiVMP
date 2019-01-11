@@ -1,0 +1,240 @@
+$sp: 470px;  // スマホ
+$imgDir: "../img/";
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.map {
+    background-image: url("#{$imgDir}station.png");
+}
+
+.icon_station {
+    width: 90px;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+
+    @include sp {
+        width: 60px;
+        top: 410px;
+        left: 110px;
+    }
+}
+.icon_cityhall {
+    width: 90px;
+    position: absolute;
+    top: 310px;
+    left: 445px;
+
+    @include sp {
+        width: 60px;
+        top: 465px;
+        left: 80px;
+    }
+}
+.icon_sevenEleven {
+    width: 90px;
+    position: absolute;
+    top: 275px;
+    left: 695px;
+
+    @include sp {
+        width: 60px;
+        top: 430px;
+        left: 170px;
+    }
+}
+.icon_familiyMart1 {
+    width: 90px;
+    position: absolute;
+    top: 255px;
+    left: 845px;
+
+    @include sp {
+        width: 60px;
+        top: 420px;
+        left: 240px;
+    }
+}
+.icon_grandHotel {
+    width: 90px;
+    position: absolute;
+    top: 330px;
+    left: 800px;
+
+    @include sp {
+        width: 70px;
+        top: 470px;
+        left: 230px;
+    }
+}
+.icon_iPlaza {
+    width: 90px;
+    position: absolute;
+    top: 390px;
+    left: 830px;
+
+    @include sp {
+        width: 60px;
+        top: 505px;
+        left: 230px;
+    }
+}
+.icon_raitu {
+    width: 90px;
+    position: absolute;
+    top: 390px;
+    left: 680px;
+
+    @include sp {
+        width: 85px;
+        top: 520px;
+        left: 148px;
+    }
+}
+.icon_lowSon {
+    width: 90px;
+    position: absolute;
+    top: 390px;
+    left: 930px;
+
+    @include sp {
+        width: 70px;
+        top: 530px;
+        left: 290px;
+    }
+}
+.icon_hukkou {
+    width: 90px;
+    position: absolute;
+    top: 510px;
+    left: 890px;
+
+    @include sp {
+        width: 70px;
+        top: 605px;
+        left: 230px;
+    }
+}
+.icon_eyetopia {
+    width: 90px;
+    position: absolute;
+    top: 550px;
+    left: 835px;
+
+    @include sp {
+        width: 60px;
+        top: 640px;
+        left: 220px;
+    }
+}
+.icon_market {
+    width: 90px;
+    position: absolute;
+    top: 560px;
+    left: 930px;
+    
+    @include sp {
+        width: 70px;
+        top: 628px;
+        left: 290px;
+    }
+}
+.icon_manga {
+    width: 90px;
+    position: absolute;
+    top: 610px;
+    left: 1050px;
+
+    @include sp {
+        width: 60px;
+        top: 660px;
+        left: 300px;
+    }
+}
+.icon_nakasePark {
+    width: 90px;
+    position: absolute;
+    top: 710px;
+    left: 1050px;
+
+    @include sp {
+        width: 60px;
+        top: 700px;
+        left: 310px;
+    }
+}
+.icon_library {
+    width: 90px;
+    position: absolute;
+    top: 555px;
+    left: 400px;
+
+    @include sp {
+        width: 60px;
+        top: 630px;
+        left: 100px;
+    }
+}
+.icon_playLand {
+    width: 90px;
+    position: absolute;
+    top: 555px;
+    left: 185px;
+
+    @include sp {
+        width: 60px;
+        top: 630px;
+        left: 0px;
+    }
+}
+.icon_helloWark {
+    width: 90px;
+    position: absolute;
+    top: 700px;
+    left: 190px;
+
+    @include sp {
+        width: 60px;
+        top: 700px;
+        left: 2px;
+    }
+}
+.icon_familiyMart2 {
+    width: 90px;
+    position: absolute;
+    top: 750px;
+    left: 250px;
+
+    @include sp {
+        width: 60px;
+        top: 778px;
+        left: 28px;
+    }
+}
+.icon_central {
+    width: 90px;
+    position: absolute;
+    top: 740px;
+    left: 575px;
+
+    @include sp {
+        width: 60px;
+        top: 780px;
+        left: 90px;
+    }
+}
+.icon_hiyoriPark {
+    width: 90px;
+    position: absolute;
+    top: 760px;
+    left: 730px;
+
+    @include sp {
+        width: 60px;
+        top: 780px;
+        left: 210px;
+    }
+}
