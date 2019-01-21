@@ -13,13 +13,13 @@ $imgDir: "../img/";
 .icon_genki {
     width: 70px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 380px;
+    left: 1070px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
+        top: 520px;
         left: 325px;
     }
 
@@ -28,98 +28,114 @@ $imgDir: "../img/";
 .icon_nishimatsuya {
     width: 70px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 490px;
+    left: 1065px;
 
     @include sp {
-        width: 40px;
-        height: 25px;
-        top: 630px;
-        left: 325px;
+        width: 30px;
+        height: 20px;
+        top: 570px;
+        left: 335px;
     }
 }
 
 .icon_daiso {
-    width: 70px;
+    width: 60px;
     position: absolute;
     top: 560px;
-    left: 1030px;
+    left: 1085px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 655px;
+        left: 330px;
     }
 }
 
 .icon_ainoya {
     width: 70px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 425px;
+    left: 960px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 540px;
+        left: 285px;
     }
 }
 
 .icon_miniStop {
     width: 70px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 490px;
+    left: 960px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 590px;
+        left: 300px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
     }
 }
 
 .icon_daisyogun {
-    width: 70px;
+    width: 60px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 580px;
+    left: 1020px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 680px;
+        left: 305px;
     }
 }
 
 .icon_utahime {
-    width: 70px;
+    width: 60px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 540px;
+    left: 1020px;
 
     @include sp {
         width: 40px;
         height: 25px;
         top: 630px;
-        left: 325px;
+        left: 305px;
     }
 }
 
 .icon_routeIn {
     width: 70px;
     position: absolute;
-    top: 560px;
-    left: 1030px;
+    top: 480px;
+    left: 830px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 585px;
+        left: 260px;
+    }
+
+    .spMode {
+        display: none;
+
+        @include sp {
+            display: block;
+        }
     }
 }
 
@@ -127,13 +143,13 @@ $imgDir: "../img/";
     width: 70px;
     position: absolute;
     top: 470px;
-    left: 700px;
+    left: 755px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 575px;
+        left: 220px;
     }
 }
 
@@ -144,10 +160,10 @@ $imgDir: "../img/";
     left: 680px;
 
     @include sp {
-        width: 40px;
+        width: 30px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 575px;
+        left: 185px;
     }
 }
 
@@ -155,13 +171,13 @@ $imgDir: "../img/";
     width: 70px;
     position: absolute;
     top: 520px;
-    left: 735px;
+    left: 730px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 610px;
+        left: 225px;
     }
 }
 
@@ -169,13 +185,13 @@ $imgDir: "../img/";
     width: 70px;
     position: absolute;
     top: 515px;
-    left: 640px;
+    left: 600px;
 
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 605px;
+        left: 150px;
     }
 }
 
@@ -189,7 +205,7 @@ $imgDir: "../img/";
         width: 40px;
         height: 25px;
         top: 630px;
-        left: 325px;
+        left: 145px;
     }
 }
 
@@ -202,8 +218,8 @@ $imgDir: "../img/";
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 600px;
+        left: 100px;
     }
 }
 
@@ -216,8 +232,8 @@ $imgDir: "../img/";
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 605px;
+        left: 60px;
     }
 }
 
@@ -230,8 +246,8 @@ $imgDir: "../img/";
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 560px;
+        left: 50px;
     }
 }
 
@@ -244,8 +260,8 @@ $imgDir: "../img/";
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 560px;
+        left: 5px;
     }
 }
 
@@ -258,8 +274,8 @@ $imgDir: "../img/";
     @include sp {
         width: 40px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 610px;
+        left: 5px;
     }
 }
 
@@ -270,9 +286,9 @@ $imgDir: "../img/";
     left: 200px;
 
     @include sp {
-        width: 40px;
+        width: 60px;
         height: 25px;
-        top: 630px;
-        left: 325px;
+        top: 785px;
+        left: 15px;
     }
 }
