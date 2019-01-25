@@ -5,6 +5,7 @@
     var mask = document.getElementById('mask');
     var spMenu = document.getElementById('spMenu');
     var menu = document.getElementById('menu');
+    var cityHall = document.getElementById('cityHall');
 
     // モバイル版のメニュー開閉表示
     spMenu.addEventListener('click', function(){

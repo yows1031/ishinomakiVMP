@@ -23,6 +23,11 @@ $imgDir: "../img/";
 }
 
 // header
+
+.tabs:not(:last-child) {
+    margin-bottom: 0px;
+}
+
 header {
     height: 200px;
     background: skyblue;
@@ -31,9 +36,10 @@ header {
         height: 350px;
       }
     .head {
-        font-size: 36px;
+        font-size: 28px;
         display: flex;
         flex-direction: row-reverse;
+        margin-bottom: 10px;
 
         @include sp {
             width: 100%;
@@ -46,19 +52,19 @@ header {
 
         @include sp {
             width: 90%;
-            padding-left: 60px;
+            padding-left: 50px;
         }
     }
 
+
     .nav {
-        padding-top: 40px;
         width: 100%;
-        font-size: 20px;
-        justify-content: center;
+        font-size: 16px;
+        // justify-content: center;
 
         div {
-            width: 110px;
-            height: 100px;
+            width: 120px;
+            height: 60px;
            
         }
 
@@ -68,10 +74,13 @@ header {
 
         a {
             float: center;
+
+            @include sp {
+                float: left;
+            }
         }
 
         @include sp {
-            padding-top: 30px;
             display: grid;
             grid-gap: 2px;
             grid-template-columns: 1fr 1fr;
@@ -81,17 +90,15 @@ header {
             }
 
             div {
-                width: 100px;
-                height: 50px;
+                width: 140px;
+                height: 30px;
                 
                 span {
-                    float: center;
                     font-size: 12pt;
                 }
             }
         }
     }
-
     
 }
 
