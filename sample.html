@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>石巻バリアフリーマップ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/station.css">
+  </head>
+  <body class="container">
+    <header>
+      <div class="head">
+        <div>
+          <h1>石巻バリアフリーマップ</h1>
+        </div>
+      </div>
+      <div class="spMode">
+        <div class="nav tabs is-centered is-boxed">
+          <div class="is-active"><a href="index.html"><span>・全体図</span></a></div>
+          <div><a href="station.html"><span>・石巻駅前</span></a></div>
+          <div><a href="sumiyoshi.html"><span>・住吉<br class="br">・山下</span></a></div>
+          <div><a><span>・湊</span></a></div>
+          <div><a><span>・蛇田<br class="br">（東地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・渡波</span></a></div>
+        </div>
+        <div class="nav tabs is-centered is-boxed">
+          <div><a><span>・稲井</span></a></div>
+          <div><a><span>・釜港<br class="br">・大街道</span></a></div>
+          <div><a><span>・河北</span></a></div>
+          <div><a><span>・河南</span></a></div>
+          <div><a><span>・桃生</span></a></div>
+          <div><a><span>・北上</span></a></div>
+          <div><a><span>・雄勝<br class="br">・萩浜    </span></a></div>
+          <div><a><span>・牡鹿</span></a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="spMenu"><i class="fas fa-bars" id="spMenu"></i></div>
+      <div class="main">
+        <!-- サイドメニュー-->
+        <div class="hidden" id="menu">
+          <ul>
+            <li class="button is-info is-outlined">
+              <p>石巻駅</p>
+            </li>
+            <li class="btn_cityHalls button is-info is-outlined">
+              <p>石巻市役所１F</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>セブンイレブン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ファミリーマート</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>石巻グランドホテル</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>あいプラザ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">石巻こどもセンター<br>「らいつ」</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ローソン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">復興まちづくり<br>情報交流館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>みやぎ生協文化会館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">いしのまき<br>元気市場２F</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>石ノ森漫画館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>中瀬公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>図書館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>総合体育館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ハローワーク</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ファミリーマート</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>中央公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>日和山公園</p>
+            </li>
+          </ul>
+        </div>
+        <!-- 地図メニュー-->
+        <div class="map">
+          <div class="button is-info icon_station">
+            <p>石巻駅</p>
+          </div>
+          <div class="btn_cityHalls button is-info icon_cityhall">
+            <p>石巻市役所</p>
+          </div>
+          <div class="button is-info icon_sevenEleven">
+            <p class="fontSmall">セブン<br>イレブン</p>
+          </div>
+          <div class="button is-info icon_familiyMart1">
+            <p class="fontSmall">ファミリー<br>マート</p>
+          </div>
+          <div class="button is-info icon_grandHotel">
+            <p class="fontSmall2">石巻<br>グランドホテル</p>
+          </div>
+          <div class="button is-info icon_iPlaza">
+            <p>あいプラザ</p>
+          </div>
+          <div class="button is-info icon_raitu">
+            <p class="fontSmall2">石巻市こども<br>センター「らいつ」</p>
+          </div>
+          <div class="button is-info icon_lowSon">
+            <p>ローソン</p>
+          </div>
+          <div class="button is-info icon_hukkou">
+            <p class="fontSmall">復興まちづくり<br>情報交流館</p>
+          </div>
+          <div class="button is-info icon_eyetopia">
+            <p class="fontSmall">みやぎ生協<br>文化会館</p>
+          </div>
+          <div class="button is-info icon_market">
+            <p class="fontSmall">いしのまき<br>元気いちば２F</p>
+          </div>
+          <div class="button is-info icon_manga">
+            <p>石ノ森漫画館</p>
+          </div>
+          <div class="button is-info icon_nakasePark">
+            <p>中瀬公園</p>
+          </div>
+          <div class="button is-info icon_library">
+            <p>図書館</p>
+          </div>
+          <div class="button is-info icon_playLand">
+            <p>総合体育館</p>
+          </div>
+          <div class="button is-info icon_helloWark">
+            <p class="fontSmall">ハロー<br>ワーク</p>
+          </div>
+          <div class="button is-info icon_familiyMart2">
+            <p class="fontSmall">ファミリー<br>マート</p>
+          </div>
+          <div class="button is-info icon_central">
+            <p>中央公民館</p>
+          </div>
+          <div class="button is-info icon_hiyoriPark">
+            <p>日和山公園</p>
+          </div>
+        </div>
+      </div>
+      <!-- マスク-->
+      <div class="hidden" id="mask"></div>
+      <!-- 市役所-->
+      <table class="hidden" id="cityHall">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>石巻市役所</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet_ng.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">なし</td>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="cityHallprev"></i><img id="cityHall_target" src="img/pic/station/cityhall/cityhall1.jpg"><i class="fas fa-chevron-circle-right" id="cityHallnext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="cityhall_thumbnails"></ul>
+                </nav>
+                <div id="cityHallBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="suport">
+          <p>Suppoted By OpenStreetMap</p><img src="img/itnav.png">
+        </div>
+      </div>
+    </footer>
+    <script src="js/station.js"></script>
+  </body>
+</html>

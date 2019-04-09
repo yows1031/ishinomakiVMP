@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <!-- このファイルはpug形式で書いています。(develop_BFM/pug/inai.pug)-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>石巻バリアフリーマップ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inai.css">
+  </head>
+  <body class="container">
+    <header>
+      <div class="head">
+        <div>
+          <h1>石巻バリアフリーマップ</h1>
+        </div>
+      </div>
+      <div class="spMode">
+        <div class="nav tabs is-centered is-boxed">
+          <div class="is-active"><a href="index.html"><span>・全体図</span></a></div>
+          <div><a href="station.html"><span>・石巻駅前</span></a></div>
+          <div><a href="sumiyoshi.html"><span>・住吉<br class="br">・山下</span></a></div>
+          <div><a><span>・湊</span></a></div>
+          <div><a><span>・蛇田<br class="br">（東地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・渡波</span></a></div>
+        </div>
+        <div class="nav tabs is-centered is-boxed">
+          <div><a><span>・稲井</span></a></div>
+          <div><a><span>・釜港<br class="br">・大街道</span></a></div>
+          <div><a><span>・河北</span></a></div>
+          <div><a><span>・河南</span></a></div>
+          <div><a><span>・桃生</span></a></div>
+          <div><a><span>・北上</span></a></div>
+          <div><a><span>・雄勝<br class="br">・萩浜    </span></a></div>
+          <div><a><span>・牡鹿</span></a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="spMenu"><i class="fas fa-bars" id="spMenu"></i></div>
+      <div class="main">
+        <!-- サイドメニュー-->
+        <div class="hidden" id="menu">
+          <ul>
+            <li class="button is-info is-outlined">
+              <p>運動公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ローソン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ミニストップ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>アンジュガーデン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ローソン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>稲井総合支所</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>稲井公民館</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ファミリーマート</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ライフル射撃場</p>
+            </li>
+          </ul>
+        </div>
+        <!-- 地図メニュー-->
+        <div class="map">
+          <div class="button is-info icon_park">
+            <p>運動公園</p>
+          </div>
+          <div class="button is-info icon_lowSon1">
+            <p>ローソン</p>
+          </div>
+          <div class="button is-info icon_miniStop">
+            <p class="fontSmall">ミニ<br>ストップ</p>
+          </div>
+          <div class="button is-info icon_garden">
+            <p class="fontSmall">アンジュ<br>ガーデン</p>
+          </div>
+          <div class="button is-info icon_lowSon2">
+            <p>ローソン</p>
+          </div>
+          <div class="button is-info icon_sougou">
+            <p class="fontSmall">稲井<br>総合支所</p>
+          </div>
+          <div class="button is-info icon_center">
+            <p class="fontSmall">稲井<br>公民館</p>
+          </div>
+          <div class="button is-info icon_familiMart">
+            <p class="fontSmall">ファミリー<br>マート</p>
+          </div>
+          <div class="button is-info icon_raiful">
+            <p class="fontSmall">ライフル<br>射撃場</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="suport">
+          <p>Suppoted By OpenStreetMap</p><img src="img/itnav.png">
+        </div>
+      </div>
+    </footer>
+    <script src="js/station.js"></script>
+  </body>
+</html>

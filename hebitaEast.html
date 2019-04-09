@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <!-- このファイルはpug形式で書いています。(develop_BFM/pug/hebitaEast.pug)-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>石巻バリアフリーマップ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hebitaEast.css">
+  </head>
+  <body class="container">
+    <header>
+      <div class="head">
+        <div>
+          <h1>石巻バリアフリーマップ</h1>
+        </div>
+      </div>
+      <div class="spMode">
+        <div class="nav tabs is-centered is-boxed">
+          <div class="is-active"><a href="index.html"><span>・全体図</span></a></div>
+          <div><a href="station.html"><span>・石巻駅前</span></a></div>
+          <div><a href="sumiyoshi.html"><span>・住吉<br class="br">・山下</span></a></div>
+          <div><a><span>・湊</span></a></div>
+          <div><a><span>・蛇田<br class="br">（東地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a><span>・渡波</span></a></div>
+        </div>
+        <div class="nav tabs is-centered is-boxed">
+          <div><a><span>・稲井</span></a></div>
+          <div><a><span>・釜港<br class="br">・大街道</span></a></div>
+          <div><a><span>・河北</span></a></div>
+          <div><a><span>・河南</span></a></div>
+          <div><a><span>・桃生</span></a></div>
+          <div><a><span>・北上</span></a></div>
+          <div><a><span>・雄勝<br class="br">・萩浜    </span></a></div>
+          <div><a><span>・牡鹿</span></a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="spMenu"><i class="fas fa-bars" id="spMenu"></i></div>
+      <div class="main">
+        <!-- サイドメニュー-->
+        <div class="hidden" id="menu">
+          <ul>
+            <li class="button is-info is-outlined">
+              <p>びっくりドンキー</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>上州屋</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ユノメ家具Z</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>タイヤガーデン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ブックオフ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>イトーヨーカドー</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ニトリ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>みやぎ生協</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ユニクロ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">タイヤ＆ホイール館フジ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ソフトバンク</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ケーズデンキ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ホテルルートイン</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ヨークベニマル</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ホーマック</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ツルハドラッグ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">スーパスポーツ<br>ゼビオ</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ヤマダ電機</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>薬王堂</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ウエルシア</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">あけぼの北<br>中央公園</p>
+            </li>
+          </ul>
+        </div>
+        <!-- 地図メニュー-->
+        <div class="map">
+          <div class="button is-info icon_donky">
+            <p class="fontSmall">びっくり<br>ドンキー</p>
+          </div>
+          <div class="button is-info icon_josyuya">
+            <p>上州屋</p>
+          </div>
+          <div class="button is-info icon_yunome">
+            <p class="fontSmall">ユノメ<br>家具Z</p>
+          </div>
+          <div class="button is-info icon_trye">
+            <p class="fontSmall">タイヤ<br>ガーデン</p>
+          </div>
+          <div class="button is-info icon_bookoff">
+            <p class="fontSmall">ブック<br>オフ</p>
+          </div>
+          <div class="button is-info icon_yorkado">
+            <p class="fontSmall">イトー<br>ヨーカドー</p>
+          </div>
+          <div class="button is-info icon_nitori">
+            <p>ニトリ</p>
+          </div>
+          <div class="button is-info icon_seikyo">
+            <p class="fontSmall">みやぎ<br>生協</p>
+          </div>
+          <div class="button is-info icon_uniqlo">
+            <p>ユニクロ</p>
+          </div>
+          <div class="button is-info icon_fuji">
+            <p class="fontSmall2">タイヤ＆<br>ホイール館フジ</p>
+          </div>
+          <div class="button is-info icon_softbank">
+            <p class="fontSmall">ソフト<br>バンク</p>
+          </div>
+          <div class="button is-info icon_ks">
+            <p class="fontSmall">ケーズ<br>デンキ</p>
+          </div>
+          <div class="button is-info icon_rutein">
+            <p class="fontSmall">ホテル<br>ルートイン</p>
+          </div>
+          <div class="button is-info icon_york">
+            <p class="fontSmall">ヨーク<br>ベニマル</p>
+          </div>
+          <div class="button is-info icon_homac">
+            <p class="fontSmall">ホー<br>マック</p>
+          </div>
+          <div class="button is-info icon_tsuruha">
+            <p class="fontSmall">ツルハ<br>ドラッグ</p>
+          </div>
+          <div class="button is-info icon_xebio">
+            <p class="fontSmall">ゼビオ</p>
+          </div>
+          <div class="button is-info icon_yamada">
+            <p class="fontSmall">ヤマダ<br class="spMode">電機</p>
+          </div>
+          <div class="button is-info icon_yakuoudou">
+            <p>薬王堂</p>
+          </div>
+          <div class="button is-info icon_welsia">
+            <p class="fontSmall">ウエルシア</p>
+          </div>
+          <div class="button is-info icon_akebono">
+            <p class="fontSmall">あけぼの北<br>中央公園</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="suport">
+          <p>Suppoted By OpenStreetMap</p><img src="img/itnav.png">
+        </div>
+      </div>
+    </footer>
+    <script src="js/station.js"></script>
+  </body>
+</html>
