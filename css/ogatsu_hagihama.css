@@ -77,10 +77,13 @@ main .main {
       color: white; }
     @media (max-width: 470px) {
       main .main .map .fontSmall {
-        font-size: 3pt; } }
+        font-size: 8pt; } }
     @media (max-width: 470px) {
       main .main .map .fontSmall2 {
-        font-size: 2pt; } }
+        font-size: 6pt; } }
+    main .main .map .button.is-info {
+      border: solid 1px red;
+      border-radius: 3px; }
 main #mask {
   position: absolute;
   top: 200px;
@@ -240,10 +243,10 @@ footer {
   footer .suport {
     box-sizing: border-box;
     width: 200px;
-    padding: 0; }
+    margin-top: 10px; }
     footer .suport img {
-      width: 50%;
-      height: 40%; }
+      width: 70%;
+      height: 60%; }
 
 .menuArea {
   background-color: greenyellow;
@@ -298,10 +301,10 @@ footer {
   left: 810px; }
   @media (max-width: 470px) {
     .icon_hospital {
-      width: 40px;
+      width: 50px;
       height: 25px;
       top: 480px;
-      left: 245px; } }
+      left: 295px; } }
 
 .icon_jouhou {
   width: 100px;
@@ -321,7 +324,7 @@ footer {
   left: 575px; }
   @media (max-width: 470px) {
     .icon_hagihama {
-      top: 480px;
+      top: 600px;
       left: 130px; } }
 
 .icon_vilege {

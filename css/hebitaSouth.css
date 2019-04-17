@@ -77,10 +77,13 @@ main .main {
       color: white; }
     @media (max-width: 470px) {
       main .main .map .fontSmall {
-        font-size: 3pt; } }
+        font-size: 8pt; } }
     @media (max-width: 470px) {
       main .main .map .fontSmall2 {
-        font-size: 2pt; } }
+        font-size: 6pt; } }
+    main .main .map .button.is-info {
+      border: solid 1px red;
+      border-radius: 3px; }
 main #mask {
   position: absolute;
   top: 200px;
@@ -240,208 +243,274 @@ footer {
   footer .suport {
     box-sizing: border-box;
     width: 200px;
-    padding: 0; }
+    margin-top: 10px; }
     footer .suport img {
-      width: 50%;
-      height: 40%; }
+      width: 70%;
+      height: 60%; }
 
 .map {
-  background-image: url("../img/hebita_West.png"); }
+  background-image: url("../img/hebita_South.png"); }
 
-.icon_sevenEleven {
+.icon_aoyama {
   width: 70px;
   position: absolute;
-  top: 225px;
-  left: 680px; }
+  top: 230px;
+  left: 845px; }
   @media (max-width: 470px) {
-    .icon_sevenEleven {
+    .icon_aoyama {
       width: 40px;
       height: 25px;
-      top: 415px;
-      left: 180px; } }
+      top: 405px;
+      left: 262px; } }
 
-.icon_gattu {
-  width: 80px;
+.icon_sushiro {
+  width: 70px;
   position: absolute;
-  top: 205px;
-  left: 770px; }
+  top: 280px;
+  left: 840px; }
   @media (max-width: 470px) {
-    .icon_gattu {
-      width: 60px;
+    .icon_sushiro {
+      width: 40px;
+      height: 23px;
+      top: 436px;
+      left: 258px; } }
+
+.icon_seria {
+  width: 55px;
+  position: absolute;
+  top: 318px;
+  left: 830px; }
+  @media (max-width: 470px) {
+    .icon_seria {
+      width: 40px;
+      height: 23px;
+      top: 462px;
+      left: 250px; } }
+
+.icon_megumiEast {
+  width: 55px;
+  position: absolute;
+  top: 325px;
+  left: 900px; }
+  @media (max-width: 470px) {
+    .icon_megumiEast {
+      width: 40px;
       height: 25px;
-      top: 390px;
-      left: 220px; } }
+      top: 464px;
+      left: 290px; } }
 
-.icon_aeon1 {
+.icon_konaka {
   width: 70px;
   position: absolute;
-  top: 400px;
+  top: 395px;
   left: 830px; }
   @media (max-width: 470px) {
-    .icon_aeon1 {
-      width: 40px;
-      height: 30px;
-      top: 550px;
-      left: 230px; } }
-
-.icon_aeon2 {
-  width: 70px;
-  position: absolute;
-  top: 450px;
-  left: 830px; }
-  @media (max-width: 470px) {
-    .icon_aeon2 {
-      width: 40px;
-      height: 30px;
-      top: 585px;
-      left: 230px; } }
-
-.icon_gift {
-  width: 50px;
-  position: absolute;
-  top: 385px;
-  left: 670px; }
-  @media (max-width: 470px) {
-    .icon_gift {
+    .icon_konaka {
       width: 40px;
       height: 25px;
       top: 515px;
-      left: 190px; } }
+      left: 256px; } }
 
-.icon_komeda {
-  width: 50px;
+.icon_megumiCentral {
+  width: 70px;
+  position: absolute;
+  top: 320px;
+  left: 710px; }
+  @media (max-width: 470px) {
+    .icon_megumiCentral {
+      width: 40px;
+      height: 25px;
+      top: 475px;
+      left: 195px; } }
+
+.icon_docomo {
+  width: 70px;
+  position: absolute;
+  top: 355px;
+  left: 830px; }
+  @media (max-width: 470px) {
+    .icon_docomo {
+      width: 38px;
+      height: 23px;
+      top: 490px;
+      left: 255px; } }
+
+.icon_au {
+  width: 55px;
+  position: absolute;
+  top: 432px;
+  left: 835px; }
+  @media (max-width: 470px) {
+    .icon_au {
+      width: 40px;
+      height: 25px;
+      top: 546px;
+      left: 260px; } }
+
+.icon_kawachi {
+  width: 70px;
   position: absolute;
   top: 385px;
-  left: 549px; }
+  left: 750px; }
   @media (max-width: 470px) {
-    .icon_komeda {
+    .icon_kawachi {
       width: 40px;
       height: 25px;
-      top: 498px;
-      left: 140px; } }
+      top: 520px;
+      left: 218px; } }
+  .icon_kawachi .spMode {
+    display: none; }
+    @media (max-width: 470px) {
+      .icon_kawachi .spMode {
+        display: block; } }
 
-.icon_miniStop {
-  width: 50px;
-  position: absolute;
-  top: 395px;
-  left: 600px; }
-  @media (max-width: 470px) {
-    .icon_miniStop {
-      width: 40px;
-      height: 25px;
-      top: 525px;
-      left: 150px; } }
-
-.icon_hama {
+.icon_shimamura {
   width: 70px;
   position: absolute;
-  top: 460px;
-  left: 580px; }
+  top: 430px;
+  left: 725px; }
   @media (max-width: 470px) {
-    .icon_hama {
-      width: 40px;
-      height: 25px;
-      top: 560px;
-      left: 150px; } }
-
-.icon_ainoya {
-  width: 70px;
-  height: 27px;
-  position: absolute;
-  top: 525px;
-  left: 590px; }
-  @media (max-width: 470px) {
-    .icon_ainoya {
-      width: 40px;
-      height: 25px;
-      top: 610px;
-      left: 150px; } }
-
-.icon_central {
-  width: 70px;
-  position: absolute;
-  top: 451px;
-  left: 305px; }
-  @media (max-width: 470px) {
-    .icon_central {
+    .icon_shimamura {
       width: 40px;
       height: 25px;
       top: 550px;
-      left: 60px; } }
+      left: 210px; } }
+
+.icon_sato {
+  width: 70px;
+  position: absolute;
+  top: 385px;
+  left: 650px; }
+  @media (max-width: 470px) {
+    .icon_sato {
+      width: 35px;
+      height: 25px;
+      top: 520px;
+      left: 182px; } }
+  .icon_sato .spMode {
+    display: none; }
+    @media (max-width: 470px) {
+      .icon_sato .spMode {
+        display: block; } }
 
 .icon_tsuruha {
   width: 70px;
-  height: 27px;
   position: absolute;
-  top: 557px;
-  left: 586px; }
+  top: 450px;
+  left: 395px; }
   @media (max-width: 470px) {
     .icon_tsuruha {
-      width: 75px;
-      height: 23px;
-      top: 638px;
-      left: 115px; } }
+      width: 40px;
+      height: 25px;
+      top: 560px;
+      left: 85px; } }
 
-.icon_yamanakaya {
-  width: 60px;
-  height: 27px;
+.icon_megumiWest {
+  width: 70px;
   position: absolute;
-  top: 586px;
-  left: 597px; }
+  top: 345px;
+  left: 530px; }
   @media (max-width: 470px) {
-    .icon_yamanakaya {
+    .icon_megumiWest {
+      width: 40px;
+      height: 25px;
+      top: 490px;
+      left: 125px; } }
+
+.icon_houmu {
+  width: 70px;
+  position: absolute;
+  top: 435px;
+  left: 555px; }
+  @media (max-width: 470px) {
+    .icon_houmu {
+      width: 40px;
+      height: 25px;
+      top: 553px;
+      left: 147px; } }
+
+.icon_familyMart {
+  width: 70px;
+  position: absolute;
+  top: 390px;
+  left: 565px; }
+  @media (max-width: 470px) {
+    .icon_familyMart {
       width: 50px;
       height: 23px;
-      top: 662px;
-      left: 140px; } }
+      top: 525px;
+      left: 130px; } }
 
-.icon_familiyMart {
-  width: 80px;
-  height: 27px;
-  position: absolute;
-  top: 615px;
-  left: 585px; }
-  @media (max-width: 470px) {
-    .icon_familiyMart {
-      width: 80px;
-      height: 20px;
-      top: 686px;
-      left: 110px; } }
-
-.icon_megumino {
+.icon_ayuminoKinrin {
   width: 70px;
   position: absolute;
-  top: 665px;
-  left: 810px; }
+  top: 350px;
+  left: 340px; }
   @media (max-width: 470px) {
-    .icon_megumino {
+    .icon_ayuminoKinrin {
       width: 40px;
       height: 25px;
-      top: 715px;
-      left: 245px; } }
+      top: 490px;
+      left: 60px; } }
 
-.icon_south {
+.icon_ayuminoEast {
   width: 70px;
   position: absolute;
-  top: 700px;
-  left: 545px; }
+  top: 515px;
+  left: 440px; }
   @media (max-width: 470px) {
-    .icon_south {
+    .icon_ayuminoEast {
       width: 40px;
       height: 25px;
-      top: 740px;
-      left: 135px; } }
+      top: 610px;
+      left: 75px; } }
 
-.icon_west {
+.icon_ayuminoStreet {
   width: 70px;
   position: absolute;
-  top: 630px;
-  left: 200px; }
+  top: 495px;
+  left: 245px; }
   @media (max-width: 470px) {
-    .icon_west {
+    .icon_ayuminoStreet {
       width: 40px;
       height: 25px;
-      top: 695px;
+      top: 595px;
+      left: 15px; } }
+
+.icon_station {
+  width: 70px;
+  position: absolute;
+  top: 640px;
+  left: 250px; }
+  @media (max-width: 470px) {
+    .icon_station {
+      width: 40px;
+      height: 25px;
+      top: 700px;
+      left: 15px; } }
+
+.icon_viva {
+  width: 70px;
+  position: absolute;
+  top: 705px;
+  left: 1010px; }
+  @media (max-width: 470px) {
+    .icon_viva {
+      width: 50px;
+      height: 25px;
+      top: 750px;
+      left: 295px; } }
+
+.icon_public {
+  width: 70px;
+  position: absolute;
+  top: 415px;
+  left: 250px; }
+  @media (max-width: 470px) {
+    .icon_public {
+      width: 45px;
+      height: 25px;
+      top: 540px;
       left: 10px; } }
 
 /*# sourceMappingURL=hebitaSouth.css.map */

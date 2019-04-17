@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <!-- このファイルはpug形式で書いています。(develop_BFM/pug/hebitaEast.pug)-->
+  <!-- このファイルはpug形式で書いています。(develop_BFM/pug/hebitaSouth.pug)-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>石巻バリアフリーマップ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/hebitaEast.css">
+    <link rel="stylesheet" href="css/hebitaSouth.css">
   </head>
   <body class="container">
     <header>
@@ -46,134 +46,137 @@
         <div class="hidden" id="menu">
           <ul>
             <li class="button is-info is-outlined">
-              <p>びっくりドンキー</p>
+              <p>洋服の青山</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>上州屋</p>
+              <p>スシロー</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ユノメ家具Z</p>
+              <p>セリア</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>タイヤガーデン</p>
+              <p class="fontSmaall">恵み野東公園</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ブックオフ</p>
+              <p>紳士服のコナカ</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>イトーヨーカドー</p>
+              <p class="fontSmall">恵み野中央公園</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ニトリ</p>
+              <p>ドコモショップ</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>みやぎ生協</p>
+              <p>auショップ</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ユニクロ</p>
+              <p>カワチ薬品</p>
             </li>
             <li class="button is-info is-outlined">
-              <p class="fontSmall">タイヤ＆ホイール館フジ</p>
+              <p>しまむら</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ソフトバンク</p>
-            </li>
-            <li class="button is-info is-outlined">
-              <p>ケーズデンキ</p>
-            </li>
-            <li class="button is-info is-outlined">
-              <p>ホテルルートイン</p>
-            </li>
-            <li class="button is-info is-outlined">
-              <p>ヨークベニマル</p>
-            </li>
-            <li class="button is-info is-outlined">
-              <p>ホーマック</p>
+              <p>サトー商会</p>
             </li>
             <li class="button is-info is-outlined">
               <p>ツルハドラッグ</p>
             </li>
             <li class="button is-info is-outlined">
-              <p class="fontSmall">スーパスポーツ<br>ゼビオ</p>
+              <p>恵み野西公園</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ヤマダ電機</p>
+              <p>法務局</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>薬王堂</p>
+              <p>ファミリーマート</p>
             </li>
             <li class="button is-info is-outlined">
-              <p>ウエルシア</p>
+              <p class="fontSmall">あゆみ野近隣公園</p>
             </li>
             <li class="button is-info is-outlined">
-              <p class="fontSmall">あけぼの北<br>中央公園</p>
+              <p class="fontSmall">あゆみ野東公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">あゆみ野通り公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p class="fontSmall">あゆみ野近隣公園</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>あゆみ野駅前</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>ビバホーム</p>
+            </li>
+            <li class="button is-info is-outlined">
+              <p>石巻合同庁舎</p>
             </li>
           </ul>
         </div>
         <!-- 地図メニュー-->
         <div class="map">
-          <div class="button is-info icon_donky">
-            <p class="fontSmall">びっくり<br>ドンキー</p>
+          <div class="button is-info icon_aoyama">
+            <p class="fontSmall">洋服の<br>青山</p>
           </div>
-          <div class="button is-info icon_josyuya">
-            <p>上州屋</p>
+          <div class="button is-info icon_sushiro">
+            <p>スシロー</p>
           </div>
-          <div class="button is-info icon_yunome">
-            <p class="fontSmall">ユノメ<br>家具Z</p>
+          <div class="button is-info icon_seria">
+            <p>セリア</p>
           </div>
-          <div class="button is-info icon_trye">
-            <p class="fontSmall">タイヤ<br>ガーデン</p>
+          <div class="button is-info icon_megumiEast">
+            <p class="fontSmall">恵み野<br>東公園</p>
           </div>
-          <div class="button is-info icon_bookoff">
-            <p class="fontSmall">ブック<br>オフ</p>
+          <div class="button is-info icon_konaka">
+            <p class="fontSmall">紳士服の<br>コナカ</p>
           </div>
-          <div class="button is-info icon_yorkado">
-            <p class="fontSmall">イトー<br>ヨーカドー</p>
+          <div class="button is-info icon_megumiCentral">
+            <p class="fontSmall">恵み野<br>中央公園</p>
           </div>
-          <div class="button is-info icon_nitori">
-            <p>ニトリ</p>
+          <div class="button is-info icon_docomo">
+            <p class="fontSmall">ドコモ<br>ショップ</p>
           </div>
-          <div class="button is-info icon_seikyo">
-            <p class="fontSmall">みやぎ<br>生協</p>
+          <div class="button is-info icon_au">
+            <p class="fontSmall">au<br>ショップ</p>
           </div>
-          <div class="button is-info icon_uniqlo">
-            <p>ユニクロ</p>
+          <div class="button is-info icon_kawachi">
+            <p class="fontSmall">カワチ<br class="spMode">薬品</p>
           </div>
-          <div class="button is-info icon_fuji">
-            <p class="fontSmall2">タイヤ＆<br>ホイール館フジ</p>
+          <div class="button is-info icon_shimamura">
+            <p>しまむら</p>
           </div>
-          <div class="button is-info icon_softbank">
-            <p class="fontSmall">ソフト<br>バンク</p>
-          </div>
-          <div class="button is-info icon_ks">
-            <p class="fontSmall">ケーズ<br>デンキ</p>
-          </div>
-          <div class="button is-info icon_rutein">
-            <p class="fontSmall">ホテル<br>ルートイン</p>
-          </div>
-          <div class="button is-info icon_york">
-            <p class="fontSmall">ヨーク<br>ベニマル</p>
-          </div>
-          <div class="button is-info icon_homac">
-            <p class="fontSmall">ホー<br>マック</p>
+          <div class="button is-info icon_sato">
+            <p class="fontSmall">サトー<br class="spMode">商会</p>
           </div>
           <div class="button is-info icon_tsuruha">
-            <p class="fontSmall">ツルハ<br>ドラッグ</p>
+            <p class="fontSmall">ツルハ<br>ドラッグ       </p>
           </div>
-          <div class="button is-info icon_xebio">
-            <p class="fontSmall">ゼビオ</p>
+          <div class="button is-info icon_megumiWest">
+            <p class="fontSmall">恵み野<br>西公園</p>
           </div>
-          <div class="button is-info icon_yamada">
-            <p class="fontSmall">ヤマダ<br class="spMode">電機</p>
+          <div class="button is-info icon_houmu">
+            <p>法務局</p>
           </div>
-          <div class="button is-info icon_yakuoudou">
-            <p>薬王堂</p>
+          <div class="button is-info icon_familyMart">
+            <p class="fontSmall2">ファミリー<br>マート</p>
           </div>
-          <div class="button is-info icon_welsia">
-            <p class="fontSmall">ウエルシア</p>
+          <div class="button is-info icon_ayuminoKinrin">
+            <p class="fontSmall">あゆみ野<br>近隣公園</p>
           </div>
-          <div class="button is-info icon_akebono">
-            <p class="fontSmall">あけぼの北<br>中央公園</p>
+          <div class="button is-info icon_ayuminoEast">
+            <p class="fontSmall">あゆみ野<br>東公園</p>
+          </div>
+          <div class="button is-info icon_ayuminoStreet">
+            <p class="fontSmall">あゆみ野<br>通り公園</p>
+          </div>
+          <div class="button is-info icon_station">
+            <p class="fontSmall">あゆみ野<br>駅前</p>
+          </div>
+          <div class="button is-info icon_viva">
+            <p class="fontSmall">ビバホーム</p>
+          </div>
+          <div class="button is-info icon_public">
+            <p class="fontSmall">石巻<br>合同庁舎</p>
           </div>
         </div>
       </div>

@@ -81,6 +81,9 @@ main .main {
     @media (max-width: 470px) {
       main .main .map .fontSmall2 {
         font-size: 2pt; } }
+    main .main .map .button.is-info {
+      border: solid 1px red;
+      border-radius: 3px; }
 main #mask {
   position: absolute;
   top: 200px;
