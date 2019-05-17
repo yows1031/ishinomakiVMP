@@ -36,40 +36,74 @@
       width: 40px;
       height: 25px;
       top: 600px;
-      left: 30px; } }
+      left: 52px; } }
 
-.icon_seiyu {
+.icon_seiyu1 {
+  width: 70px;
+  position: absolute;
+  top: 513px;
+  left: 230px; }
+  @media (max-width: 470px) {
+    .icon_seiyu1 {
+      width: 40px;
+      height: 25px;
+      top: 609px;
+      left: 10px; } }
+  .icon_seiyu1 .spmode {
+    display: none; }
+    @media (max-width: 470px) {
+      .icon_seiyu1 .spmode {
+        display: block; } }
+
+.icon_seiyu2 {
   width: 70px;
   position: absolute;
   top: 550px;
   left: 230px; }
   @media (max-width: 470px) {
-    .icon_seiyu {
+    .icon_seiyu2 {
       width: 40px;
       height: 25px;
       top: 635px;
       left: 10px; } }
-  .icon_seiyu .spmode {
+  .icon_seiyu2 .spmode {
     display: none; }
     @media (max-width: 470px) {
-      .icon_seiyu .spmode {
+      .icon_seiyu2 .spmode {
         display: block; } }
 
-.icon_hot_Maru {
+.icon_hot_Maru1 {
   width: 80px;
   position: absolute;
   top: 590px;
   left: 180px; }
   @media (max-width: 470px) {
-    .icon_hot_Maru {
-      width: 50px;
+    .icon_hot_Maru1 {
+      width: 60px;
       height: 50px;
       top: 665px;
       left: 5px; } }
-  .icon_hot_Maru .spmode {
+  .icon_hot_Maru1 .spmode {
     display: none; }
     @media (max-width: 470px) {
-      .icon_hot_Maru .spmode {
+      .icon_hot_Maru1 .spmode {
+        display: block; } }
+
+.icon_hot_Maru2 {
+  width: 80px;
+  position: absolute;
+  top: 627px;
+  left: 180px; }
+  @media (max-width: 470px) {
+    .icon_hot_Maru2 {
+      width: 60px;
+      height: 50px;
+      top: 715px;
+      left: 5px; } }
+  .icon_hot_Maru2 .spmode {
+    display: none; }
+    @media (max-width: 470px) {
+      .icon_hot_Maru2 .spmode {
         display: block; } }
 
 .icon_yoriiso {
@@ -88,6 +122,654 @@
     @media (max-width: 470px) {
       .icon_yoriiso .spmode {
         display: block; } }
+
+#toyo {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #toyo {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #toyo #toyoPrev, #toyo #toyoNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #toyo #toyoPrev :hover, #toyo #toyoNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #toyo #toyoPrev, #toyo #toyoNext {
+        font-size: 40px;
+        top: 60px; } }
+  #toyo #toyoPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #toyo #toyoPrev {
+        left: 10px; } }
+  #toyo #toyoNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #toyo #toyoNext {
+        left: 295px; } }
+  #toyo #toyo_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #toyo #toyo_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #toyo #toyoBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #toyo #toyoBack .fas.fa-caret-square-up {
+      display: block; }
+    #toyo #toyoBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #toyo #toyoBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #toyo #toyoBack .fas.fa-caret-square-up {
+          display: none; }
+        #toyo #toyoBack .fas.fa-caret-square-left {
+          display: block; } }
+  #toyo #toyoBack:hover {
+    opacity: 1; }
+
+#toyo.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #toyo.hidden {
+      transform: translate(-500px, 0); } }
+
+#sogo {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #sogo {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #sogo #sogoPrev, #sogo #sogoNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #sogo #sogoPrev :hover, #sogo #sogoNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #sogo #sogoPrev, #sogo #sogoNext {
+        font-size: 40px;
+        top: 60px; } }
+  #sogo #sogoPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #sogo #sogoPrev {
+        left: 10px; } }
+  #sogo #sogoNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #sogo #sogoNext {
+        left: 295px; } }
+  #sogo #sogo_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #sogo #sogo_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #sogo #sogoBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #sogo #sogoBack .fas.fa-caret-square-up {
+      display: block; }
+    #sogo #sogoBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #sogo #sogoBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #sogo #sogoBack .fas.fa-caret-square-up {
+          display: none; }
+        #sogo #sogoBack .fas.fa-caret-square-left {
+          display: block; } }
+  #sogo #sogoBack:hover {
+    opacity: 1; }
+
+#sogo.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #sogo.hidden {
+      transform: translate(-500px, 0); } }
+
+#seishin {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #seishin {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #seishin #seishinPrev, #seishin #seishinNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #seishin #seishinPrev :hover, #seishin #seishinNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #seishin #seishinPrev, #seishin #seishinNext {
+        font-size: 40px;
+        top: 60px; } }
+  #seishin #seishinPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #seishin #seishinPrev {
+        left: 10px; } }
+  #seishin #seishinNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #seishin #seishinNext {
+        left: 295px; } }
+  #seishin #seishin_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #seishin #seishin_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #seishin #seishinBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #seishin #seishinBack .fas.fa-caret-square-up {
+      display: block; }
+    #seishin #seishinBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #seishin #seishinBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #seishin #seishinBack .fas.fa-caret-square-up {
+          display: none; }
+        #seishin #seishinBack .fas.fa-caret-square-left {
+          display: block; } }
+  #seishin #seishinBack:hover {
+    opacity: 1; }
+
+#seishin.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #seishin.hidden {
+      transform: translate(-500px, 0); } }
+
+#1seiyu {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #1seiyu {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #1seiyu #1seiyuPrev, #1seiyu #1seiyuNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #1seiyu #1seiyuPrev :hover, #1seiyu #1seiyuNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #1seiyu #1seiyuPrev, #1seiyu #1seiyuNext {
+        font-size: 40px;
+        top: 60px; } }
+  #1seiyu #1seiyuPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #1seiyu #1seiyuPrev {
+        left: 10px; } }
+  #1seiyu #1seiyuNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #1seiyu #1seiyuNext {
+        left: 295px; } }
+  #1seiyu #1seiyu_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #1seiyu #1seiyu_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #1seiyu #1seiyuBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #1seiyu #1seiyuBack .fas.fa-caret-square-up {
+      display: block; }
+    #1seiyu #1seiyuBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #1seiyu #1seiyuBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #1seiyu #1seiyuBack .fas.fa-caret-square-up {
+          display: none; }
+        #1seiyu #1seiyuBack .fas.fa-caret-square-left {
+          display: block; } }
+  #1seiyu #1seiyuBack:hover {
+    opacity: 1; }
+
+#1seiyu.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #1seiyu.hidden {
+      transform: translate(-500px, 0); } }
+
+#2seiyu {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #2seiyu {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #2seiyu #2seiyuPrev, #2seiyu #2seiyuNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #2seiyu #2seiyuPrev :hover, #2seiyu #2seiyuNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #2seiyu #2seiyuPrev, #2seiyu #2seiyuNext {
+        font-size: 40px;
+        top: 60px; } }
+  #2seiyu #2seiyuPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #2seiyu #2seiyuPrev {
+        left: 10px; } }
+  #2seiyu #2seiyuNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #2seiyu #2seiyuNext {
+        left: 295px; } }
+  #2seiyu #2seiyu_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #2seiyu #2seiyu_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #2seiyu #2seiyuBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #2seiyu #2seiyuBack .fas.fa-caret-square-up {
+      display: block; }
+    #2seiyu #2seiyuBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #2seiyu #2seiyuBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #2seiyu #2seiyuBack .fas.fa-caret-square-up {
+          display: none; }
+        #2seiyu #2seiyuBack .fas.fa-caret-square-left {
+          display: block; } }
+  #2seiyu #2seiyuBack:hover {
+    opacity: 1; }
+
+#2seiyu.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #2seiyu.hidden {
+      transform: translate(-500px, 0); } }
+
+#1maru {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #1maru {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #1maru #1maruPrev, #1maru #1maruNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #1maru #1maruPrev :hover, #1maru #1maruNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #1maru #1maruPrev, #1maru #1maruNext {
+        font-size: 40px;
+        top: 60px; } }
+  #1maru #1maruPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #1maru #1maruPrev {
+        left: 10px; } }
+  #1maru #1maruNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #1maru #1maruNext {
+        left: 295px; } }
+  #1maru #1maru_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #1maru #1maru_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #1maru #1maruBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #1maru #1maruBack .fas.fa-caret-square-up {
+      display: block; }
+    #1maru #1maruBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #1maru #1maruBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #1maru #1maruBack .fas.fa-caret-square-up {
+          display: none; }
+        #1maru #1maruBack .fas.fa-caret-square-left {
+          display: block; } }
+  #1maru #1maruBack:hover {
+    opacity: 1; }
+
+#1maru.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #1maru.hidden {
+      transform: translate(-500px, 0); } }
+
+#2maru {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #2maru {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #2maru #2maruPrev, #2maru #2maruNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #2maru #2maruPrev :hover, #2maru #2maruNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #2maru #2maruPrev, #2maru #2maruNext {
+        font-size: 40px;
+        top: 60px; } }
+  #2maru #2maruPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #2maru #2maruPrev {
+        left: 10px; } }
+  #2maru #2maruNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #2maru #2maruNext {
+        left: 295px; } }
+  #2maru #2maru_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #2maru #2maru_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #2maru #2maruBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #2maru #2maruBack .fas.fa-caret-square-up {
+      display: block; }
+    #2maru #2maruBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #2maru #2maruBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #2maru #2maruBack .fas.fa-caret-square-up {
+          display: none; }
+        #2maru #2maruBack .fas.fa-caret-square-left {
+          display: block; } }
+  #2maru #2maruBack:hover {
+    opacity: 1; }
+
+#2maru.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #2maru.hidden {
+      transform: translate(-500px, 0); } }
+
+#2maru {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #2maru {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #2maru #2maruPrev, #2maru #2maruNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #2maru #2maruPrev :hover, #2maru #2maruNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #2maru #2maruPrev, #2maru #2maruNext {
+        font-size: 40px;
+        top: 60px; } }
+  #2maru #2maruPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #2maru #2maruPrev {
+        left: 10px; } }
+  #2maru #2maruNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #2maru #2maruNext {
+        left: 295px; } }
+  #2maru #2maru_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #2maru #2maru_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #2maru #2maruBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #2maru #2maruBack .fas.fa-caret-square-up {
+      display: block; }
+    #2maru #2maruBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #2maru #2maruBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #2maru #2maruBack .fas.fa-caret-square-up {
+          display: none; }
+        #2maru #2maruBack .fas.fa-caret-square-left {
+          display: block; } }
+  #2maru #2maruBack:hover {
+    opacity: 1; }
+
+#2maru.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #2maru.hidden {
+      transform: translate(-500px, 0); } }
+
+#yoriiso {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #yoriiso {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #yoriiso #yoriisoPrev, #yoriiso #yoriisoNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #yoriiso #yoriisoPrev :hover, #yoriiso #yoriisoNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #yoriiso #yoriisoPrev, #yoriiso #yoriisoNext {
+        font-size: 40px;
+        top: 60px; } }
+  #yoriiso #yoriisoPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #yoriiso #yoriisoPrev {
+        left: 10px; } }
+  #yoriiso #yoriisoNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #yoriiso #yoriisoNext {
+        left: 295px; } }
+  #yoriiso #yoriiso_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #yoriiso #yoriiso_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #yoriiso #yoriisoBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #yoriiso #yoriisoBack .fas.fa-caret-square-up {
+      display: block; }
+    #yoriiso #yoriisoBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #yoriiso #yoriisoBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #yoriiso #yoriisoBack .fas.fa-caret-square-up {
+          display: none; }
+        #yoriiso #yoriisoBack .fas.fa-caret-square-left {
+          display: block; } }
+  #yoriiso #yoriisoBack:hover {
+    opacity: 1; }
+
+#yoriiso.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #yoriiso.hidden {
+      transform: translate(-500px, 0); } }
 
 .spMenu {
   display: none;
@@ -192,10 +874,13 @@ main #mask {
 main #mask.hidden {
   display: none; }
 main .pointTittle {
-  height: 80px; }
+  height: 40px; }
   main .pointTittle P {
     font-size: 30px;
     text-align: center; }
+main .time p {
+  font-size: 14pt;
+  text-align: center; }
 main .infomation {
   height: 50px; }
   main .infomation .icon {
@@ -237,8 +922,8 @@ main .under {
     display: flex;
     justify-content: space-between; }
     main .under .subnav li {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       cursor: pointer;
       opacity: 0.6; }
       @media (max-width: 470px) {

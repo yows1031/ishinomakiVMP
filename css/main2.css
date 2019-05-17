@@ -99,9 +99,9 @@ a {
   left: 70px; }
   @media (max-width: 470px) {
     .pickMain {
-      height: 170px;
+      height: 200px;
       width: 365px;
-      top: 645px;
+      top: 612px;
       left: 0px; } }
 
 .ekimae {
@@ -112,8 +112,8 @@ a {
   left: 185px; }
   @media (max-width: 470px) {
     .ekimae {
-      top: 705px;
-      left: 85px; } }
+      top: 675px;
+      left: 90px; } }
 
 .sumiyoshi {
   font-size: 13px;
@@ -123,8 +123,8 @@ a {
   left: 170px; }
   @media (max-width: 470px) {
     .sumiyoshi {
-      top: 665px;
-      left: 80px; } }
+      top: 625px;
+      left: 100px; } }
 
 .hebitaEast {
   font-size: 13px;
@@ -135,8 +135,8 @@ a {
   @media (max-width: 470px) {
     .hebitaEast {
       width: 35px;
-      top: 662px;
-      left: 42px; } }
+      top: 635px;
+      left: 55px; } }
 
 .hebitaWest {
   font-size: 13px;
@@ -147,8 +147,8 @@ a {
   @media (max-width: 470px) {
     .hebitaWest {
       width: 35px;
-      top: 662px;
-      left: 5px; } }
+      top: 635px;
+      left: 17px; } }
 
 .hebitaSouth {
   font-size: 13px;
@@ -159,8 +159,8 @@ a {
   @media (max-width: 470px) {
     .hebitaSouth {
       width: 35px;
-      top: 698px;
-      left: 20px; } }
+      top: 675px;
+      left: 35px; } }
 
 .kama {
   font-size: 13px;
@@ -170,8 +170,8 @@ a {
   left: 120px; }
   @media (max-width: 470px) {
     .kama {
-      top: 734px;
-      left: 23px; } }
+      top: 715px;
+      left: 50px; } }
 
 .inai {
   font-size: 16px;

@@ -24,7 +24,7 @@
           <div><a href="minato.html"><span>・湊</span></a></div>
           <div><a href="hebitaEast.html"><span>・蛇田<br class="br">（東地区）</span></a></div>
           <div><a href="hebitaWest.html"><span>・蛇田<br class="br">（西地区）</span></a></div>
-          <div><a href="hebitaSouth.html"><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a href="hebitaSouth.html"><span>・蛇田<br class="br">（南地区）</span></a></div>
           <div><a href="watanoha.html"><span>・渡波</span></a></div>
         </div>
         <div class="nav tabs is-centered is-boxed">
@@ -45,56 +45,471 @@
         <!-- サイドメニュー-->
         <div class="hidden" id="menu">
           <ul>
-            <li class="button is-info is-outlined">
+            <li class="btn_Toyo button is-info is-outlined">
               <p>東洋館</p>
             </li>
-            <li class="button is-info is-outlined">
+            <li class="btn_sogo button is-info is-outlined">
               <p>牡鹿総合支所</p>
             </li>
-            <li class="button is-info is-outlined">
+            <li class="btn_seishin button is-info is-outlined">
               <p>おしか清心苑</p>
             </li>
-            <li class="button is-info is-outlined">
-              <p>清優館</p>
+            <li class="btn_seiyu1 button is-info is-outlined">
+              <p>清優館①</p>
             </li>
-            <li class="button is-info is-outlined">
-              <p class="fontSmall">牡鹿交流センター<br>ほっとまる</p>
+            <li class="btn_seiyu2 button is-info is-outlined">
+              <p>清優館②</p>
             </li>
-            <li class="button is-info is-outlined">
+            <li class="btn_maru1 button is-info is-outlined">
+              <p class="fontSmall">牡鹿交流センター<br>ほっとまる①</p>
+            </li>
+            <li class="btn_maru2 button is-info is-outlined">
+              <p class="fontSmall">牡鹿交流センター<br>ほっとまる②</p>
+            </li>
+            <li class="btn_yoriiso button is-info is-outlined">
               <p>寄磯診療所</p>
             </li>
           </ul>
         </div>
         <!-- 地図メニュー-->
         <div class="map">
-          <div class="button is-info icon_toyo">
+          <div class="btn_Toyo button is-info icon_toyo">
             <p>東洋館</p>
           </div>
-          <div class="button is-info icon_sougou">
+          <div class="btn_sogo button is-info icon_sougou">
             <p class="fontSmall">牡鹿<br>総合支所</p>
           </div>
-          <div class="button is-info icon_seishin">
+          <div class="btn_seishin button is-info icon_seishin">
             <p class="fontSmall">
                おしか<br class="spmode">清心苑</p>
           </div>
-          <div class="button is-info icon_seiyu">
-            <p>清優館</p>
+          <div class="btn_seiyu1 button is-info icon_seiyu1">
+            <p>清優館①</p>
           </div>
-          <div class="button is-info icon_hot_Maru">
-            <p class="fontSmall2">牡鹿交流<br class="spmode">センター<br>ほっとまる</p>
+          <div class="btn_seiyu2 button is-info icon_seiyu2">
+            <p>清優館②</p>
           </div>
-          <div class="button is-info icon_yoriiso">
+          <div class="btn_mnaru1 button is-info icon_hot_Maru1">
+            <p class="fontSmall2">牡鹿交流<br class="spmode">センター<br>ほっとまる①</p>
+          </div>
+          <div class="btn_maru2 button is-info icon_hot_Maru2">
+            <p class="fontSmall2">牡鹿交流<br class="spmode">センター<br>ほっとまる②</p>
+          </div>
+          <div class="btn_yoriiso button is-info icon_yoriiso">
             <p>
                寄磯<br class="spmode">診療所</p>
           </div>
         </div>
       </div>
+      <!-- マスク-->
+      <div class="hidden" id="mask"></div>
+      <!-- 東洋館-->
+      <table class="hidden" id="toyo">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>東洋館</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking_ng.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button_ng.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：９：００〜１６：３０　電話：45-2206</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="toyoPrev"></i><img id="toyo_target"><i class="fas fa-chevron-circle-right" id="toyoNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="toyo_thumbnails"></ul>
+                </nav>
+                <div id="toyoBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 牡鹿総合支所-->
+      <table class="hidden" id="sogo">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>牡鹿総合支所</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking_ng.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/button_ng.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：８：３０〜１７：００（土日祝休）　電話：45-2111</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="sogoPrev"></i><img id="toyo_target"><i class="fas fa-chevron-circle-right" id="sogoNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="sogo_thumbnails"></ul>
+                </nav>
+                <div id="sogoBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- おしか清心苑-->
+      <table class="hidden" id="seishin">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>おしか清心苑</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>電話：44-1654</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="seishinPrev"></i><img id="seishin_target"><i class="fas fa-chevron-circle-right" id="seishinNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="seishin_thumbnails"></ul>
+                </nav>
+                <div id="seishinBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 清優館①-->
+      <table class="hidden" id="1seiyu">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>清優館①</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：８：３０〜１７：００　電話：42-2611</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="1seiyuPrev"></i><img id="1seiyu_target"><i class="fas fa-chevron-circle-right" id="1seiyuNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="1seiyu_thumbnails"></ul>
+                </nav>
+                <div id="1seiyuBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 清優館②-->
+      <table class="hidden" id="2seiyu">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>清優館②</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：８：３０〜１７：００　電話：42-2611</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="2seiyuPrev"></i><img id="2seiyu_target"><i class="fas fa-chevron-circle-right" id="2seiyuNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="2seiyu_thumbnails"></ul>
+                </nav>
+                <div id="2seiyuBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- ほっとまる①-->
+      <table class="hidden" id="1maru">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>牡鹿交流センターほっとまる①</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：１３：００〜２０：００　電話：45ｰ3618</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="1maruPrev"></i><img id="1maru_target"><i class="fas fa-chevron-circle-right" id="1maruNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="1maru_thumbnails"></ul>
+                </nav>
+                <div id="1maruBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- ほっとまる②-->
+      <table class="hidden" id="2maru">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>牡鹿交流センターほっとまる②</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間:１３：００〜２０：００　電話：45ｰ3618</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="2maruPrev"></i><img id="2maru_target"><i class="fas fa-chevron-circle-right" id="2maruNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="2maru_thumbnails"></ul>
+                </nav>
+                <div id="2maruBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 寄磯診療所-->
+      <table class="hidden" id="yoriiso">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>寄磯診療所</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <th colspan="9">
+              <p>時間：９：００〜１６：００　電話:48-</p>
+            </th>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="yoriisoPrev"></i><img id="yoriiso_target"><i class="fas fa-chevron-circle-right" id="yoriisoNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="yoriiso_thumbnails"></ul>
+                </nav>
+                <div id="yoriisoBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer>
       <div class="footer">
         <div class="suport"><img src="img/itnav.png"></div>
       </div>
     </footer>
-    <script src="js/station.js"></script>
+    <script src="js/oshika.js"></script>
+    <script src="js/oshikaToyo.js"></script>
   </body>
 </html>
