@@ -87,25 +87,28 @@ main .main {
 main #mask {
   position: absolute;
   top: 200px;
-  left: 175px;
-  width: 975px;
+  left: 5px;
+  width: 1135px;
   height: 600px;
   background-color: white;
   opacity: 0.8; }
   @media (max-width: 470px) {
     main #mask {
       z-index: 30;
-      top: 380px;
+      top: 350px;
       left: 0px;
       width: 370px;
-      height: 435px; } }
+      height: 465px; } }
 main #mask.hidden {
   display: none; }
 main .pointTittle {
-  height: 80px; }
+  height: 40px; }
   main .pointTittle P {
     font-size: 30px;
     text-align: center; }
+main .time p {
+  font-size: 14pt;
+  text-align: center; }
 main .infomation {
   height: 50px; }
   main .infomation .icon {
@@ -147,8 +150,8 @@ main .under {
     display: flex;
     justify-content: space-between; }
     main .under .subnav li {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       cursor: pointer;
       opacity: 0.6; }
       @media (max-width: 470px) {
@@ -160,6 +163,294 @@ main .under {
       opacity: 1; }
     main .under .subnav .current {
       opacity: 1; }
+
+#sougou {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #sougou {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #sougou #sougouPrev, #sougou #sougouNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #sougou #sougouPrev :hover, #sougou #sougouNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #sougou #sougouPrev, #sougou #sougouNext {
+        font-size: 40px;
+        top: 60px; } }
+  #sougou #sougouPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #sougou #sougouPrev {
+        left: 10px; } }
+  #sougou #sougouNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #sougou #sougouNext {
+        left: 295px; } }
+  #sougou #sougou_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #sougou #sougou_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #sougou #sougouBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #sougou #sougouBack .fas.fa-caret-square-up {
+      display: block; }
+    #sougou #sougouBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #sougou #sougouBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #sougou #sougouBack .fas.fa-caret-square-up {
+          display: none; }
+        #sougou #sougouBack .fas.fa-caret-square-left {
+          display: block; } }
+  #sougou #sougouBack:hover {
+    opacity: 1; }
+
+#sougou.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #sougou.hidden {
+      transform: translate(-500px, 0); } }
+
+#hospital {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #hospital {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #hospital #hospitalPrev, #hospital #hospitalNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #hospital #hospitalPrev :hover, #hospital #hospitalNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #hospital #hospitalPrev, #hospital #hospitalNext {
+        font-size: 40px;
+        top: 60px; } }
+  #hospital #hospitalPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #hospital #hospitalPrev {
+        left: 10px; } }
+  #hospital #hospitalNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #hospital #hospitalNext {
+        left: 295px; } }
+  #hospital #hospital_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #hospital #hospital_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #hospital #hospitalBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #hospital #hospitalBack .fas.fa-caret-square-up {
+      display: block; }
+    #hospital #hospitalBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #hospital #hospitalBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #hospital #hospitalBack .fas.fa-caret-square-up {
+          display: none; }
+        #hospital #hospitalBack .fas.fa-caret-square-left {
+          display: block; } }
+  #hospital #hospitalBack:hover {
+    opacity: 1; }
+
+#hospital.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #hospital.hidden {
+      transform: translate(-500px, 0); } }
+
+#jouhou {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #jouhou {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #jouhou #jouhouPrev, #jouhou #jouhouNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #jouhou #jouhouPrev :hover, #jouhou #jouhouNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #jouhou #jouhouPrev, #jouhou #jouhouNext {
+        font-size: 40px;
+        top: 60px; } }
+  #jouhou #jouhouPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #jouhou #jouhouPrev {
+        left: 10px; } }
+  #jouhou #jouhouNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #jouhou #jouhouNext {
+        left: 295px; } }
+  #jouhou #jouhou_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #jouhou #jouhou_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #jouhou #jouhouBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #jouhou #jouhouBack .fas.fa-caret-square-up {
+      display: block; }
+    #jouhou #jouhouBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #jouhou #jouhouBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #jouhou #jouhouBack .fas.fa-caret-square-up {
+          display: none; }
+        #jouhou #jouhouBack .fas.fa-caret-square-left {
+          display: block; } }
+  #jouhou #jouhouBack:hover {
+    opacity: 1; }
+
+#jouhou.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #jouhou.hidden {
+      transform: translate(-500px, 0); } }
+
+#vilege {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #vilege {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #vilege #vilegePrev, #vilege #vilegeNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #vilege #vilegePrev :hover, #vilege #vilegeNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #vilege #vilegePrev, #vilege #vilegeNext {
+        font-size: 40px;
+        top: 60px; } }
+  #vilege #vilegePrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #vilege #vilegePrev {
+        left: 10px; } }
+  #vilege #vilegeNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #vilege #vilegeNext {
+        left: 295px; } }
+  #vilege #vilege_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #vilege #vilege_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #vilege #vilegeBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #vilege #vilegeBack .fas.fa-caret-square-up {
+      display: block; }
+    #vilege #vilegeBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #vilege #vilegeBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #vilege #vilegeBack .fas.fa-caret-square-up {
+          display: none; }
+        #vilege #vilegeBack .fas.fa-caret-square-left {
+          display: block; } }
+  #vilege #vilegeBack:hover {
+    opacity: 1; }
+
+#vilege.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #vilege.hidden {
+      transform: translate(-500px, 0); } }
 
 .container {
   width: 1140px;

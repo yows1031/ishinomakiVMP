@@ -24,7 +24,7 @@
           <div><a href="minato.html"><span>・湊</span></a></div>
           <div><a href="hebitaEast.html"><span>・蛇田<br class="br">（東地区）</span></a></div>
           <div><a href="hebitaWest.html"><span>・蛇田<br class="br">（西地区）</span></a></div>
-          <div><a href="hebitaSouth.html"><span>・蛇田<br class="br">（西地区）</span></a></div>
+          <div><a href="hebitaSouth.html"><span>・蛇田<br class="br">（南地区）</span></a></div>
           <div><a href="watanoha.html"><span>・渡波</span></a></div>
         </div>
         <div class="nav tabs is-centered is-boxed">
@@ -48,13 +48,13 @@
             <p>雄勝地区</p>
           </div>
           <ul>
-            <li class="button is-info is-outlined">
+            <li class="btn_sougou button is-info is-outlined">
               <p>雄勝総合支所</p>
             </li>
-            <li class="button is-info is-outlined">
+            <li class="btn_hospital button is-info is-outlined">
               <p>雄勝診療所</p>
             </li>
-            <li class="button is-info is-outlined">
+            <li class="btn_jouhou button is-info is-outlined">
               <p class="fontSmall">復興まちづくり<br>情報交流館</p>
             </li>
           </ul>
@@ -62,7 +62,7 @@
             <p>萩浜地区</p>
           </div>
           <ul>
-            <li class="button is-info is-outlined">
+            <li class="btn_vilege button is-info is-outlined">
               <p>牡鹿ビレッジ</p>
             </li>
           </ul>
@@ -72,30 +72,236 @@
           <div class="icon_ogatsu Area">
             <p>雄勝地区</p>
           </div>
-          <div class="button is-info icon_sougou">
+          <div class="btn_sougou button is-info icon_sougou">
             <p class="fontSmall">雄勝<br>総合支所</p>
           </div>
-          <div class="button is-info icon_hospital">
+          <div class="btn_hospital button is-info icon_hospital">
             <p class="fontSmall">
                雄勝診療所</p>
           </div>
-          <div class="button is-info icon_jouhou">
+          <div class="btn_jouhou button is-info icon_jouhou">
             <p class="fontSmall">復興まちづくり<br>情報交流館</p>
           </div>
           <div class="icon_hagihama Area">
             <p>萩浜地区</p>
           </div>
-          <div class="button is-info icon_vilege">
+          <div class="btn_vilege button is-info icon_vilege">
             <p class="fontSmall">牡鹿<br>ビレッジ         </p>
           </div>
         </div>
       </div>
+      <!-- マスク-->
+      <div class="hidden" id="mask"></div>
+      <!-- 雄勝総合支所-->
+      <table class="hidden" id="sougou">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>雄勝総合支所</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking_ng.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button_ng.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <td colspan="9">
+              <p>時間：８：３０〜１７：００（土日祝休み）　電話57ｰ2111</p>
+            </td>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="sougouPrev"></i><img id="sougou_target"><i class="fas fa-chevron-circle-right" id="sougouNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="sougou_thumbnails"></ul>
+                </nav>
+                <div id="sougouBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 雄勝診療所-->
+      <table class="hidden" id="hospital">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>雄勝診療所</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/babybed_ng.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <td colspan="9">
+              <p>時間：９：００〜１６：００（土日祝休み）　電話58ｰ3373</p>
+            </td>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="hospitalPrev"></i><img id="hospital_target"><i class="fas fa-chevron-circle-right" id="hospitalNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="hospital_thumbnails"></ul>
+                </nav>
+                <div id="hospitalBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 復興まちづくり情報館-->
+      <table class="hidden" id="jouhou">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>復興まちづくり情報交流館</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking_ng.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/babybed.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button_ng.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/showertoilet.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">あり</td>
+          </tr>
+          <tr class="time">
+            <td colspan="9">
+              <p>時間：９：００〜１７：００（火曜休み）　電話25ｰ6028</p>
+            </td>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="jouhouPrev"></i><img id="jouhou_target"><i class="fas fa-chevron-circle-right" id="jouhouNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="jouhou_thumbnails"></ul>
+                </nav>
+                <div id="jouhouBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 牡鹿ビレッジ-->
+      <table class="hidden" id="vilege">
+        <tbody>
+          <tr class="pointTittle">
+            <th colspan="9">
+              <p>牡鹿ビレッジ</p>
+            </th>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/parking_ng.png" width="30" height="30"></td>
+            <td class="text">専用駐車場</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/babybed.png" width="30" height="30"></td>
+            <td class="text">ベビーベッド</td>
+            <td class="sign">あり</td>
+            <td class="icon"><img src="icon/multisheet_ng.png" width="30" height="30"></td>
+            <td class="text">マルチシート</td>
+            <td class="sign">なし</td>
+          </tr>
+          <tr class="infomation">
+            <td class="icon"><img src="icon/ostomate_ng.png" width="30" height="30"></td>
+            <td class="text">オストメイト</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/button_ng.png" width="30" height="30"></td>
+            <td class="text">呼び出しボタン</td>
+            <td class="sign">なし</td>
+            <td class="icon"><img src="icon/showertoilet_ng.png" width="30" height="30"></td>
+            <td class="text">シャワートイレ</td>
+            <td class="sing">なし</td>
+          </tr>
+          <tr class="time">
+            <td colspan="9">
+              <p>時間：９：００〜１８：００</p>
+            </td>
+          </tr>
+          <tr class="slide">
+            <td class="pic" colspan="9"><i class="fas fa-chevron-circle-left" id="vilegePrev"></i><img id="vilege_target"><i class="fas fa-chevron-circle-right" id="vilegeNext"></i></td>
+          </tr>
+          <tr class="pointData">
+            <td colspan="9">
+              <div class="under">
+                <nav>
+                  <ul class="subnav" id="vilege_thumbnails"></ul>
+                </nav>
+                <div id="vilegeBack"><i class="fas fa-caret-square-up"></i><i class="fas fa-caret-square-left"></i></div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer>
       <div class="footer">
         <div class="suport"><img src="img/itnav.png"></div>
       </div>
     </footer>
-    <script src="js/station.js"></script>
+    <script src="js/ogatsu_Hagihama.js"></script>
+    <script src="js/ogatsu_Hagihama/ogatsuSougou.js"></script>
+    <script src="js/ogatsu_Hagihama/ogatsuHospital.js"></script>
+    <script src="js/ogatsu_Hagihama/ogatsuJouhou.js"></script>
+    <script src="js/ogatsu_Hagihama/ogatsuVilege.js"></script>
   </body>
 </html>

@@ -240,6 +240,78 @@
       top: 785px;
       left: 15px; } }
 
+#york {
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: 320px;
+  transition: .8s; }
+  @media (max-width: 470px) {
+    #york {
+      z-index: 40;
+      top: 390px;
+      left: 5px; } }
+  #york #yorkPrev, #york #yorkNext {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.6;
+    top: 110px; }
+    #york #yorkPrev :hover, #york #yorkNext :hover {
+      opacity: 1.0; }
+    @media (max-width: 470px) {
+      #york #yorkPrev, #york #yorkNext {
+        font-size: 40px;
+        top: 60px; } }
+  #york #yorkPrev {
+    left: 60px; }
+    @media (max-width: 470px) {
+      #york #yorkPrev {
+        left: 10px; } }
+  #york #yorkNext {
+    right: 60px; }
+    @media (max-width: 470px) {
+      #york #yorkNext {
+        left: 295px; } }
+  #york #york_target {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 170px; }
+    @media (max-width: 470px) {
+      #york #york_target {
+        width: 200px;
+        height: 150px;
+        top: 20px;
+        left: 75px; } }
+  #york #yorkBack {
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0.6; }
+    #york #yorkBack .fas.fa-caret-square-up {
+      display: block; }
+    #york #yorkBack .fas.fa-caret-square-left {
+      display: none; }
+    @media (max-width: 470px) {
+      #york #yorkBack {
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        font-size: 40px; }
+        #york #yorkBack .fas.fa-caret-square-up {
+          display: none; }
+        #york #yorkBack .fas.fa-caret-square-left {
+          display: block; } }
+  #york #yorkBack:hover {
+    opacity: 1; }
+
+#york.hidden {
+  transform: translate(0, -800px); }
+  @media (max-width: 470px) {
+    #york.hidden {
+      transform: translate(-500px, 0); } }
+
 .spMenu {
   display: none;
   background-color: white;
@@ -328,25 +400,31 @@ main .main {
 main #mask {
   position: absolute;
   top: 200px;
-  left: 175px;
-  width: 975px;
+  left: 5px;
+  width: 1135px;
   height: 600px;
   background-color: white;
   opacity: 0.8; }
   @media (max-width: 470px) {
     main #mask {
       z-index: 30;
-      top: 380px;
+      top: 350px;
       left: 0px;
       width: 370px;
-      height: 435px; } }
+      height: 465px; } }
 main #mask.hidden {
   display: none; }
 main .pointTittle {
-  height: 80px; }
+  height: 40px; }
   main .pointTittle P {
     font-size: 30px;
     text-align: center; }
+main .time p {
+  font-size: 14pt;
+  text-align: center; }
+  @media (max-width: 470px) {
+    main .time p {
+      font-size: 10pt; } }
 main .infomation {
   height: 50px; }
   main .infomation .icon {
@@ -388,8 +466,8 @@ main .under {
     display: flex;
     justify-content: space-between; }
     main .under .subnav li {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       cursor: pointer;
       opacity: 0.6; }
       @media (max-width: 470px) {

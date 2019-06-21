@@ -339,364 +339,292 @@
     #seishin.hidden {
       transform: translate(-500px, 0); } }
 
-#1seiyu {
+#seiyu_1 {
   background: white;
   position: absolute;
   top: 210px;
   left: 320px;
   transition: .8s; }
   @media (max-width: 470px) {
-    #1seiyu {
+    #seiyu_1 {
       z-index: 40;
       top: 390px;
       left: 5px; } }
-  #1seiyu #1seiyuPrev, #1seiyu #1seiyuNext {
+  #seiyu_1 #seiyu_1Prev, #seiyu_1 #seiyu_1Next {
     position: absolute;
     font-size: 60px;
     opacity: 0.6;
     top: 110px; }
-    #1seiyu #1seiyuPrev :hover, #1seiyu #1seiyuNext :hover {
+    #seiyu_1 #seiyu_1Prev :hover, #seiyu_1 #seiyu_1Next :hover {
       opacity: 1.0; }
     @media (max-width: 470px) {
-      #1seiyu #1seiyuPrev, #1seiyu #1seiyuNext {
+      #seiyu_1 #seiyu_1Prev, #seiyu_1 #seiyu_1Next {
         font-size: 40px;
         top: 60px; } }
-  #1seiyu #1seiyuPrev {
+  #seiyu_1 #seiyu_1Prev {
     left: 60px; }
     @media (max-width: 470px) {
-      #1seiyu #1seiyuPrev {
+      #seiyu_1 #seiyu_1Prev {
         left: 10px; } }
-  #1seiyu #1seiyuNext {
+  #seiyu_1 #seiyu_1Next {
     right: 60px; }
     @media (max-width: 470px) {
-      #1seiyu #1seiyuNext {
+      #seiyu_1 #seiyu_1Next {
         left: 295px; } }
-  #1seiyu #1seiyu_target {
+  #seiyu_1 #seiyu_1_target {
     width: 350px;
     height: 250px;
     position: absolute;
     top: 30px;
     left: 170px; }
     @media (max-width: 470px) {
-      #1seiyu #1seiyu_target {
+      #seiyu_1 #seiyu_1_target {
         width: 200px;
         height: 150px;
         top: 20px;
         left: 75px; } }
-  #1seiyu #1seiyuBack {
+  #seiyu_1 #seiyu_1Back {
     margin-left: 20px;
     font-size: 60px;
     cursor: pointer;
     opacity: 0.6; }
-    #1seiyu #1seiyuBack .fas.fa-caret-square-up {
+    #seiyu_1 #seiyu_1Back .fas.fa-caret-square-up {
       display: block; }
-    #1seiyu #1seiyuBack .fas.fa-caret-square-left {
+    #seiyu_1 #seiyu_1Back .fas.fa-caret-square-left {
       display: none; }
     @media (max-width: 470px) {
-      #1seiyu #1seiyuBack {
+      #seiyu_1 #seiyu_1Back {
         position: absolute;
         top: 435px;
         left: 280px;
         font-size: 40px; }
-        #1seiyu #1seiyuBack .fas.fa-caret-square-up {
+        #seiyu_1 #seiyu_1Back .fas.fa-caret-square-up {
           display: none; }
-        #1seiyu #1seiyuBack .fas.fa-caret-square-left {
+        #seiyu_1 #seiyu_1Back .fas.fa-caret-square-left {
           display: block; } }
-  #1seiyu #1seiyuBack:hover {
+  #seiyu_1 #seiyu_1Back:hover {
     opacity: 1; }
 
-#1seiyu.hidden {
+#seiyu_1.hidden {
   transform: translate(0, -800px); }
   @media (max-width: 470px) {
-    #1seiyu.hidden {
+    #seiyu_1.hidden {
       transform: translate(-500px, 0); } }
 
-#2seiyu {
+#seiyu_2 {
   background: white;
   position: absolute;
   top: 210px;
   left: 320px;
   transition: .8s; }
   @media (max-width: 470px) {
-    #2seiyu {
+    #seiyu_2 {
       z-index: 40;
       top: 390px;
       left: 5px; } }
-  #2seiyu #2seiyuPrev, #2seiyu #2seiyuNext {
+  #seiyu_2 #seiyu_2Prev, #seiyu_2 #seiyu_2Next {
     position: absolute;
     font-size: 60px;
     opacity: 0.6;
     top: 110px; }
-    #2seiyu #2seiyuPrev :hover, #2seiyu #2seiyuNext :hover {
+    #seiyu_2 #seiyu_2Prev :hover, #seiyu_2 #seiyu_2Next :hover {
       opacity: 1.0; }
     @media (max-width: 470px) {
-      #2seiyu #2seiyuPrev, #2seiyu #2seiyuNext {
+      #seiyu_2 #seiyu_2Prev, #seiyu_2 #seiyu_2Next {
         font-size: 40px;
         top: 60px; } }
-  #2seiyu #2seiyuPrev {
+  #seiyu_2 #seiyu_2Prev {
     left: 60px; }
     @media (max-width: 470px) {
-      #2seiyu #2seiyuPrev {
+      #seiyu_2 #seiyu_2Prev {
         left: 10px; } }
-  #2seiyu #2seiyuNext {
+  #seiyu_2 #seiyu_2Next {
     right: 60px; }
     @media (max-width: 470px) {
-      #2seiyu #2seiyuNext {
+      #seiyu_2 #seiyu_2Next {
         left: 295px; } }
-  #2seiyu #2seiyu_target {
+  #seiyu_2 #seiyu_2_target {
     width: 350px;
     height: 250px;
     position: absolute;
     top: 30px;
     left: 170px; }
     @media (max-width: 470px) {
-      #2seiyu #2seiyu_target {
+      #seiyu_2 #seiyu_2_target {
         width: 200px;
         height: 150px;
         top: 20px;
         left: 75px; } }
-  #2seiyu #2seiyuBack {
+  #seiyu_2 #seiyu_2Back {
     margin-left: 20px;
     font-size: 60px;
     cursor: pointer;
     opacity: 0.6; }
-    #2seiyu #2seiyuBack .fas.fa-caret-square-up {
+    #seiyu_2 #seiyu_2Back .fas.fa-caret-square-up {
       display: block; }
-    #2seiyu #2seiyuBack .fas.fa-caret-square-left {
+    #seiyu_2 #seiyu_2Back .fas.fa-caret-square-left {
       display: none; }
     @media (max-width: 470px) {
-      #2seiyu #2seiyuBack {
+      #seiyu_2 #seiyu_2Back {
         position: absolute;
         top: 435px;
         left: 280px;
         font-size: 40px; }
-        #2seiyu #2seiyuBack .fas.fa-caret-square-up {
+        #seiyu_2 #seiyu_2Back .fas.fa-caret-square-up {
           display: none; }
-        #2seiyu #2seiyuBack .fas.fa-caret-square-left {
+        #seiyu_2 #seiyu_2Back .fas.fa-caret-square-left {
           display: block; } }
-  #2seiyu #2seiyuBack:hover {
+  #seiyu_2 #seiyu_2Back:hover {
     opacity: 1; }
 
-#2seiyu.hidden {
+#seiyu_2.hidden {
   transform: translate(0, -800px); }
   @media (max-width: 470px) {
-    #2seiyu.hidden {
+    #seiyu_2.hidden {
       transform: translate(-500px, 0); } }
 
-#1maru {
+#maru_1 {
   background: white;
   position: absolute;
   top: 210px;
   left: 320px;
   transition: .8s; }
   @media (max-width: 470px) {
-    #1maru {
+    #maru_1 {
       z-index: 40;
       top: 390px;
       left: 5px; } }
-  #1maru #1maruPrev, #1maru #1maruNext {
+  #maru_1 #maru_1Prev, #maru_1 #maru_1Next {
     position: absolute;
     font-size: 60px;
     opacity: 0.6;
     top: 110px; }
-    #1maru #1maruPrev :hover, #1maru #1maruNext :hover {
+    #maru_1 #maru_1Prev :hover, #maru_1 #maru_1Next :hover {
       opacity: 1.0; }
     @media (max-width: 470px) {
-      #1maru #1maruPrev, #1maru #1maruNext {
+      #maru_1 #maru_1Prev, #maru_1 #maru_1Next {
         font-size: 40px;
         top: 60px; } }
-  #1maru #1maruPrev {
+  #maru_1 #maru_1Prev {
     left: 60px; }
     @media (max-width: 470px) {
-      #1maru #1maruPrev {
+      #maru_1 #maru_1Prev {
         left: 10px; } }
-  #1maru #1maruNext {
+  #maru_1 #maru_1Next {
     right: 60px; }
     @media (max-width: 470px) {
-      #1maru #1maruNext {
+      #maru_1 #maru_1Next {
         left: 295px; } }
-  #1maru #1maru_target {
+  #maru_1 #maru_1_target {
     width: 350px;
     height: 250px;
     position: absolute;
     top: 30px;
     left: 170px; }
     @media (max-width: 470px) {
-      #1maru #1maru_target {
+      #maru_1 #maru_1_target {
         width: 200px;
         height: 150px;
         top: 20px;
         left: 75px; } }
-  #1maru #1maruBack {
+  #maru_1 #maru_1Back {
     margin-left: 20px;
     font-size: 60px;
     cursor: pointer;
     opacity: 0.6; }
-    #1maru #1maruBack .fas.fa-caret-square-up {
+    #maru_1 #maru_1Back .fas.fa-caret-square-up {
       display: block; }
-    #1maru #1maruBack .fas.fa-caret-square-left {
+    #maru_1 #maru_1Back .fas.fa-caret-square-left {
       display: none; }
     @media (max-width: 470px) {
-      #1maru #1maruBack {
+      #maru_1 #maru_1Back {
         position: absolute;
         top: 435px;
         left: 280px;
         font-size: 40px; }
-        #1maru #1maruBack .fas.fa-caret-square-up {
+        #maru_1 #maru_1Back .fas.fa-caret-square-up {
           display: none; }
-        #1maru #1maruBack .fas.fa-caret-square-left {
+        #maru_1 #maru_1Back .fas.fa-caret-square-left {
           display: block; } }
-  #1maru #1maruBack:hover {
+  #maru_1 #maru_1Back:hover {
     opacity: 1; }
 
-#1maru.hidden {
+#maru_1.hidden {
   transform: translate(0, -800px); }
   @media (max-width: 470px) {
-    #1maru.hidden {
+    #maru_1.hidden {
       transform: translate(-500px, 0); } }
 
-#2maru {
+#maru_2 {
   background: white;
   position: absolute;
   top: 210px;
   left: 320px;
   transition: .8s; }
   @media (max-width: 470px) {
-    #2maru {
+    #maru_2 {
       z-index: 40;
       top: 390px;
       left: 5px; } }
-  #2maru #2maruPrev, #2maru #2maruNext {
+  #maru_2 #maru_2Prev, #maru_2 #maru_2Next {
     position: absolute;
     font-size: 60px;
     opacity: 0.6;
     top: 110px; }
-    #2maru #2maruPrev :hover, #2maru #2maruNext :hover {
+    #maru_2 #maru_2Prev :hover, #maru_2 #maru_2Next :hover {
       opacity: 1.0; }
     @media (max-width: 470px) {
-      #2maru #2maruPrev, #2maru #2maruNext {
+      #maru_2 #maru_2Prev, #maru_2 #maru_2Next {
         font-size: 40px;
         top: 60px; } }
-  #2maru #2maruPrev {
+  #maru_2 #maru_2Prev {
     left: 60px; }
     @media (max-width: 470px) {
-      #2maru #2maruPrev {
+      #maru_2 #maru_2Prev {
         left: 10px; } }
-  #2maru #2maruNext {
+  #maru_2 #maru_2Next {
     right: 60px; }
     @media (max-width: 470px) {
-      #2maru #2maruNext {
+      #maru_2 #maru_2Next {
         left: 295px; } }
-  #2maru #2maru_target {
+  #maru_2 #maru_2_target {
     width: 350px;
     height: 250px;
     position: absolute;
     top: 30px;
     left: 170px; }
     @media (max-width: 470px) {
-      #2maru #2maru_target {
+      #maru_2 #maru_2_target {
         width: 200px;
         height: 150px;
         top: 20px;
         left: 75px; } }
-  #2maru #2maruBack {
+  #maru_2 #maru_2Back {
     margin-left: 20px;
     font-size: 60px;
     cursor: pointer;
     opacity: 0.6; }
-    #2maru #2maruBack .fas.fa-caret-square-up {
+    #maru_2 #maru_2Back .fas.fa-caret-square-up {
       display: block; }
-    #2maru #2maruBack .fas.fa-caret-square-left {
+    #maru_2 #maru_2Back .fas.fa-caret-square-left {
       display: none; }
     @media (max-width: 470px) {
-      #2maru #2maruBack {
+      #maru_2 #maru_2Back {
         position: absolute;
         top: 435px;
         left: 280px;
         font-size: 40px; }
-        #2maru #2maruBack .fas.fa-caret-square-up {
+        #maru_2 #maru_2Back .fas.fa-caret-square-up {
           display: none; }
-        #2maru #2maruBack .fas.fa-caret-square-left {
+        #maru_2 #maru_2Back .fas.fa-caret-square-left {
           display: block; } }
-  #2maru #2maruBack:hover {
+  #maru_2 #maru_2Back:hover {
     opacity: 1; }
 
-#2maru.hidden {
+#maru_2.hidden {
   transform: translate(0, -800px); }
   @media (max-width: 470px) {
-    #2maru.hidden {
-      transform: translate(-500px, 0); } }
-
-#2maru {
-  background: white;
-  position: absolute;
-  top: 210px;
-  left: 320px;
-  transition: .8s; }
-  @media (max-width: 470px) {
-    #2maru {
-      z-index: 40;
-      top: 390px;
-      left: 5px; } }
-  #2maru #2maruPrev, #2maru #2maruNext {
-    position: absolute;
-    font-size: 60px;
-    opacity: 0.6;
-    top: 110px; }
-    #2maru #2maruPrev :hover, #2maru #2maruNext :hover {
-      opacity: 1.0; }
-    @media (max-width: 470px) {
-      #2maru #2maruPrev, #2maru #2maruNext {
-        font-size: 40px;
-        top: 60px; } }
-  #2maru #2maruPrev {
-    left: 60px; }
-    @media (max-width: 470px) {
-      #2maru #2maruPrev {
-        left: 10px; } }
-  #2maru #2maruNext {
-    right: 60px; }
-    @media (max-width: 470px) {
-      #2maru #2maruNext {
-        left: 295px; } }
-  #2maru #2maru_target {
-    width: 350px;
-    height: 250px;
-    position: absolute;
-    top: 30px;
-    left: 170px; }
-    @media (max-width: 470px) {
-      #2maru #2maru_target {
-        width: 200px;
-        height: 150px;
-        top: 20px;
-        left: 75px; } }
-  #2maru #2maruBack {
-    margin-left: 20px;
-    font-size: 60px;
-    cursor: pointer;
-    opacity: 0.6; }
-    #2maru #2maruBack .fas.fa-caret-square-up {
-      display: block; }
-    #2maru #2maruBack .fas.fa-caret-square-left {
-      display: none; }
-    @media (max-width: 470px) {
-      #2maru #2maruBack {
-        position: absolute;
-        top: 435px;
-        left: 280px;
-        font-size: 40px; }
-        #2maru #2maruBack .fas.fa-caret-square-up {
-          display: none; }
-        #2maru #2maruBack .fas.fa-caret-square-left {
-          display: block; } }
-  #2maru #2maruBack:hover {
-    opacity: 1; }
-
-#2maru.hidden {
-  transform: translate(0, -800px); }
-  @media (max-width: 470px) {
-    #2maru.hidden {
+    #maru_2.hidden {
       transform: translate(-500px, 0); } }
 
 #yoriiso {
@@ -859,18 +787,18 @@ main .main {
 main #mask {
   position: absolute;
   top: 200px;
-  left: 175px;
-  width: 975px;
+  left: 5px;
+  width: 1135px;
   height: 600px;
   background-color: white;
   opacity: 0.8; }
   @media (max-width: 470px) {
     main #mask {
       z-index: 30;
-      top: 380px;
+      top: 350px;
       left: 0px;
       width: 370px;
-      height: 435px; } }
+      height: 465px; } }
 main #mask.hidden {
   display: none; }
 main .pointTittle {
